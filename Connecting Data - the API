@@ -1,0 +1,15 @@
+Because we split some of the responsibilities between the
+two of us, this is a raw but working version of the Streamlit app that connects to the API and displays the data.
+
+In order to deploy a Streamlit app that we can share its link
+please take a look at the pdf file i attached with the instructions
+and guidelines to deploy the app on Streamlit sharing platform.
+
+Regarding updating the data and what the app displays, everything is
+done via the API.
+Specifically, in this code, everything is done through the
+'DataManager' class.
+
+Currently, just for testing, the class uses mock data.
+Once all the data analysis is done, the updates are through that class.
+
