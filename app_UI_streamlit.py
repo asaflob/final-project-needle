@@ -14,7 +14,7 @@ st.set_page_config(
 
 
 # =====================================================================
-# DATA INTEGRATION API - YOUR PARTNER WILL EDIT THIS SECTION
+# DATA INTEGRATION API
 # =====================================================================
 class DataManager:
     """
