@@ -928,7 +928,7 @@ def page_home():
         "https://upload.wikimedia.org/wikipedia/commons/d/d7/Kareem_Abdul_Jabbar_%28cropped%29.jpg")
     img_magic = fetch_image_bytes("https://upload.wikimedia.org/wikipedia/commons/f/f6/Magic_Johnson_Lipofsky.jpg")
     img_bird = fetch_image_bytes("https://upload.wikimedia.org/wikipedia/commons/c/cd/Larry_Bird_Lipofsky.jpg")
-    img_drj = fetch_image_bytes("greats_png/dr j.png")
+    #img_drj = fetch_image_bytes("greats_png/dr j.png")
 
     with c1:
         st.image(img_mj, caption="Michael Jordan", use_container_width=True)
@@ -938,8 +938,8 @@ def page_home():
         st.image(img_magic, caption="Magic Johnson", use_container_width=True)
     with c4:
         st.image(img_bird, caption="Larry Bird", use_container_width=True)
-    with c5:
-        st.image(img_drj, caption="Julius Erving (Dr. J)", use_container_width=True)
+    #with c5:
+        #st.image(img_drj, caption="Julius Erving (Dr. J)", use_container_width=True)
 
     st.divider()
 
