@@ -1,0 +1,17 @@
+# environments / IDE
+.venv/
+venv/
+__pycache__/
+.idea/
+*.pyc
+
+# heavy crawl cache - regenerable by running src/download_college.py
+data/raw/bbref_cache/
+
+# large raw inputs (documented in README; download scripts recreate them)
+data/raw/Advanced.csv
+
+# local scratch
+output/
+*.log
+data_bases_NBA_kaggle/

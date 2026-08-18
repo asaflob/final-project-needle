@@ -1,0 +1,1250 @@
+draft_year,pick,player,Rd,Tm,College,ws_career,ws_first4,n_seasons_first4,first_season,pos,age_at_draft,matched
+2000,1,Kenyon Martin,1,NJN,Cincinnati,48.0,20.8,4,2001.0,PF,23.0,True
+2000,2,Stromile Swift,1,VAN,LSU,21.3,13.7,4,2001.0,PF,21.0,True
+2000,3,Darius Miles,1,LAC,,9.5,8.7,4,2001.0,SF,19.0,True
+2000,4,Marcus Fizer,1,CHI,Iowa State,2.7,2.3,4,2001.0,PF,22.0,True
+2000,5,Mike Miller,1,ORL,Florida,60.7,17.7,4,2001.0,SF,20.0,True
+2000,6,DerMarr Johnson,1,ATL,Cincinnati,6.4,2.1,3,2001.0,SF,20.0,True
+2000,7,Chris Mihm,1,CHI,Texas,13.3,5.8,4,2001.0,C,21.0,True
+2000,8,Jamal Crawford,1,CLE,Michigan,60.7,6.6,4,2001.0,PG,20.0,True
+2000,9,Joel Przybilla,1,HOU,Minnesota,23.0,2.7,4,2001.0,C,21.0,True
+2000,10,Keyon Dooling,1,ORL,Missouri,18.5,2.0,4,2001.0,PG,20.0,True
+2000,11,Jérôme Moïso,1,BOS,UCLA,2.1,1.9000000000000001,4,2001.0,C,22.0,True
+2000,12,Etan Thomas,1,DAL,Syracuse,14.9,7.4,3,2002.0,C,22.0,True
+2000,13,Courtney Alexander,1,ORL,Fresno State,4.1,4.1,3,2001.0,PG,23.0,True
+2000,14,Mateen Cleaves,1,DET,Michigan State,-0.8,-0.8,4,2001.0,PG,23.0,True
+2000,15,Jason Collier,1,MIL,Georgia Tech,1.9,1.9,4,2001.0,C,23.0,True
+2000,16,Hedo Türkoğlu,1,SAC,,63.3,17.3,4,2001.0,SF,21.0,True
+2000,17,Desmond Mason,1,SEA,Oklahoma State,23.1,17.3,4,2001.0,SF,23.0,True
+2000,18,Quentin Richardson,1,LAC,DePaul,32.8,12.0,4,2001.0,SG,20.0,True
+2000,19,Jamaal Magloire,1,CHH,Kentucky,27.7,22.6,4,2001.0,C,22.0,True
+2000,20,Speedy Claxton,1,PHI,Hofstra,14.2,8.2,3,2002.0,PG,22.0,True
+2000,21,Morris Peterson,1,TOR,Michigan State,35.7,16.6,4,2001.0,SG,23.0,True
+2000,22,Donnell Harvey,1,NYK,Florida,4.7,4.6000000000000005,4,2001.0,PF,20.0,True
+2000,23,DeShawn Stevenson,1,UTA,,12.1,0.7999999999999999,4,2001.0,SG,19.0,True
+2000,24,Dalibor Bagarić,1,CHI,,-0.9,-0.8999999999999999,3,2001.0,C,20.0,True
+2000,25,Jake Tsakalidis,1,PHO,,9.9,6.199999999999999,4,2001.0,C,21.0,True
+2000,26,Mamadou N'Diaye,1,DEN,Auburn,1.8,1.7000000000000002,4,2001.0,C,25.0,True
+2000,27,Primož Brezec,1,IND,,10.8,0.5,3,2002.0,C,21.0,True
+2000,28,Erick Barkley,1,POR,St. John's,0.2,0.1,2,2001.0,PG,22.0,True
+2000,29,Mark Madsen,1,LAL,Stanford,8.2,6.800000000000001,4,2001.0,PF,25.0,True
+2000,30,Marko Jarić,3,LAC,,12.1,3.4,2,2003.0,SF,22.0,True
+2000,31,Dan Langhi,3,DAL,Vanderbilt,0.3,0.20000000000000004,4,2001.0,SF,23.0,True
+2000,32,A.J. Guyton,3,CHI,Indiana,0.3,0.3,3,2001.0,PG,22.0,True
+2000,33,Jake Voskuhl,3,CHI,UConn,11.6,8.5,4,2001.0,C,23.0,True
+2000,34,Khalid El-Amin,3,CHI,UConn,0.6,0.6,1,2001.0,PG,21.0,True
+2000,35,Mike Smith,3,WAS,Louisiana-Monroe,-0.1,-0.1,1,2001.0,SF,24.0,True
+2000,36,Soumaila Samake,3,NJN,,0.3,0.30000000000000004,2,2001.0,C,22.0,True
+2000,37,Eddie House,3,MIA,Arizona State,20.0,2.7,4,2001.0,PG,22.0,True
+2000,38,Eduardo Nájera,3,HOU,Oklahoma,24.7,10.2,4,2001.0,PF,24.0,True
+2000,39,Lavor Postell,3,NYK,St. John's,-0.2,-0.30000000000000004,3,2001.0,SG,22.0,True
+2000,40,Hanno Möttölä,3,ATL,Utah,0.9,0.9,2,2001.0,SF,24.0,True
+2000,41,Chris Carrawell,3,SAS,Duke,,0.0,0,,,,False
+2000,42,Olumide Oyedeji,3,SEA,,1.2,1.1,3,2001.0,C,19.0,True
+2000,43,Michael Redd,3,MIL,Ohio State,55.9,22.2,4,2001.0,SG,21.0,True
+2000,44,Brian Cardinal,3,DET,Purdue,15.4,7.4,4,2001.0,PF,23.0,True
+2000,45,Jabari Smith,3,SAC,LSU,1.3,0.7,3,2001.0,C,23.0,True
+2000,46,DeeAndre Hulett,3,TOR,College of the Sequoias,,0.0,0,,,,False
+2000,47,Josip Sesar,3,SEA,,,0.0,0,,,,False
+2000,48,Mark Karcher,3,PHI,Temple,,0.0,0,,,,False
+2000,49,Jason Hart,3,MIL,Syracuse,8.6,2.1999999999999997,3,2001.0,PG,22.0,True
+2000,50,Kaniel Dickens,3,UTA,Idaho,0.1,0.0,1,2004.0,PF,22.0,True
+2000,51,Igor Rakočević,3,MIN,,0.1,0.1,1,2003.0,PG,22.0,True
+2000,52,Ernest Brown,3,MIA,Indian Hills Community College,-0.2,-0.2,1,2002.0,C,21.0,True
+2000,53,Dan McClintock,3,DEN,Northern Arizona University,0.0,0.0,1,2001.0,C,23.0,True
+2000,54,Cory Hightower,3,SAS,Indian Hills Community College,,0.0,0,,,,False
+2000,55,Chris Porter,3,GSW,Auburn,0.2,0.2,1,2001.0,SF,22.0,True
+2000,56,Jaquay Walls,3,IND,Colorado,,0.0,0,,,,False
+2000,57,Scoonie Penn,3,ATL,Ohio State,,0.0,0,,,,False
+2000,58,Pete Mickeal,3,DAL,Cincinnati,,0.0,0,,,,False
+2001,1,Kwame Brown,1,WAS,,20.8,8.8,4,2002.0,PF,19.0,True
+2001,2,Tyson Chandler,1,LAC,,102.1,15.9,4,2002.0,C,19.0,True
+2001,3,Pau Gasol,1,ATL,,144.1,31.0,4,2002.0,PF,21.0,True
+2001,4,Eddy Curry,1,CHI,,21.7,12.6,4,2002.0,C,19.0,True
+2001,5,Jason Richardson,1,GSW,Michigan State,59.1,17.5,4,2002.0,SG,21.0,True
+2001,6,Shane Battier,1,MEM,Duke,75.7,24.7,4,2002.0,SF,23.0,True
+2001,7,Eddie Griffin,1,NJN,Seton Hall,10.9,9.5,3,2002.0,PF,19.0,True
+2001,8,DeSagana Diop,1,CLE,,12.8,0.5,4,2002.0,C,20.0,True
+2001,9,Rodney White,1,DET,UNC Charlotte,1.8,1.7,4,2002.0,SF,21.0,True
+2001,10,Joe Johnson,1,BOS,Arkansas,82.9,16.7,4,2002.0,SG,20.0,True
+2001,11,Kedrick Brown,1,BOS,Okaloosa-Walton Community College,3.0,3.0,4,2002.0,SF,20.0,True
+2001,12,Vladimir Radmanović,1,SEA,,26.5,12.7,4,2002.0,PF,21.0,True
+2001,13,Richard Jefferson,1,HOU,Arizona,83.0,28.0,4,2002.0,SF,21.0,True
+2001,14,Troy Murphy,1,GSW,Notre Dame,50.3,14.4,4,2002.0,PF,21.0,True
+2001,15,Steven Hunter,1,ORL,DePaul,10.6,5.1,4,2002.0,C,20.0,True
+2001,16,Kirk Haston,1,CHH,Indiana,-0.5,-0.6000000000000001,2,2002.0,PF,22.0,True
+2001,17,Michael Bradley,1,TOR,Villanova,2.0,1.8,4,2002.0,PF,22.0,True
+2001,18,Jason Collins,1,HOU,Stanford,20.1,16.5,4,2002.0,C,23.0,True
+2001,19,Zach Randolph,1,POR,Michigan State,81.1,15.5,4,2002.0,PF,20.0,True
+2001,20,Brendan Haywood,1,CLE,UNC,43.8,17.1,4,2002.0,C,22.0,True
+2001,21,Joseph Forte,1,BOS,UNC,-0.4,-0.4,2,2002.0,SG,20.0,True
+2001,22,Jeryl Sasser,1,ORL,SMU,0.7,0.7000000000000001,2,2002.0,SG,22.0,True
+2001,23,Brandon Armstrong,1,HOU,Pepperdine,-0.6,-0.6,3,2002.0,SG,21.0,True
+2001,24,Raül López,1,UTA,,2.1,2.0999999999999996,2,2004.0,PG,21.0,True
+2001,25,Gerald Wallace,1,SAC,Alabama,59.7,4.3,4,2002.0,SF,19.0,True
+2001,26,Samuel Dalembert,1,PHI,Seton Hall,51.3,11.1,3,2002.0,C,20.0,True
+2001,27,Jamaal Tinsley,1,MEM,Iowa State,17.2,12.600000000000001,4,2002.0,PG,23.0,True
+2001,28,Tony Parker,1,SAS,,111.3,27.1,4,2002.0,PG,19.0,True
+2001,30,Trenton Hassell,4,CHI,Austin Peay State University,13.8,8.100000000000001,4,2002.0,SG,22.0,True
+2001,31,Gilbert Arenas,4,GSW,Arizona,51.3,23.3,4,2002.0,PG,20.0,True
+2001,32,Omar Cook,4,ORL,St. John's,-0.1,-0.1,2,2004.0,PG,20.0,True
+2001,33,Will Solomon,4,MEM,Clemson,0.0,-0.5,1,2002.0,SG,23.0,True
+2001,34,Terence Morris,4,ATL,Maryland,1.0,1.1,2,2002.0,SF,23.0,True
+2001,35,Brian Scalabrine,4,NJN,USC,7.6,4.0,4,2002.0,PF,23.0,True
+2001,36,Jeff Trepagnier,4,CLE,USC,-0.2,-0.2,3,2002.0,SG,22.0,True
+2001,37,Damone Brown,4,PHI,Syracuse,-0.7,-0.6000000000000001,4,2002.0,SF,22.0,True
+2001,38,Mehmet Okur,4,DET,,54.7,16.7,3,2003.0,PF,22.0,True
+2001,39,Michael Wright,4,NYK,Arizona,,0.0,0,,,,False
+2001,40,Earl Watson,4,SEA,UCLA,19.2,7.8999999999999995,4,2002.0,PG,22.0,True
+2001,41,Jamison Brewer,4,IND,Auburn,0.0,-0.09999999999999998,4,2002.0,SG,21.0,True
+2001,42,Bobby Simmons,4,SEA,DePaul,20.1,10.4,4,2002.0,SF,21.0,True
+2001,43,Eric Chenowith,4,NYK,Kansas,,0.0,0,,,,False
+2001,44,Kyle Hill,4,DAL,Eastern Illinois University,,0.0,0,,,,False
+2001,45,Sean Lampley,4,CHI,California,1.1,1.1,2,2003.0,SF,22.0,True
+2001,46,Loren Woods,4,MIN,Arizona,3.1,2.7,4,2002.0,C,23.0,True
+2001,47,Ousmane Cisse,4,DEN,,,0.0,0,,,,False
+2001,48,Antonis Fotsis,4,MEM,,0.1,0.1,1,2002.0,PF,20.0,True
+2001,49,Ken Johnson,4,MIA,Ohio State,0.0,0.0,1,2003.0,C,23.0,True
+2001,50,Ruben Boumtje-Boumtje,4,POR,Georgetown,0.2,0.2,3,2002.0,C,23.0,True
+2001,51,Alton Ford,4,PHO,Houston,0.8,0.8,3,2002.0,PF,20.0,True
+2001,52,Andre Hutson,4,MIL,Michigan State,,0.0,0,,,,False
+2001,53,Jarron Collins,4,UTA,Stanford,15.7,9.3,4,2002.0,C,23.0,True
+2001,54,Kenny Satterfield,4,DAL,Cincinnati,-1.1,-1.2,2,2002.0,PG,20.0,True
+2001,55,Maurice Jeffers,4,SAC,Saint Louis,,0.0,0,,,,False
+2001,56,Robertas Javtokas,4,SAS,,,0.0,0,,,,False
+2001,57,Alvin Jones,4,PHI,Georgia Tech,0.1,0.1,1,2002.0,C,23.0,True
+2001,58,Bryan Bracey,4,SAS,Oregon,,0.0,0,,,,False
+2002,1,Yao Ming,1,HOU,,65.9,39.4,4,2003.0,C,22.0,True
+2002,2,Jay Williams,1,CHI,Duke,0.8,0.8,1,2003.0,PG,21.0,True
+2002,3,Mike Dunleavy,1,GSW,Duke,58.5,15.8,4,2003.0,SF,22.0,True
+2002,4,Drew Gooden,1,MEM,Kansas,43.9,18.7,4,2003.0,SF,21.0,True
+2002,5,Nikoloz Tskitishvili,1,DEN,,-1.6,-1.6,4,2003.0,SF,19.0,True
+2002,6,Dajuan Wagner,1,CLE,Memphis,0.0,-2.7755575615628914e-17,3,2003.0,SG,19.0,True
+2002,7,Nenê,1,NYK,,73.3,14.2,4,2003.0,C,20.0,True
+2002,8,Chris Wilcox,1,LAC,Maryland,26.9,8.9,4,2003.0,PF,20.0,True
+2002,9,Amar'e Stoudemire,1,PHO,,92.5,25.3,4,2003.0,PF,20.0,True
+2002,10,Caron Butler,1,MIA,UConn,50.9,18.8,4,2003.0,SF,22.0,True
+2002,11,Jared Jeffries,1,WAS,Indiana,13.1,6.6,4,2003.0,SF,21.0,True
+2002,12,Melvin Ely,1,LAC,Fresno State,4.0,3.3,4,2003.0,C,24.0,True
+2002,13,Marcus Haislip,1,MIL,Tennessee,0.5,0.39999999999999997,3,2003.0,PF,22.0,True
+2002,14,Fred Jones,1,IND,Oregon,16.5,11.4,4,2003.0,SG,23.0,True
+2002,15,Boštjan Nachbar,1,HOU,,8.7,2.5,4,2003.0,SF,22.0,True
+2002,16,Jiří Welsch,1,PHI,,5.7,5.7,4,2003.0,SF,23.0,True
+2002,17,Juan Dixon,1,WAS,Maryland,6.1,4.7,4,2003.0,PG,24.0,True
+2002,18,Curtis Borchardt,1,ORL,Stanford,1.0,0.9,2,2004.0,C,22.0,True
+2002,19,Ryan Humphrey,1,UTA,Notre Dame,-0.4,-0.4,3,2003.0,PF,23.0,True
+2002,20,Kareem Rush,1,TOR,Missouri,1.7,0.8,4,2003.0,PG,22.0,True
+2002,21,Qyntel Woods,1,POR,Northeast Mississippi Community College,1.4,1.3,4,2003.0,PF,21.0,True
+2002,22,Casey Jacobsen,1,PHO,Stanford,6.2,6.5,3,2003.0,SF,21.0,True
+2002,23,Tayshaun Prince,1,DET,Kentucky,63.1,24.7,4,2003.0,SF,22.0,True
+2002,24,Nenad Krstić,1,NJN,,21.5,9.8,2,2005.0,PF,19.0,True
+2002,25,Frank Williams,1,DEN,Illinois,0.1,-2.7755575615628914e-17,3,2003.0,PG,22.0,True
+2002,26,John Salmons,1,SAS,Miami (FL),33.9,5.8,4,2003.0,PG,23.0,True
+2002,27,Chris Jefferies,1,LAL,Fresno State,-0.5,-0.5,2,2003.0,SF,22.0,True
+2002,28,Dan Dickau,1,SAC,Gonzaga,5.9,3.9,4,2003.0,PG,24.0,True
+2002,30,Steve Logan,4,GSW,Cincinnati,,0.0,0,,,,False
+2002,31,Roger Mason,4,CHI,Virginia,13.0,0.2,2,2003.0,SF,22.0,True
+2002,32,Robert Archibald,4,MEM,Illinois,0.0,0.0,2,2003.0,PF,22.0,True
+2002,33,Vincent Yarbrough,4,DEN,Tennessee,1.0,1.0,1,2003.0,SG,21.0,True
+2002,34,Dan Gadzuric,4,MIL,UCLA,15.8,12.600000000000001,4,2003.0,C,24.0,True
+2002,35,Carlos Boozer,4,CLE,Duke,80.3,22.9,4,2003.0,PF,21.0,True
+2002,36,Milos Vujanic,4,NYK,,,0.0,0,,,,False
+2002,37,David Andersen,4,ATL,,1.5,0.0,0,,,,False
+2002,38,Tito Maddox,4,HOU,Fresno State,0.0,0.0,1,2003.0,SG,21.0,True
+2002,39,Rod Grizzard,4,WAS,Alabama,,0.0,0,,,,False
+2002,40,Juan Carlos Navarro,4,WAS,,1.4,0.0,0,,,,False
+2002,41,Mario Kasun,4,LAC,,0.8,0.8999999999999999,2,2005.0,C,22.0,True
+2002,42,Ronald Murray,4,MIL,Shaw,8.5,1.7999999999999998,4,2003.0,SG,23.0,True
+2002,43,Jason Jennings,4,POR,Arkansas State University,,0.0,0,,,,False
+2002,44,Lonny Baxter,4,CHI,Maryland,2.9,2.9,4,2003.0,C,24.0,True
+2002,45,Sam Clancy,4,PHI,USC,,0.0,0,,,,False
+2002,46,Matt Barnes,4,MEM,UCLA,42.8,2.1,3,2004.0,SF,22.0,True
+2002,47,Jamal Sampson,4,UTA,California,1.4,1.1,4,2003.0,PF,19.0,True
+2002,48,Chris Owens,4,MIL,Texas,0.0,0.0,1,2003.0,SF,23.0,True
+2002,49,Peter Fehse,4,SEA,,,0.0,0,,,,False
+2002,50,Darius Songaila,4,BOS,Wake Forest,15.9,9.399999999999999,3,2004.0,PF,24.0,True
+2002,51,Federico Kammerichs,4,POR,,,0.0,0,,,,False
+2002,52,Marcus Taylor,4,MIN,Michigan State,,0.0,0,,,,False
+2002,53,Rasual Butler,4,MIA,La Salle,20.8,5.1,4,2003.0,SG,23.0,True
+2002,54,Tamar Slay,4,NJN,Marshall,-0.3,-0.3,3,2003.0,SG,22.0,True
+2002,55,Mladen Sekularac,4,DAL,,,0.0,0,,,,False
+2002,56,Luis Scola,4,SAS,,45.7,0.0,0,,,,False
+2002,57,Randy Holcomb,4,SAS,San Diego State,0.0,0.0,1,2006.0,SF,23.0,True
+2002,58,Corsley Edwards,4,SAC,Central Connecticut State University,0.1,0.1,1,2005.0,C,23.0,True
+2003,1,LeBron James,1,CLE,,276.8,49.400000000000006,4,2004.0,SG,19.0,True
+2003,2,Darko Miličić,1,DET,,7.1,4.1,4,2004.0,C,18.0,True
+2003,3,Carmelo Anthony,1,DEN,Syracuse,108.5,27.7,4,2004.0,SF,19.0,True
+2003,4,Chris Bosh,1,TOR,Georgia Tech,106.0,32.4,4,2004.0,C,19.0,True
+2003,5,Dwyane Wade,1,MIA,Marquette,120.7,38.8,4,2004.0,PG,22.0,True
+2003,6,Chris Kaman,1,LAC,Central Michigan University,24.6,11.1,4,2004.0,C,21.0,True
+2003,7,Kirk Hinrich,1,CHI,Kansas,52.5,29.0,4,2004.0,PG,23.0,True
+2003,8,T.J. Ford,1,MIL,Texas,16.9,7.5,3,2004.0,PG,20.0,True
+2003,9,Mike Sweetney,1,NYK,Georgetown,7.8,7.7,4,2004.0,PF,21.0,True
+2003,10,Jarvis Hayes,1,WAS,Georgia,10.2,4.4,4,2004.0,SF,22.0,True
+2003,11,Mickaël Piétrus,1,GSW,,19.7,7.800000000000001,4,2004.0,PG,21.0,True
+2003,12,Nick Collison,1,SEA,Kansas,44.5,10.799999999999999,3,2005.0,C,23.0,True
+2003,13,Marcus Banks,1,MEM,UNLV,6.6,5.3,4,2004.0,PG,22.0,True
+2003,14,Luke Ridnour,1,SEA,Oregon,36.0,13.3,4,2004.0,PG,22.0,True
+2003,15,Reece Gaines,1,ORL,Louisville,-0.6,-0.6,3,2004.0,PG,23.0,True
+2003,16,Troy Bell,1,BOS,Boston College,-0.2,-0.2,1,2004.0,PG,23.0,True
+2003,17,Žarko Čabarkapa,1,PHO,,1.1,1.2,3,2004.0,PF,22.0,True
+2003,18,David West,1,NOH,Xavier,85.8,15.600000000000001,4,2004.0,PF,23.0,True
+2003,19,Sasha Pavlović,1,UTA,,7.0,5.300000000000001,4,2004.0,SF,20.0,True
+2003,20,Dahntay Jones,1,BOS,Duke,9.9,1.7999999999999998,4,2004.0,SG,23.0,True
+2003,21,Boris Diaw,1,ATL,,51.6,14.4,4,2004.0,SG,21.0,True
+2003,22,Zoran Planinić,1,NJN,,1.5,1.6,3,2004.0,SG,21.0,True
+2003,23,Travis Outlaw,1,POR,,16.5,4.6,4,2004.0,PF,19.0,True
+2003,24,Brian Cook,1,LAL,Illinois,10.2,9.4,4,2004.0,C,23.0,True
+2003,25,Carlos Delfino,1,DET,,22.5,4.4,3,2005.0,SG,21.0,True
+2003,26,Ndudi Ebi,1,MIN,,0.1,0.1,2,2004.0,SF,19.0,True
+2003,27,Kendrick Perkins,1,MEM,,27.9,4.5,4,2004.0,C,19.0,True
+2003,28,Leandro Barbosa,1,SAS,,37.4,15.7,4,2004.0,PG,21.0,True
+2003,29,Josh Howard,1,DAL,Wake Forest,38.0,25.400000000000002,4,2004.0,SF,23.0,True
+2003,30,Maciej Lampe,3,NYK,,-0.2,-0.2,3,2004.0,C,18.0,True
+2003,31,Jason Kapono,3,CLE,UCLA,10.3,7.2,4,2004.0,SF,22.0,True
+2003,32,Luke Walton,3,LAL,Arizona,13.5,7.9,4,2004.0,PF,23.0,True
+2003,33,Jerome Beasley,3,MIA,University of North Dakota,0.0,0.0,1,2004.0,PF,23.0,True
+2003,34,Sofoklis Schortsanitis,3,LAC,,,0.0,0,,,,False
+2003,35,Szymon Szewczyk,3,MIL,,,0.0,0,,,,False
+2003,36,Mario Austin,3,CHI,Mississippi State,,0.0,0,,,,False
+2003,37,Travis Hansen,3,ATL,BYU,0.2,0.2,1,2004.0,SF,25.0,True
+2003,38,Steve Blake,3,WAS,Maryland,29.1,5.9,4,2004.0,PG,23.0,True
+2003,39,Slavko Vraneš,3,NYK,,0.0,0.0,1,2004.0,C,21.0,True
+2003,40,Derrick Zimmerman,3,GSW,Mississippi State,0.0,0.0,1,2006.0,PG,22.0,True
+2003,41,Willie Green,3,SEA,Detroit Mercy,12.9,-0.7,4,2004.0,SG,22.0,True
+2003,42,Zaza Pachulia,3,ORL,,52.7,11.899999999999999,4,2004.0,C,19.0,True
+2003,43,Keith Bogans,3,MIL,Kentucky,20.4,5.4,4,2004.0,SF,23.0,True
+2003,44,Malick Badiane,3,HOU,,,0.0,0,,,,False
+2003,45,Matt Bonner,3,CHI,Florida,38.5,10.5,3,2005.0,C,23.0,True
+2003,46,Sani Bečirovič,3,DEN,,,0.0,0,,,,False
+2003,47,Mo Williams,3,UTA,Alabama,40.0,8.100000000000001,4,2004.0,SG,21.0,True
+2003,48,James Lang,3,NOH,,0.1,0.1,1,2007.0,C,20.0,True
+2003,49,James Jones,3,IND,Miami (FL),25.2,8.7,4,2004.0,SF,23.0,True
+2003,50,Paccelis Morlende,3,PHI,,,0.0,0,,,,False
+2003,51,Kyle Korver,3,NJN,Creighton,73.4,16.799999999999997,4,2004.0,SF,22.0,True
+2003,52,Remon van de Hare,3,TOR,,,0.0,0,,,,False
+2003,53,Tommy Smith,3,CHI,Arizona State,,0.0,0,,,,False
+2003,54,Nedžad Sinanović,3,POR,,,0.0,0,,,,False
+2003,55,Rick Rickert,3,MIN,Minnesota,,0.0,0,,,,False
+2003,56,Brandon Hunter,3,BOS,Ohio University,0.7,0.8,2,2004.0,PF,23.0,True
+2003,57,Xue Yuyang,3,DAL,,,0.0,0,,,,False
+2003,58,Andreas Glyniadakis,3,DET,,-0.2,-0.2,1,2007.0,C,22.0,True
+2004,1,Dwight Howard,1,ORL,,141.7,38.5,4,2005.0,PF,19.0,True
+2004,2,Emeka Okafor,1,CHA,UConn,45.3,17.9,4,2005.0,PF,22.0,True
+2004,3,Ben Gordon,1,CHI,UConn,33.3,21.6,4,2005.0,SG,21.0,True
+2004,4,Shaun Livingston,1,LAC,,29.9,3.8,3,2005.0,PG,19.0,True
+2004,5,Devin Harris,1,WAS,Wisconsin,54.9,18.5,4,2005.0,PG,21.0,True
+2004,6,Josh Childress,1,ATL,Stanford,25.7,23.4,4,2005.0,SG,21.0,True
+2004,7,Luol Deng,1,PHO,Duke,74.0,25.200000000000003,4,2005.0,SF,19.0,True
+2004,8,Rafael Araújo,1,TOR,BYU,-0.4,-0.4,3,2005.0,C,24.0,True
+2004,9,Andre Iguodala,1,PHI,Arizona,100.4,31.4,4,2005.0,SG,21.0,True
+2004,10,Luke Jackson,1,CLE,Oregon,0.2,0.2,4,2005.0,SF,23.0,True
+2004,11,Andris Biedriņš,1,GSW,,30.7,18.8,4,2005.0,C,18.0,True
+2004,12,Robert Swift,1,SEA,,1.7,0.9000000000000001,3,2005.0,C,19.0,True
+2004,13,Sebastian Telfair,1,POR,,5.0,1.4,4,2005.0,PG,19.0,True
+2004,14,Kris Humphries,1,UTA,Minnesota,30.3,3.2,4,2005.0,PF,19.0,True
+2004,15,Al Jefferson,1,BOS,,71.0,19.3,4,2005.0,PF,20.0,True
+2004,16,Kirk Snyder,1,UTA,Nevada,4.5,4.5,4,2005.0,SG,21.0,True
+2004,17,Josh Smith,1,ATL,,51.0,16.2,4,2005.0,SF,19.0,True
+2004,18,J.R. Smith,1,NOH,,46.3,8.8,4,2005.0,SG,19.0,True
+2004,19,Dorell Wright,1,MIA,,25.9,4.2,4,2005.0,SF,19.0,True
+2004,20,Jameer Nelson,1,DEN,Saint Joseph's,48.3,17.0,4,2005.0,PG,22.0,True
+2004,21,Pavel Podkolzin,1,UTA,,-0.1,-0.1,2,2005.0,C,20.0,True
+2004,22,Viktor Khryapa,1,NJN,,2.0,2.0,4,2005.0,SF,22.0,True
+2004,23,Sergei Monia,1,POR,,-0.2,-0.2,1,2006.0,SF,21.0,True
+2004,24,Delonte West,1,BOS,Saint Joseph's,24.5,11.600000000000001,4,2005.0,SG,21.0,True
+2004,25,Tony Allen,1,BOS,Oklahoma State,38.7,9.0,4,2005.0,SG,23.0,True
+2004,26,Kevin Martin,1,SAC,Western Carolina University,61.3,24.2,4,2005.0,PG,21.0,True
+2004,27,Sasha Vujačić,1,LAL,,16.0,7.6000000000000005,4,2005.0,SG,20.0,True
+2004,28,Beno Udrih,1,SAS,,31.4,7.8,4,2005.0,PG,22.0,True
+2004,29,David Harrison,1,IND,Colorado,3.2,3.1,4,2005.0,C,22.0,True
+2004,30,Anderson Varejão,4,ORL,,46.4,14.299999999999999,4,2005.0,PF,22.0,True
+2004,31,Jackson Vroman,4,CHI,Iowa State,0.0,0.0,2,2005.0,C,23.0,True
+2004,32,Peter John Ramos,4,WAS,,0.0,0.0,1,2005.0,C,19.0,True
+2004,33,Lionel Chalmers,4,LAC,Xavier,-0.2,-0.2,1,2005.0,PG,24.0,True
+2004,34,Donta Smith,4,ATL,Southeastern Illinois College,0.5,0.5,2,2005.0,SG,21.0,True
+2004,35,Andre Emmett,4,SEA,Texas Tech,0.1,0.0,1,2005.0,SG,22.0,True
+2004,36,Antonio Burks,4,ORL,Memphis,0.1,0.09999999999999998,2,2005.0,PG,24.0,True
+2004,37,Royal Ivey,4,ATL,Texas,4.5,1.7,4,2005.0,PG,23.0,True
+2004,38,Chris Duhon,4,CHI,Duke,25.0,16.4,4,2005.0,PG,22.0,True
+2004,39,Albert Miralles,4,TOR,,,0.0,0,,,,False
+2004,40,Justin Reed,4,BOS,Ole Miss,0.5,0.5,3,2005.0,SF,23.0,True
+2004,41,David Young,4,SEA,NC Central,,0.0,0,,,,False
+2004,42,Viktor Sanikidze,4,ATL,,,0.0,0,,,,False
+2004,43,Trevor Ariza,4,NYK,UCLA,64.3,8.2,4,2005.0,SF,19.0,True
+2004,44,Tim Pickett,4,NOH,Florida State,,0.0,0,,,,False
+2004,45,Bernard Robinson,4,CHA,Michigan,2.0,2.1,3,2005.0,SG,24.0,True
+2004,46,Ha Seung-Jin,4,POR,,-0.2,-0.2,2,2005.0,C,19.0,True
+2004,47,Pape Sow,4,MIA,Cal State Fullerton,0.8,0.8999999999999999,3,2005.0,C,23.0,True
+2004,48,Ricky Minard,4,SAC,Morehead State University,,0.0,0,,,,False
+2004,49,Sergei Lishouk,4,MEM,,,0.0,0,,,,False
+2004,50,Vassilis Spanoulis,4,DAL,,-0.1,-0.1,1,2007.0,SG,22.0,True
+2004,51,Christian Drejer,4,NJN,Florida,,0.0,0,,,,False
+2004,52,Romain Sato,4,SAS,Xavier,,0.0,0,,,,False
+2004,53,Matt Freije,4,MIA,Vanderbilt,-0.6,-0.6,2,2005.0,PF,23.0,True
+2004,54,Rickey Paulding,4,DET,Missouri,,0.0,0,,,,False
+2004,55,Luis Flores,4,HOU,Manhattan University,0.0,0.0,1,2005.0,PG,23.0,True
+2004,56,Marcus Douthit,4,LAL,Providence,,0.0,0,,,,False
+2004,57,Sergei Karaulov,4,SAS,,,0.0,0,,,,False
+2004,58,Blake Stepp,4,MIN,Gonzaga,,0.0,0,,,,False
+2004,59,Rashad Wright,4,IND,Georgia,,0.0,0,,,,False
+2005,1,Andrew Bogut,1,MIL,Utah,50.6,16.9,4,2006.0,PF,21.0,True
+2005,2,Marvin Williams,1,ATL,UNC,65.1,16.9,4,2006.0,PF,19.0,True
+2005,3,Deron Williams,1,UTA,Illinois,77.3,29.700000000000003,4,2006.0,PG,21.0,True
+2005,4,Chris Paul,1,NOH,Wake Forest,215.2,55.3,4,2006.0,PG,20.0,True
+2005,5,Raymond Felton,1,CHA,UNC,40.2,12.6,4,2006.0,PG,21.0,True
+2005,6,Martell Webster,1,POR,,24.7,5.7,4,2006.0,SF,19.0,True
+2005,7,Charlie Villanueva,1,TOR,UConn,22.6,12.2,4,2006.0,PF,21.0,True
+2005,8,Channing Frye,1,NYK,Arizona,38.9,8.4,4,2006.0,C,22.0,True
+2005,9,Ike Diogu,1,GSW,Arizona State,6.5,5.5,4,2006.0,PF,22.0,True
+2005,10,Andrew Bynum,1,LAL,,37.4,14.6,4,2006.0,C,18.0,True
+2005,11,Fran Vázquez,1,ORL,,,0.0,0,,,,False
+2005,12,Yaroslav Korolev,1,LAC,,-0.1,0.0,2,2006.0,SF,18.0,True
+2005,13,Sean May,1,CHA,UNC,2.6,2.3000000000000003,3,2006.0,PF,21.0,True
+2005,14,Rashad McCants,1,MIN,UNC,3.6,3.6,4,2006.0,SG,21.0,True
+2005,15,Antoine Wright,1,NJN,Texas A&M,3.1,2.9,4,2006.0,SG,21.0,True
+2005,16,Joey Graham,1,TOR,Oklahoma State,7.8,6.8,4,2006.0,SF,23.0,True
+2005,17,Danny Granger,1,IND,New Mexico,48.5,26.9,4,2006.0,SF,22.0,True
+2005,18,Gerald Green,1,BOS,,18.4,1.7000000000000002,4,2006.0,SG,20.0,True
+2005,19,Hakim Warrick,1,MEM,Syracuse,20.4,12.5,4,2006.0,PF,23.0,True
+2005,20,Julius Hodge,1,DEN,NC State,0.0,0.0,2,2006.0,SG,22.0,True
+2005,21,Nate Robinson,1,PHO,Washington,27.8,13.8,4,2006.0,PG,21.0,True
+2005,22,Jarrett Jack,1,DEN,Georgia Tech,36.8,13.3,4,2006.0,SG,22.0,True
+2005,23,Francisco García,1,SAC,Louisville,18.2,10.6,4,2006.0,SF,24.0,True
+2005,24,Luther Head,1,HOU,Illinois,14.7,13.3,4,2006.0,SG,23.0,True
+2005,25,Johan Petro,1,SEA,,5.5,3.3,4,2006.0,C,20.0,True
+2005,26,Jason Maxiell,1,DET,Cincinnati,20.3,12.0,4,2006.0,PF,22.0,True
+2005,27,Linas Kleiza,1,POR,Missouri,13.6,12.3,4,2006.0,PF,21.0,True
+2005,28,Ian Mahinmi,1,SAS,,26.1,0.2,1,2008.0,C,19.0,True
+2005,29,Wayne Simien,1,MIA,Kansas,0.9,0.8,2,2006.0,PF,22.0,True
+2005,30,David Lee,1,NYK,Florida,76.0,26.0,4,2006.0,SF,22.0,True
+2005,31,Salim Stoudamire,3,ATL,Arizona,2.2,2.3,3,2006.0,SG,23.0,True
+2005,32,Daniel Ewing,3,LAC,Duke,0.8,0.8,2,2006.0,SG,22.0,True
+2005,33,Brandon Bass,3,NOH,LSU,42.8,8.5,4,2006.0,PF,20.0,True
+2005,34,C.J. Miles,3,UTA,,30.1,4.6,4,2006.0,PG,18.0,True
+2005,35,Ricky Sánchez,3,POR,,,0.0,0,,,,False
+2005,36,Ersan İlyasova,3,MIL,,48.8,1.0,1,2007.0,PF,18.0,True
+2005,37,Ronny Turiaf,3,LAL,Gonzaga,19.2,11.3,4,2006.0,C,23.0,True
+2005,38,Travis Diener,3,ORL,Marquette,5.6,5.699999999999999,4,2006.0,PG,23.0,True
+2005,39,Von Wafer,3,LAL,Florida State,3.3,1.8,4,2006.0,SG,20.0,True
+2005,40,Monta Ellis,3,GSW,,41.9,13.7,4,2006.0,SG,20.0,True
+2005,41,Roko Ukić,3,TOR,,-0.2,-0.4,1,2009.0,PG,21.0,True
+2005,42,Chris Taft,3,GSW,Pitt,0.5,0.5,1,2006.0,C,20.0,True
+2005,43,Mile Ilić,3,NJN,,-0.2,-0.2,1,2007.0,C,21.0,True
+2005,44,Martynas Andriuškevičius,3,ORL,,0.0,0.0,1,2006.0,C,19.0,True
+2005,45,Lou Williams,3,PHI,,65.7,8.8,4,2006.0,PG,19.0,True
+2005,46,Erazem Lorbek,3,IND,,,0.0,0,,,,False
+2005,47,Bracey Wright,3,MIN,Indiana,0.5,0.5,2,2006.0,SG,21.0,True
+2005,48,Mickaël Gelabale,3,SEA,,3.0,1.5,2,2007.0,SF,22.0,True
+2005,49,Andray Blatche,3,WAS,,19.2,5.0,4,2006.0,PF,19.0,True
+2005,50,Ryan Gomes,3,BOS,Providence,19.4,14.6,4,2006.0,PF,23.0,True
+2005,51,Robert Whaley,3,UTA,Walsh University,0.0,0.0,1,2006.0,C,23.0,True
+2005,52,Axel Hervelle,3,DEN,,,0.0,0,,,,False
+2005,53,Orien Greene,3,BOS,Louisiana,-0.7,-0.7,3,2006.0,PG,23.0,True
+2005,54,Dijon Thompson,3,NYK,UCLA,0.2,0.2,2,2006.0,SG,22.0,True
+2005,55,Lawrence Roberts,3,SEA,Mississippi State,2.5,2.5,2,2006.0,C,23.0,True
+2005,56,Amir Johnson,3,DET,,55.3,6.4,4,2006.0,SF,18.0,True
+2005,57,Marcin Gortat,3,PHO,,61.3,3.4,2,2008.0,C,21.0,True
+2005,58,Uroš Slokar,3,TOR,,0.1,0.1,1,2007.0,C,22.0,True
+2005,59,Cenk Akyol,3,ATL,,,0.0,0,,,,False
+2005,60,Alex Acker,3,DET,Pepperdine,-0.2,-0.2,2,2006.0,SG,23.0,True
+2006,1,Andrea Bargnani,1,TOR,,18.9,11.4,4,2007.0,PF,21.0,True
+2006,2,LaMarcus Aldridge,1,CHI,Texas,115.6,27.9,4,2007.0,C,21.0,True
+2006,3,Adam Morrison,1,CHA,Gonzaga,-1.4,-1.5,3,2007.0,PF,22.0,True
+2006,4,Tyrus Thomas,1,POR,LSU,13.0,11.799999999999999,4,2007.0,PF,20.0,True
+2006,5,Shelden Williams,1,ATL,Duke,9.9,5.9,4,2007.0,PF,23.0,True
+2006,6,Brandon Roy,1,MIN,Washington,37.4,35.4,4,2007.0,SG,22.0,True
+2006,7,Randy Foye,1,BOS,Villanova,23.5,8.7,4,2007.0,PG,23.0,True
+2006,8,Rudy Gay,1,HOU,UConn,61.0,15.2,4,2007.0,SF,20.0,True
+2006,9,Patrick O'Bryant,1,GSW,Bradley,0.5,0.5,4,2007.0,C,20.0,True
+2006,10,Mouhamed Sene,1,SEA,,0.3,0.4,3,2007.0,C,20.0,True
+2006,11,JJ Redick,1,ORL,Duke,63.7,11.0,4,2007.0,PG,22.0,True
+2006,12,Hilton Armstrong,1,NOK,UConn,3.9,3.1,4,2007.0,C,22.0,True
+2006,13,Thabo Sefolosha,1,PHI,,39.3,8.5,4,2007.0,SG,22.0,True
+2006,14,Ronnie Brewer,1,UTA,Arkansas,30.4,20.0,4,2007.0,SG,21.0,True
+2006,15,Cedric Simmons,1,NOK,NC State,0.1,0.09999999999999998,3,2007.0,PF,21.0,True
+2006,16,Rodney Carney,1,CHI,Memphis,6.2,5.9,4,2007.0,SF,22.0,True
+2006,17,Shawne Williams,1,IND,Memphis,6.7,2.0999999999999996,3,2007.0,SG,20.0,True
+2006,18,Oleksiy Pecherov,1,WAS,,0.5,0.6,3,2008.0,C,21.0,True
+2006,19,Quincy Douby,1,SAC,Rutgers University,0.0,0.0,3,2007.0,PG,22.0,True
+2006,20,Renaldo Balkman,1,NYK,South Carolina,7.2,6.7,4,2007.0,SF,22.0,True
+2006,21,Rajon Rondo,1,PHO,Kentucky,61.8,29.1,4,2007.0,PG,20.0,True
+2006,22,Marcus Williams,1,NJN,UConn,0.0,-0.1,4,2007.0,PG,21.0,True
+2006,23,Josh Boone,1,NJN,UConn,9.1,9.0,4,2007.0,PF,22.0,True
+2006,24,Kyle Lowry,1,MEM,Villanova,112.4,11.8,4,2007.0,PG,20.0,True
+2006,25,Shannon Brown,1,CLE,Michigan State,9.2,3.6999999999999997,4,2007.0,SG,21.0,True
+2006,26,Jordan Farmar,1,LAL,UCLA,13.9,8.399999999999999,4,2007.0,PG,20.0,True
+2006,27,Sergio Rodríguez,1,PHO,,4.3,3.5999999999999996,4,2007.0,PG,20.0,True
+2006,28,Maurice Ager,1,DAL,Michigan State,-0.9,-1.0,3,2007.0,SG,22.0,True
+2006,29,Mardy Collins,1,NYK,Temple,-1.6,-1.6,4,2007.0,SF,22.0,True
+2006,30,Joel Freeland,1,POR,,3.2,0.0,0,,,,False
+2006,31,James White,3,POR,Cincinnati,0.8,0.3,2,2007.0,SG,24.0,True
+2006,32,Steve Novak,3,HOU,Marquette,14.5,4.0,4,2007.0,SF,23.0,True
+2006,33,Solomon Jones,3,ATL,South Florida,5.0,4.3,4,2007.0,PF,22.0,True
+2006,34,Paul Davis,3,LAC,Michigan State,0.5,0.4,4,2007.0,C,22.0,True
+2006,35,P.J. Tucker,3,TOR,Texas,43.3,0.1,1,2007.0,SF,21.0,True
+2006,36,Craig Smith,3,MIN,Boston College,16.0,13.5,4,2007.0,PF,23.0,True
+2006,37,Bobby Jones,3,MIN,Washington,1.1,1.1,2,2007.0,SF,23.0,True
+2006,38,Kosta Perović,3,GSW,,0.0,0.0,1,2008.0,C,21.0,True
+2006,39,David Noel,3,MIL,UNC,0.4,0.4,1,2007.0,PF,22.0,True
+2006,40,Denham Brown,3,SEA,UConn,,0.0,0,,,,False
+2006,41,James Augustine,3,ORL,Illinois,0.3,0.3,2,2007.0,PF,22.0,True
+2006,42,Daniel Gibson,3,CLE,Texas,16.0,12.5,4,2007.0,PG,20.0,True
+2006,43,Marcus Vinicius,3,NOK,,0.2,0.2,2,2007.0,SF,22.0,True
+2006,44,Lior Eliyahu,3,ORL,,,0.0,0,,,,False
+2006,45,Alexander Johnson,3,IND,Florida State,1.5,1.5,2,2007.0,PF,23.0,True
+2006,46,Dee Brown,3,UTA,Illinois,0.1,0.1,2,2007.0,PG,22.0,True
+2006,47,Paul Millsap,3,UTA,Louisiana Tech,95.4,24.8,4,2007.0,PF,21.0,True
+2006,48,Vladimir Veremeenko,3,WAS,,,0.0,0,,,,False
+2006,49,Leon Powe,3,DEN,California,12.0,11.4,4,2007.0,C,23.0,True
+2006,50,Ryan Hollins,3,CHA,UCLA,10.4,3.5,4,2007.0,C,22.0,True
+2006,51,Cheikh Samb,3,LAL,,-0.1,-0.1,2,2008.0,C,22.0,True
+2006,52,Guillermo Díaz,3,LAC,Miami (FL),0.0,0.0,1,2008.0,SG,21.0,True
+2006,53,Yotam Halperin,3,SEA,,,0.0,0,,,,False
+2006,54,Hassan Adams,3,NJN,Arizona,0.8,0.8,2,2007.0,SG,22.0,True
+2006,55,Ejike Ugboaja,3,CLE,,,0.0,0,,,,False
+2006,56,Edin Bavčić,3,TOR,,,0.0,0,,,,False
+2006,57,Loukas Mavrokefalidis,3,MIN,,,0.0,0,,,,False
+2006,58,J.R. Pinnock,3,DAL,George Washington,,0.0,0,,,,False
+2006,59,Damir Markota,3,SAS,,-0.2,-0.2,1,2007.0,PF,21.0,True
+2006,60,Will Blalock,3,DET,Iowa State,-0.1,-0.1,1,2007.0,PG,23.0,True
+2007,1,Greg Oden,1,POR,Ohio State,7.3,6.8,2,2009.0,C,20.0,True
+2007,2,Kevin Durant,1,SEA,Texas,186.1,38.3,4,2008.0,SG,19.0,True
+2007,3,Al Horford,1,ATL,Florida,119.4,33.3,4,2008.0,C,21.0,True
+2007,4,Mike Conley,1,MEM,Ohio State,107.6,16.2,4,2008.0,PG,20.0,True
+2007,5,Jeff Green,1,BOS,Georgetown,56.1,15.8,4,2008.0,SF,21.0,True
+2007,6,Yi Jianlian,1,MIL,,3.1,3.1,4,2008.0,PF,20.0,True
+2007,7,Corey Brewer,1,MIN,Florida,22.5,2.2,4,2008.0,SF,21.0,True
+2007,8,Brandan Wright,1,CHA,UNC,26.2,3.8,3,2008.0,PF,20.0,True
+2007,9,Joakim Noah,1,CHI,Florida,61.9,23.1,4,2008.0,C,22.0,True
+2007,10,Spencer Hawes,1,SAC,Washington,22.6,5.9,4,2008.0,C,19.0,True
+2007,11,Acie Law,1,ATL,Texas A&M,1.6,1.6,4,2008.0,PG,23.0,True
+2007,12,Thaddeus Young,1,PHI,Georgia Tech,71.9,18.3,4,2008.0,PF,19.0,True
+2007,13,Julian Wright,1,NOK,Kansas,3.9,3.9,4,2008.0,SF,20.0,True
+2007,14,Al Thornton,1,LAC,Florida State,6.1,6.200000000000001,4,2008.0,PF,24.0,True
+2007,15,Rodney Stuckey,1,DET,Eastern Washington,28.7,13.5,4,2008.0,PG,21.0,True
+2007,16,Nick Young,1,WAS,USC,18.6,5.8,4,2008.0,SG,22.0,True
+2007,17,Sean Williams,1,NJN,Boston College,3.0,2.6,3,2008.0,C,21.0,True
+2007,18,Marco Belinelli,1,GSW,,30.5,5.1,4,2008.0,SG,21.0,True
+2007,19,Javaris Crittenton,1,LAL,Georgia Tech,0.1,0.1,2,2008.0,SG,20.0,True
+2007,20,Jason Smith,1,MIA,Colorado State,14.1,3.8,3,2008.0,PF,21.0,True
+2007,21,Daequan Cook,1,PHI,Ohio State,4.9,3.5000000000000004,4,2008.0,SG,20.0,True
+2007,22,Jared Dudley,1,CHA,Boston College,43.0,16.5,4,2008.0,PF,22.0,True
+2007,23,Wilson Chandler,1,NYK,DePaul,29.0,10.2,4,2008.0,SF,20.0,True
+2007,24,Rudy Fernández,1,PHO,,14.2,12.899999999999999,3,2009.0,SG,22.0,True
+2007,25,Morris Almond,1,UTA,Rice University,0.0,0.0,2,2008.0,SG,22.0,True
+2007,26,Aaron Brooks,1,HOU,Oregon,19.2,11.6,4,2008.0,PG,23.0,True
+2007,27,Arron Afflalo,1,DET,UCLA,33.5,14.2,4,2008.0,SG,22.0,True
+2007,28,Tiago Splitter,1,SAS,,25.3,2.3,1,2011.0,C,23.0,True
+2007,29,Alando Tucker,1,PHO,Wisconsin,0.4,0.30000000000000004,3,2008.0,SF,23.0,True
+2007,30,Petteri Koponen,1,PHI,,,0.0,0,,,,False
+2007,31,Carl Landry,3,SEA,Purdue,35.9,21.4,4,2008.0,PF,24.0,True
+2007,32,Gabe Pruitt,3,BOS,USC,0.4,0.5,2,2008.0,PG,21.0,True
+2007,33,Marcus Williams,3,SAS,Arizona,-0.1,0.0,3,2008.0,PG,22.0,True
+2007,34,Nick Fazekas,3,DAL,Nevada,0.8,0.8,1,2008.0,PF,22.0,True
+2007,35,Glen Davis,3,SEA,LSU,18.6,12.700000000000001,4,2008.0,C,22.0,True
+2007,36,Jermareo Davidson,3,GSW,Alabama,0.0,0.0,2,2008.0,SF,23.0,True
+2007,37,Josh McRoberts,3,POR,Duke,18.5,6.9,4,2008.0,PF,20.0,True
+2007,38,Kyrylo Fesenko,3,PHI,,0.9,0.8,4,2008.0,C,21.0,True
+2007,39,Stanko Barać,3,MIA,,,0.0,0,,,,False
+2007,40,Sun Yue,3,LAL,,-0.1,-0.1,1,2009.0,SG,22.0,True
+2007,41,Chris Richard,3,MIN,Florida,0.7,0.7,2,2008.0,C,23.0,True
+2007,42,Derrick Byars,3,POR,Vanderbilt,0.1,0.0,0,,,,False
+2007,43,Adam Haluska,3,NOK,Iowa,,0.0,0,,,,False
+2007,44,Reyshawn Terry,3,ORL,UNC,,0.0,0,,,,False
+2007,45,Jared Jordan,3,LAC,Marist College,,0.0,0,,,,False
+2007,46,Stéphane Lasme,3,GSW,UMass,0.3,0.3,1,2008.0,SF,25.0,True
+2007,47,Dominic McGuire,3,WAS,Fresno State,4.1,2.4,4,2008.0,SG,22.0,True
+2007,48,Marc Gasol,3,LAL,,85.3,22.700000000000003,3,2009.0,C,23.0,True
+2007,49,Aaron Gray,3,CHI,Pitt,6.2,4.1,4,2008.0,C,23.0,True
+2007,50,Renaldas Seibutis,3,DAL,,,0.0,0,,,,False
+2007,51,JamesOn Curry,3,CHI,Oklahoma State,0.0,0.0,1,2010.0,PG,22.0,True
+2007,52,Taurean Green,3,POR,Florida,-0.1,-0.1,1,2008.0,SG,21.0,True
+2007,53,Demetris Nichols,3,POR,Syracuse,-0.2,-0.2,2,2008.0,SF,23.0,True
+2007,54,Brad Newley,3,HOU,,,0.0,0,,,,False
+2007,55,Herbert Hill,3,UTA,Providence,,0.0,0,,,,False
+2007,56,Ramon Sessions,3,MIL,Nevada,28.8,11.8,4,2008.0,PG,21.0,True
+2007,57,Sammy Mejia,3,DET,DePaul,,0.0,0,,,,False
+2007,58,Georgios Printezis,3,SAS,,,0.0,0,,,,False
+2007,59,D.J. Strawberry,3,PHO,Maryland,-0.2,-0.2,1,2008.0,SG,22.0,True
+2007,60,Milovan Raković,3,DAL,,,0.0,0,,,,False
+2008,1,Derrick Rose,1,CHI,Memphis,44.6,30.0,4,2009.0,PG,20.0,True
+2008,2,Michael Beasley,1,MIA,Kansas State,15.6,10.2,4,2009.0,PF,20.0,True
+2008,3,O.J. Mayo,1,MIN,USC,21.8,14.9,4,2009.0,SG,21.0,True
+2008,4,Russell Westbrook,1,SEA,UCLA,112.9,25.3,4,2009.0,PG,20.0,True
+2008,5,Kevin Love,1,MEM,UCLA,96.0,31.6,4,2009.0,C,20.0,True
+2008,6,Danilo Gallinari,1,NYK,,65.4,16.599999999999998,4,2009.0,SG,20.0,True
+2008,7,Eric Gordon,1,LAC,Indiana,42.1,13.799999999999999,4,2009.0,SG,20.0,True
+2008,8,Joe Alexander,1,MIL,West Virginia,0.5,0.4,2,2009.0,SF,22.0,True
+2008,9,D.J. Augustin,1,CHA,Texas,47.7,14.6,4,2009.0,PG,21.0,True
+2008,10,Brook Lopez,1,NJN,Stanford,94.2,20.3,4,2009.0,C,20.0,True
+2008,11,Jerryd Bayless,1,IND,Arizona,18.6,6.6,4,2009.0,PG,20.0,True
+2008,12,Jason Thompson,1,SAC,Rider University,23.8,13.5,4,2009.0,PF,22.0,True
+2008,13,Brandon Rush,1,POR,Kansas,11.2,9.5,4,2009.0,SG,23.0,True
+2008,14,Anthony Randolph,1,GSW,LSU,5.8,4.7,4,2009.0,PF,19.0,True
+2008,15,Robin Lopez,1,PHO,Stanford,49.6,7.9,4,2009.0,C,20.0,True
+2008,16,Marreese Speights,1,PHI,Florida,25.8,10.3,4,2009.0,C,21.0,True
+2008,17,Roy Hibbert,1,TOR,Georgetown,35.9,16.0,4,2009.0,C,22.0,True
+2008,18,JaVale McGee,1,WAS,Nevada,43.7,13.5,4,2009.0,C,21.0,True
+2008,19,J.J. Hickson,1,CLE,NC State,21.9,9.0,4,2009.0,C,20.0,True
+2008,20,Alexis Ajinça,1,CHA,,7.5,0.30000000000000004,3,2009.0,PF,20.0,True
+2008,21,Ryan Anderson,1,NJN,California,46.7,20.9,4,2009.0,PF,20.0,True
+2008,22,Courtney Lee,1,ORL,Western Kentucky,39.3,13.4,4,2009.0,SG,23.0,True
+2008,23,Kosta Koufos,1,UTA,Ohio State,28.3,4.2,4,2009.0,C,19.0,True
+2008,24,Serge Ibaka,1,SEA,,73.0,17.5,3,2010.0,PF,19.0,True
+2008,25,Nicolas Batum,1,HOU,,75.6,18.6,4,2009.0,SF,20.0,True
+2008,26,George Hill,1,SAS,IUPUI,71.0,18.9,4,2009.0,PG,22.0,True
+2008,27,Darrell Arthur,1,NOH,Kansas,12.3,5.8,3,2009.0,PF,20.0,True
+2008,28,Donté Greene,1,MEM,Syracuse,1.5,1.5999999999999999,4,2009.0,SF,20.0,True
+2008,29,D.J. White,1,DET,Indiana,3.8,3.6,4,2009.0,PF,22.0,True
+2008,30,J.R. Giddens,1,BOS,New Mexico,0.1,0.1,2,2009.0,SF,23.0,True
+2008,31,Nikola Peković,3,MIN,,18.8,5.1,2,2011.0,C,23.0,True
+2008,32,Walter Sharpe,3,SEA,UAB,-0.1,-0.1,1,2009.0,PF,22.0,True
+2008,33,Joey Dorsey,3,POR,Memphis,2.9,0.9,3,2009.0,PF,25.0,True
+2008,34,Mario Chalmers,3,MIN,Kansas,32.3,15.1,4,2009.0,PG,22.0,True
+2008,35,DeAndre Jordan,3,LAC,Texas A&M,99.4,13.6,4,2009.0,C,20.0,True
+2008,36,Ömer Aşık,3,POR,,20.9,5.300000000000001,2,2011.0,C,22.0,True
+2008,37,Luc Mbah a Moute,3,MIL,UCLA,26.0,15.9,4,2009.0,PF,22.0,True
+2008,38,Kyle Weaver,3,CHA,Washington State,1.5,1.5,3,2009.0,SG,22.0,True
+2008,39,Sonny Weems,3,CHI,Arkansas,0.0,0.6,3,2009.0,SG,22.0,True
+2008,40,Chris Douglas-Roberts,3,NJN,Memphis,5.4,2.9,3,2009.0,SG,22.0,True
+2008,41,Nathan Jawai,3,IND,,0.2,0.19999999999999998,2,2009.0,PF,22.0,True
+2008,42,Sean Singletary,3,SAC,Virginia,0.0,0.0,1,2009.0,PG,23.0,True
+2008,43,Patrick Ewing,3,SAC,Georgetown,-0.1,-0.1,1,2011.0,SF,24.0,True
+2008,44,Ante Tomić,3,UTA,,,0.0,0,,,,False
+2008,45,Goran Dragić,3,SAS,,56.7,9.0,4,2009.0,PG,22.0,True
+2008,46,Trent Plaisted,3,SEA,BYU,,0.0,0,,,,False
+2008,47,Henry Walker,3,WAS,Kansas State,5.0,4.4,4,2009.0,SF,21.0,True
+2008,48,Malik Hairston,3,PHO,Oregon,0.8,0.7999999999999999,2,2009.0,SG,21.0,True
+2008,49,Richard Hendrix,3,GSW,Alabama,,0.0,0,,,,False
+2008,50,DeVon Hardin,3,SEA,California,,0.0,0,,,,False
+2008,51,Shan Foster,3,DAL,Vanderbilt,,0.0,0,,,,False
+2008,52,Darnell Jackson,3,MIA,Kansas,1.3,1.2,3,2009.0,PF,23.0,True
+2008,53,Tadija Dragićević,3,UTA,,,0.0,0,,,,False
+2008,54,Maarty Leunen,3,HOU,Oregon,,0.0,0,,,,False
+2008,55,Mike Taylor,3,POR,Iowa State,-0.4,-0.4,1,2009.0,PG,23.0,True
+2008,56,Sasha Kaun,3,SEA,Kansas,0.2,0.0,0,,,,False
+2008,57,James Gist,3,SAS,Maryland,,0.0,0,,,,False
+2008,58,Joe Crawford,3,LAL,Kentucky,0.0,0.0,1,2009.0,SF,22.0,True
+2008,59,Deron Washington,3,DET,Virginia Tech,,0.0,0,,,,False
+2008,60,Semih Erden,3,BOS,,1.8,1.7999999999999998,2,2011.0,C,22.0,True
+2009,1,Blake Griffin,1,LAC,Oklahoma,81.1,29.6,3,2011.0,PF,20.0,True
+2009,2,Hasheem Thabeet,1,MEM,UConn,4.8,4.800000000000001,4,2010.0,C,22.0,True
+2009,3,James Harden,1,OKC,Arizona State,182.4,33.7,4,2010.0,SG,20.0,True
+2009,4,Tyreke Evans,1,SAC,Memphis,28.4,14.100000000000001,4,2010.0,SG,20.0,True
+2009,5,Ricky Rubio,1,MIN,,42.3,5.0,2,2012.0,PG,19.0,True
+2009,6,Jonny Flynn,1,MIN,Syracuse,-1.1,-1.0999999999999999,3,2010.0,PG,20.0,True
+2009,7,Stephen Curry,1,GSW,Davidson,147.1,24.7,4,2010.0,PG,21.0,True
+2009,8,Jordan Hill,1,NYK,Arizona,16.4,6.0,4,2010.0,PF,22.0,True
+2009,9,DeMar DeRozan,1,TOR,USC,114.1,12.7,4,2010.0,SG,20.0,True
+2009,10,Brandon Jennings,1,MIL,,29.9,19.4,4,2010.0,PG,20.0,True
+2009,11,Terrence Williams,1,NJN,Louisville,-0.2,-0.30000000000000004,4,2010.0,SF,22.0,True
+2009,12,Gerald Henderson,1,CHA,Duke,18.3,7.1,4,2010.0,SG,22.0,True
+2009,13,Tyler Hansbrough,1,IND,UNC,20.2,12.8,4,2010.0,PF,24.0,True
+2009,14,Earl Clark,1,PHO,Louisville,2.9,2.5999999999999996,4,2010.0,PF,22.0,True
+2009,15,Austin Daye,1,DET,Gonzaga,4.5,4.4,4,2010.0,SF,21.0,True
+2009,16,James Johnson,1,CHI,Wake Forest,27.4,3.5,4,2010.0,PF,22.0,True
+2009,17,Jrue Holiday,1,PHI,UCLA,78.1,14.4,4,2010.0,PG,19.0,True
+2009,18,Ty Lawson,1,MIN,UNC,42.1,24.700000000000003,4,2010.0,PG,22.0,True
+2009,19,Jeff Teague,1,ATL,Wake Forest,52.4,14.399999999999999,4,2010.0,PG,21.0,True
+2009,20,Eric Maynor,1,UTA,VCU,3.3,3.6999999999999997,4,2010.0,PG,22.0,True
+2009,21,Darren Collison,1,NOH,UCLA,49.9,16.6,4,2010.0,PG,22.0,True
+2009,22,Victor Claver,1,POR,,0.2,-0.1,1,2013.0,SF,21.0,True
+2009,23,Omri Casspi,1,SAC,,19.6,6.9,4,2010.0,SF,21.0,True
+2009,24,Byron Mullens,1,DAL,Ohio State,0.6,0.0,4,2010.0,PF,20.0,True
+2009,25,Rodrigue Beaubois,1,OKC,,4.8,4.800000000000001,4,2010.0,PG,21.0,True
+2009,26,Taj Gibson,1,CHI,USC,60.5,17.7,4,2010.0,PF,24.0,True
+2009,27,DeMarre Carroll,1,MEM,Missouri,29.5,4.2,4,2010.0,SF,23.0,True
+2009,28,Wayne Ellington,1,MIN,UNC,21.1,4.7,4,2010.0,SG,22.0,True
+2009,29,Toney Douglas,1,LAL,Florida State,12.1,8.2,4,2010.0,PG,23.0,True
+2009,30,Christian Eyenga,1,CLE,,-0.4,-0.4,2,2011.0,SF,20.0,True
+2009,31,Jeff Ayres,3,SAC,Arizona State,6.3,2.6,3,2010.0,C,22.0,True
+2009,32,Jermaine Taylor,3,WAS,Central Florida,0.2,0.2,2,2010.0,SG,23.0,True
+2009,33,Dante Cunningham,3,POR,Villanova,24.9,10.8,4,2010.0,PF,22.0,True
+2009,34,Sergio Llull,3,DEN,,,0.0,0,,,,False
+2009,35,DaJuan Summers,3,DET,Georgetown,-0.1,-0.09999999999999998,4,2010.0,SF,22.0,True
+2009,36,Sam Young,3,MEM,Pitt,5.2,5.2,4,2010.0,SF,24.0,True
+2009,37,DeJuan Blair,3,SAS,Pitt,19.0,15.6,4,2010.0,PF,20.0,True
+2009,38,Jon Brockman,3,POR,Washington,3.7,3.6999999999999997,3,2010.0,PF,22.0,True
+2009,39,Jonas Jerebko,3,DET,,25.8,9.7,3,2010.0,PF,22.0,True
+2009,40,Derrick Brown,3,CHA,Xavier,4.5,4.6,3,2010.0,SF,22.0,True
+2009,41,Jodie Meeks,3,MIL,Kentucky,24.3,13.1,4,2010.0,SG,22.0,True
+2009,42,Patrick Beverley,3,LAL,Arkansas,40.2,2.2,1,2013.0,PG,21.0,True
+2009,43,Marcus Thornton,3,MIA,LSU,20.0,14.5,4,2010.0,SG,22.0,True
+2009,44,Chase Budinger,3,DET,Arizona,13.9,10.2,4,2010.0,SF,21.0,True
+2009,45,Nick Calathes,3,MIN,Florida,2.6,0.0,0,,,,False
+2009,46,Danny Green,3,CLE,UNC,49.3,10.7,4,2010.0,SG,22.0,True
+2009,47,Henk Norel,3,MIN,,,0.0,0,,,,False
+2009,48,Taylor Griffin,3,PHO,Oklahoma,0.0,0.0,1,2010.0,SF,23.0,True
+2009,49,Sergiy Gladyr,3,ATL,,,0.0,0,,,,False
+2009,50,Goran Suton,3,UTA,Michigan State,,0.0,0,,,,False
+2009,51,Jack McClinton,3,SAS,Miami (FL),,0.0,0,,,,False
+2009,52,A.J. Price,3,IND,UConn,4.7,4.4,4,2010.0,PG,23.0,True
+2009,53,Nando De Colo,3,SAS,,2.4,1.3,1,2013.0,SG,22.0,True
+2009,54,Robert Vaden,3,CHA,UAB,,0.0,0,,,,False
+2009,55,Patty Mills,3,POR,Saint Mary's,35.9,3.1,4,2010.0,PG,21.0,True
+2009,56,Ahmad Nivins,3,DAL,Saint Joseph's,,0.0,0,,,,False
+2009,57,Emir Preldžić,3,PHO,,,0.0,0,,,,False
+2009,58,Lester Hudson,3,BOS,University of Tennessee at Martin,0.2,0.1,3,2010.0,PG,25.0,True
+2009,59,Chinemelu Elonu,3,LAL,Texas A&M,,0.0,0,,,,False
+2009,60,Robert Dozier,3,MIA,Memphis,,0.0,0,,,,False
+2010,1,John Wall,1,WAS,Kentucky,44.5,18.1,4,2011.0,PG,20.0,True
+2010,2,Evan Turner,1,PHI,Ohio State,20.2,8.2,4,2011.0,SG,22.0,True
+2010,3,Derrick Favors,1,NJN,Georgia Tech,60.2,15.4,4,2011.0,PF,19.0,True
+2010,4,Wesley Johnson,1,MIN,Syracuse,10.7,3.8,4,2011.0,SG,23.0,True
+2010,5,DeMarcus Cousins,1,SAC,Kentucky,46.8,17.6,4,2011.0,C,20.0,True
+2010,6,Ekpe Udoh,1,GSW,Baylor,10.4,5.5,4,2011.0,C,23.0,True
+2010,7,Greg Monroe,1,DET,Georgetown,50.4,25.4,4,2011.0,C,20.0,True
+2010,8,Al-Farouq Aminu,1,LAC,Wake Forest,27.6,8.3,4,2011.0,SF,20.0,True
+2010,9,Gordon Hayward,1,UTA,Butler,63.5,15.100000000000001,4,2011.0,SF,20.0,True
+2010,10,Paul George,1,IND,Fresno State,92.0,28.200000000000003,4,2011.0,SG,20.0,True
+2010,11,Cole Aldrich,1,NOH,Kansas,9.6,2.5999999999999996,4,2011.0,C,22.0,True
+2010,12,Xavier Henry,1,MEM,Kansas,0.8,0.7,4,2011.0,SG,19.0,True
+2010,13,Ed Davis,1,TOR,UNC,43.3,15.9,4,2011.0,PF,21.0,True
+2010,14,Patrick Patterson,1,HOU,Kentucky,31.9,11.899999999999999,4,2011.0,PF,21.0,True
+2010,15,Larry Sanders,1,MIL,VCU,10.3,8.7,4,2011.0,C,22.0,True
+2010,16,Luke Babbitt,1,MIN,Nevada,7.2,1.6999999999999997,4,2011.0,SF,21.0,True
+2010,17,Kevin Séraphin,1,CHI,,5.9,3.4,4,2011.0,PF,21.0,True
+2010,18,Eric Bledsoe,1,OKC,Kentucky,46.1,8.3,4,2011.0,PG,21.0,True
+2010,19,Avery Bradley,1,BOS,Texas,17.2,4.1,4,2011.0,PG,20.0,True
+2010,20,James Anderson,1,SAS,Oklahoma State,3.3,3.6,4,2011.0,SF,21.0,True
+2010,21,Craig Brackins,1,OKC,Iowa State,-0.2,-0.2,2,2011.0,PF,23.0,True
+2010,22,Elliot Williams,1,POR,Memphis,0.7,0.6,2,2012.0,SG,21.0,True
+2010,23,Trevor Booker,1,MIN,Clemson,26.2,12.2,4,2011.0,PF,23.0,True
+2010,24,Damion James,1,ATL,Texas,0.0,-0.1,4,2011.0,SF,23.0,True
+2010,25,Dominique Jones,1,MEM,South Florida,0.3,0.2,3,2011.0,SG,22.0,True
+2010,26,Quincy Pondexter,1,OKC,Washington,9.7,6.2,4,2011.0,SF,22.0,True
+2010,27,Jordan Crawford,1,NJN,Xavier,6.3,5.199999999999999,4,2011.0,SG,22.0,True
+2010,28,Greivis Vásquez,1,MEM,Maryland,12.6,10.2,4,2011.0,PG,24.0,True
+2010,29,Daniel Orton,1,ORL,Kentucky,1.0,1.1,3,2012.0,PF,20.0,True
+2010,30,Lazar Hayward,1,WAS,Marquette,0.2,0.3,3,2011.0,SF,24.0,True
+2010,31,Tibor Pleiß,3,NJN,,-0.1,0.0,0,,,,False
+2010,32,Dexter Pittman,3,MIA,Texas,0.5,0.4,4,2011.0,C,22.0,True
+2010,33,Hassan Whiteside,3,SAC,Marshall,52.0,0.2,2,2011.0,C,21.0,True
+2010,34,Armon Johnson,3,POR,Nevada,-0.1,-0.19999999999999998,2,2011.0,PG,21.0,True
+2010,35,Nemanja Bjelica,3,WAS,,20.0,0.0,0,,,,False
+2010,36,Terrico White,3,DET,Ole Miss,,0.0,0,,,,False
+2010,37,Darington Hobson,3,MIL,New Mexico,-0.2,-0.2,1,2012.0,SG,23.0,True
+2010,38,Andy Rautins,3,NYK,Syracuse,-0.2,-0.2,1,2011.0,SG,24.0,True
+2010,39,Landry Fields,3,NYK,Stanford,10.5,10.2,4,2011.0,SG,22.0,True
+2010,40,Lance Stephenson,3,IND,Cincinnati,17.5,12.4,4,2011.0,SG,20.0,True
+2010,41,Jarvis Varnado,3,MIA,Mississippi State,0.7,0.7000000000000001,2,2013.0,PF,22.0,True
+2010,42,Da'Sean Butler,3,MIA,West Virginia,,0.0,0,,,,False
+2010,43,Devin Ebanks,3,LAL,West Virginia,0.5,0.6,3,2011.0,SG,21.0,True
+2010,44,Jerome Jordan,3,MIL,Tulsa,1.7,0.5,1,2012.0,C,24.0,True
+2010,45,Paulão Prestes,3,MIN,,,0.0,0,,,,False
+2010,46,Gani Lawal,3,PHO,Georgia Tech,0.0,0.0,1,2011.0,PF,22.0,True
+2010,47,Tiny Gallon,3,MIL,Oklahoma,,0.0,0,,,,False
+2010,48,Latavious Williams,3,MIA,,,0.0,0,,,,False
+2010,49,Ryan Richards,3,SAS,,,0.0,0,,,,False
+2010,50,Solomon Alabi,3,DAL,Florida State,0.0,0.0,2,2011.0,C,22.0,True
+2010,51,Magnum Rolle,3,OKC,Louisiana Tech,,0.0,0,,,,False
+2010,52,Luke Harangody,3,BOS,Notre Dame,0.9,0.8,2,2011.0,PF,23.0,True
+2010,53,Pape Sy,3,ATL,,0.0,0.0,1,2011.0,SF,22.0,True
+2010,54,Willie Warren,3,LAC,Oklahoma,0.2,0.2,1,2011.0,PG,21.0,True
+2010,55,Jeremy Evans,3,UTA,Western Kentucky,8.2,6.2,4,2011.0,SF,23.0,True
+2010,56,Hamady N'Diaye,3,MIN,Rutgers University,0.0,0.1,3,2011.0,C,24.0,True
+2010,57,Ryan Reid,3,IND,Florida State,0.1,0.1,1,2012.0,PF,24.0,True
+2010,58,Derrick Caracter,3,LAL,Texas-El Paso,0.3,0.3,1,2011.0,C,22.0,True
+2010,59,Stanley Robinson,3,ORL,UConn,,0.0,0,,,,False
+2010,60,Dwayne Collins,3,PHO,Miami (FL),,0.0,0,,,,False
+2011,1,Kyrie Irving,1,CLE,Duke,91.0,26.5,4,2012.0,PG,19.0,True
+2011,2,Derrick Williams,1,MIN,Arizona,14.1,9.5,4,2012.0,PF,20.0,True
+2011,3,Enes Freedom,1,UTA,,52.8,12.600000000000001,4,2012.0,C,19.0,True
+2011,4,Tristan Thompson,1,CLE,Texas,49.3,18.8,4,2012.0,PF,20.0,True
+2011,5,Jonas Valančiūnas,1,TOR,,87.6,18.799999999999997,3,2013.0,C,19.0,True
+2011,6,Jan Veselý,1,WAS,,4.0,4.0,3,2012.0,PF,21.0,True
+2011,7,Bismack Biyombo,1,SAC,,33.3,9.2,4,2012.0,C,19.0,True
+2011,8,Brandon Knight,1,DET,Kentucky,11.6,9.7,4,2012.0,PG,20.0,True
+2011,9,Kemba Walker,1,CHA,UConn,59.8,14.7,4,2012.0,PG,21.0,True
+2011,10,Jimmer Fredette,1,MIL,BYU,2.2,2.4000000000000004,4,2012.0,PG,22.0,True
+2011,11,Klay Thompson,1,GSW,Washington State,57.6,21.5,4,2012.0,SG,21.0,True
+2011,12,Alec Burks,1,UTA,Colorado,31.7,7.4,4,2012.0,SG,20.0,True
+2011,13,Markieff Morris,1,PHO,Kansas,27.3,14.2,4,2012.0,PF,22.0,True
+2011,14,Marcus Morris,1,HOU,Kansas,39.4,9.8,4,2012.0,PF,22.0,True
+2011,15,Kawhi Leonard,1,IND,San Diego State,111.9,28.0,4,2012.0,SF,20.0,True
+2011,16,Nikola Vučević,1,PHI,USC,84.3,18.9,4,2012.0,C,21.0,True
+2011,17,Iman Shumpert,1,NYK,Georgia Tech,12.9,7.8,4,2012.0,PG,21.0,True
+2011,18,Chris Singleton,1,WAS,Florida State,2.3,2.2,3,2012.0,SF,22.0,True
+2011,19,Tobias Harris,1,CHA,Tennessee,80.6,12.2,4,2012.0,SF,19.0,True
+2011,20,Donatas Motiejūnas,1,MIN,,7.1,6.8,3,2013.0,PF,21.0,True
+2011,21,Nolan Smith,1,POR,Duke,-0.8,-0.8,2,2012.0,PG,23.0,True
+2011,22,Kenneth Faried,1,DEN,Morehead State University,38.8,24.5,4,2012.0,PF,22.0,True
+2011,23,Nikola Mirotić,1,HOU,,20.8,5.7,1,2015.0,PF,20.0,True
+2011,24,Reggie Jackson,1,OKC,Boston College,36.3,12.4,4,2012.0,PG,21.0,True
+2011,25,MarShon Brooks,1,BOS,Providence,3.3,2.5,3,2012.0,SG,23.0,True
+2011,26,Jordan Hamilton,1,DAL,Texas,3.0,2.8000000000000003,4,2012.0,SF,21.0,True
+2011,27,JaJuan Johnson,1,NJN,Purdue,0.2,0.2,1,2012.0,PF,22.0,True
+2011,28,Norris Cole,1,CHI,Cleveland State University,3.0,3.2,4,2012.0,PG,23.0,True
+2011,29,Cory Joseph,1,SAS,Texas,32.1,8.3,4,2012.0,PG,20.0,True
+2011,30,Jimmy Butler,1,CHI,Marquette,129.4,26.4,4,2012.0,SG,22.0,True
+2011,31,Bojan Bogdanović,3,MIA,,37.6,2.4,1,2015.0,SF,22.0,True
+2011,32,Justin Harper,3,CLE,Richmond,-0.3,-0.3,1,2012.0,PF,22.0,True
+2011,33,Kyle Singler,3,DET,Duke,10.0,8.7,3,2013.0,SF,23.0,True
+2011,34,Shelvin Mack,3,WAS,Butler,10.3,4.8,4,2012.0,PG,21.0,True
+2011,35,Tyler Honeycutt,3,SAC,UCLA,-0.1,-0.1,2,2012.0,SF,21.0,True
+2011,36,Jordan Williams,3,NJN,Maryland,1.3,1.3,1,2012.0,C,21.0,True
+2011,37,Trey Thompkins,3,LAC,Georgia,0.0,0.0,1,2012.0,C,21.0,True
+2011,38,Chandler Parsons,3,HOU,Florida,28.9,23.5,4,2012.0,SF,23.0,True
+2011,39,Jeremy Tyler,3,CHA,,0.3,0.19999999999999996,3,2012.0,C,20.0,True
+2011,40,Jon Leuer,3,MIL,Wisconsin,13.2,4.9,4,2012.0,PF,22.0,True
+2011,41,Darius Morris,3,LAL,Michigan,-0.3,-0.4,4,2012.0,PG,21.0,True
+2011,42,Dāvis Bertāns,3,IND,,18.6,0.0,0,,,,False
+2011,43,Malcolm Lee,3,CHI,UCLA,0.4,0.5,3,2012.0,SG,21.0,True
+2011,44,Charles Jenkins,3,GSW,Hofstra,0.5,0.5,2,2012.0,PG,22.0,True
+2011,45,Josh Harrellson,3,NOH,Kentucky,2.1,2.0999999999999996,3,2012.0,PF,22.0,True
+2011,46,Andrew Goudelock,3,LAL,College of Charleston,0.0,0.1,2,2012.0,SG,23.0,True
+2011,47,Travis Leslie,3,LAC,Georgia,0.1,0.1,1,2012.0,SG,21.0,True
+2011,48,Keith Benson,3,ATL,Oakland,0.0,0.0,1,2012.0,C,23.0,True
+2011,49,Josh Selby,3,MEM,Kansas,-0.7,-0.7,2,2012.0,PG,20.0,True
+2011,50,Lavoy Allen,3,PHI,Temple,13.8,8.4,4,2012.0,PF,22.0,True
+2011,51,Jon Diebler,3,POR,Ohio State,,0.0,0,,,,False
+2011,52,Vernon Macklin,3,DET,Florida,0.5,0.5,1,2012.0,C,25.0,True
+2011,53,DeAndre Liggins,3,ORL,Kentucky,1.6,0.6,3,2012.0,SF,23.0,True
+2011,54,Milan Mačvan,3,CLE,,,0.0,0,,,,False
+2011,55,E'Twaun Moore,3,BOS,Purdue,14.8,2.9,4,2012.0,PG,22.0,True
+2011,56,Chukwudiebere Maduabum,3,LAL,,,0.0,0,,,,False
+2011,57,Tanguy Ngombo,3,DAL,,,0.0,0,,,,False
+2011,58,Ater Majok,3,LAL,,,0.0,0,,,,False
+2011,59,Ádám Hanga,3,SAS,,,0.0,0,,,,False
+2011,60,Isaiah Thomas,3,SAC,Washington,45.3,23.1,4,2012.0,PG,22.0,True
+2012,1,Anthony Davis,1,NOH,Kentucky,120.1,37.7,4,2013.0,PF,19.0,True
+2012,2,Michael Kidd-Gilchrist,1,CHA,Kentucky,21.0,9.6,4,2013.0,SF,19.0,True
+2012,3,Bradley Beal,1,WAS,Florida,58.4,13.4,4,2013.0,SG,19.0,True
+2012,4,Dion Waiters,1,CLE,Syracuse,8.8,5.7,4,2013.0,SG,21.0,True
+2012,5,Thomas Robinson,1,SAC,Kansas,4.6,3.6,4,2013.0,PF,21.0,True
+2012,6,Damian Lillard,1,POR,Weber State,118.4,35.2,4,2013.0,PG,22.0,True
+2012,7,Harrison Barnes,1,GSW,UNC,66.4,17.6,4,2013.0,SF,20.0,True
+2012,8,Terrence Ross,1,TOR,Washington,25.0,11.100000000000001,4,2013.0,SG,21.0,True
+2012,9,Andre Drummond,1,DET,UConn,80.0,29.5,4,2013.0,C,19.0,True
+2012,10,Austin Rivers,1,NOH,Duke,15.2,2.9,4,2013.0,SG,20.0,True
+2012,11,Meyers Leonard,1,POR,Illinois,15.8,8.0,4,2013.0,C,20.0,True
+2012,12,Jeremy Lamb,1,HOU,UConn,26.8,7.800000000000001,4,2013.0,SF,20.0,True
+2012,13,Kendall Marshall,1,PHO,UNC,1.0,1.0,4,2013.0,PG,21.0,True
+2012,14,John Henson,1,MIL,UNC,20.7,11.1,4,2013.0,PF,22.0,True
+2012,15,Maurice Harkless,1,PHI,St. John's,23.0,8.399999999999999,4,2013.0,SF,19.0,True
+2012,16,Royce White,1,HOU,Iowa State,0.0,0.0,1,2014.0,PF,21.0,True
+2012,17,Tyler Zeller,1,DAL,UNC,17.1,12.799999999999999,4,2013.0,C,23.0,True
+2012,18,Terrence Jones,1,HOU,Kentucky,14.7,12.5,4,2013.0,PF,21.0,True
+2012,19,Andrew Nicholson,1,ORL,St. Bonaventure,3.8,4.0,4,2013.0,PF,23.0,True
+2012,20,Evan Fournier,1,DEN,,30.5,10.2,4,2013.0,SG,20.0,True
+2012,21,Jared Sullinger,1,BOS,Ohio State,15.3,15.399999999999999,4,2013.0,PF,20.0,True
+2012,22,Fab Melo,1,BOS,Syracuse,0.0,0.0,1,2013.0,C,22.0,True
+2012,23,John Jenkins,1,ATL,Vanderbilt,3.0,2.7,4,2013.0,SG,21.0,True
+2012,24,Jared Cunningham,1,CLE,Oregon State,0.2,0.2,4,2013.0,SG,21.0,True
+2012,25,Tony Wroten,1,MEM,Washington,-1.3,-1.3,4,2013.0,SG,19.0,True
+2012,26,Miles Plumlee,1,IND,Duke,10.6,8.8,4,2013.0,C,24.0,True
+2012,27,Arnett Moultrie,1,MIA,Mississippi State,1.7,1.7,2,2013.0,PF,22.0,True
+2012,28,Perry Jones,1,OKC,Baylor,1.7,1.7,3,2013.0,SF,21.0,True
+2012,29,Marquis Teague,1,CHI,Kentucky,-0.9,-0.8,2,2013.0,PG,19.0,True
+2012,30,Festus Ezeli,1,GSW,Vanderbilt,5.9,5.9,3,2013.0,C,23.0,True
+2012,31,Jeff Taylor,3,CHA,Vanderbilt,1.3,1.2999999999999998,3,2013.0,SF,23.0,True
+2012,32,Tomáš Satoranský,3,WAS,,17.9,0.0,0,,,,False
+2012,33,Bernard James,3,CLE,Florida State,1.9,1.7999999999999998,3,2013.0,C,27.0,True
+2012,34,Jae Crowder,3,CLE,Marquette,43.0,15.0,4,2013.0,SF,22.0,True
+2012,35,Draymond Green,3,GSW,Michigan State,66.3,24.7,4,2013.0,SF,22.0,True
+2012,36,Orlando Johnson,3,SAC,UC Santa Barbara,1.4,1.4,3,2013.0,SG,23.0,True
+2012,37,Quincy Acy,3,TOR,Baylor,8.7,6.8,4,2013.0,PF,22.0,True
+2012,38,Quincy Miller,3,DEN,Baylor,-0.1,-0.1,3,2013.0,PF,20.0,True
+2012,39,Khris Middleton,3,DET,Texas A&M,58.2,16.4,4,2013.0,SG,21.0,True
+2012,40,Will Barton,3,POR,Memphis,26.5,5.699999999999999,4,2013.0,SG,22.0,True
+2012,41,Tyshawn Taylor,3,POR,Kansas,-0.9,-1.0,2,2013.0,PG,22.0,True
+2012,42,Doron Lamb,3,MIL,Kentucky,0.1,0.09999999999999998,2,2013.0,SG,21.0,True
+2012,43,Mike Scott,3,ATL,Virginia,16.8,9.4,4,2013.0,PF,24.0,True
+2012,44,Kim English,3,DET,Missouri,0.2,0.2,1,2013.0,SG,24.0,True
+2012,45,Justin Hamilton,3,PHI,LSU,3.7,1.6,2,2014.0,C,22.0,True
+2012,46,Darius Miller,3,NOH,Kentucky,6.5,1.2,3,2013.0,SF,22.0,True
+2012,47,Kevin Murphy,3,UTA,Tennessee Technological University,-0.3,-0.3,1,2013.0,SG,22.0,True
+2012,48,Kostas Papanikolaou,3,NYK,,0.3,0.4,2,2015.0,SF,22.0,True
+2012,49,Kyle O'Quinn,3,ORL,Norfolk State,17.8,7.1,4,2013.0,C,22.0,True
+2012,50,İzzet Türkyılmaz,3,DEN,,,0.0,0,,,,False
+2012,51,Kris Joseph,3,BOS,Syracuse,-0.1,-0.1,1,2013.0,SF,24.0,True
+2012,52,Ognjen Kuzmić,3,GSW,,0.2,0.3,2,2014.0,C,22.0,True
+2012,53,Furkan Aldemir,3,LAC,,1.4,1.4,1,2015.0,PF,21.0,True
+2012,54,Tornike Shengelia,3,PHI,,-0.2,-0.1,2,2013.0,SF,21.0,True
+2012,55,Darius Johnson-Odom,3,DAL,Marquette,-0.3,-0.30000000000000004,2,2013.0,SG,23.0,True
+2012,56,Tomislav Zubčić,3,TOR,,,0.0,0,,,,False
+2012,57,İlkan Karaman,3,NJN,,,0.0,0,,,,False
+2012,58,Robbie Hummel,3,MIN,Purdue,1.9,1.9000000000000001,2,2014.0,SF,23.0,True
+2012,59,Marcus Denmon,3,SAS,Missouri,,0.0,0,,,,False
+2012,60,Robert Sacre,3,LAL,Gonzaga,2.4,2.4,4,2013.0,C,23.0,True
+2013,1,Anthony Bennett,1,CLE,UNLV,0.5,0.5,4,2014.0,PF,20.0,True
+2013,2,Victor Oladipo,1,ORL,Indiana,25.6,13.7,4,2014.0,PG,21.0,True
+2013,3,Otto Porter Jr.,1,WAS,Georgetown,36.7,17.7,4,2014.0,SF,20.0,True
+2013,4,Cody Zeller,1,CHA,Indiana,33.5,18.299999999999997,4,2014.0,C,21.0,True
+2013,5,Alex Len,1,PHO,Maryland,23.9,7.9,4,2014.0,C,20.0,True
+2013,6,Nerlens Noel,1,NOH,Kentucky,28.3,11.0,3,2015.0,C,19.0,True
+2013,7,Ben McLemore,1,SAC,Kansas,9.0,4.0,4,2014.0,SG,20.0,True
+2013,8,Kentavious Caldwell-Pope,1,DET,Georgia,49.2,14.399999999999999,4,2014.0,SG,20.0,True
+2013,9,Trey Burke,1,MIN,Michigan,12.9,5.9,4,2014.0,PG,21.0,True
+2013,10,CJ McCollum,1,POR,Lehigh,54.9,15.6,4,2014.0,SG,22.0,True
+2013,11,Michael Carter-Williams,1,PHI,Syracuse,6.6,3.5,4,2014.0,PG,22.0,True
+2013,12,Steven Adams,1,OKC,Pitt,63.7,20.0,4,2014.0,C,20.0,True
+2013,13,Kelly Olynyk,1,DAL,Gonzaga,47.1,14.7,4,2014.0,C,22.0,True
+2013,14,Shabazz Muhammad,1,UTA,UCLA,8.5,7.7,4,2014.0,SG,21.0,True
+2013,15,Giannis Antetokounmpo,1,MIL,,125.8,26.9,4,2014.0,SF,19.0,True
+2013,16,Lucas Nogueira,1,BOS,,6.0,4.4,3,2015.0,C,21.0,True
+2013,17,Dennis Schröder,1,ATL,,34.2,7.7,4,2014.0,PG,20.0,True
+2013,18,Shane Larkin,1,ATL,Miami (FL),4.4,3.0,3,2014.0,PG,21.0,True
+2013,19,Sergey Karasev,1,CLE,,0.8,0.8999999999999999,3,2014.0,SF,20.0,True
+2013,20,Tony Snell,1,CHI,New Mexico,18.5,7.8,4,2014.0,SG,22.0,True
+2013,21,Gorgui Dieng,1,UTA,Louisville,30.7,18.700000000000003,4,2014.0,C,24.0,True
+2013,22,Mason Plumlee,1,BRK,Duke,58.4,21.6,4,2014.0,C,23.0,True
+2013,23,Solomon Hill,1,IND,Arizona,11.9,8.7,4,2014.0,SF,22.0,True
+2013,24,Tim Hardaway Jr.,1,NYK,Michigan,38.2,10.6,4,2014.0,SG,21.0,True
+2013,25,Reggie Bullock,1,LAC,UNC,21.4,2.5,4,2014.0,SF,22.0,True
+2013,26,Andre Roberson,1,MIN,Colorado,12.6,10.5,4,2014.0,SG,22.0,True
+2013,27,Rudy Gobert,1,DEN,,124.9,30.400000000000002,4,2014.0,C,21.0,True
+2013,28,Livio Jean-Charles,1,SAS,,,0.0,0,,,,False
+2013,29,Archie Goodwin,1,OKC,Kentucky,1.1,1.2,4,2014.0,SG,19.0,True
+2013,30,Nemanja Nedović,1,PHO,,-0.4,-0.4,1,2014.0,SG,22.0,True
+2013,31,Allen Crabbe,3,CLE,California,13.7,9.9,4,2014.0,SG,21.0,True
+2013,32,Álex Abrines,3,OKC,,5.0,2.1,1,2017.0,SG,20.0,True
+2013,33,Carrick Felix,3,CLE,Arizona State,0.0,0.0,1,2014.0,SG,23.0,True
+2013,34,Isaiah Canaan,3,HOU,Murray State,4.3,3.5,4,2014.0,PG,22.0,True
+2013,35,Glen Rice Jr.,3,PHI,Georgia Tech,-0.2,-0.2,2,2014.0,SG,23.0,True
+2013,36,Ray McCallum,3,SAC,Detroit Mercy,2.1,2.0999999999999996,3,2014.0,PG,22.0,True
+2013,37,Tony Mitchell,3,DET,University of North Texas,0.2,0.30000000000000004,1,2014.0,PF,21.0,True
+2013,38,Nate Wolters,3,WAS,South Dakota State,0.9,1.0,2,2014.0,PG,22.0,True
+2013,39,Jeff Withey,3,POR,Kansas,6.8,6.7,4,2014.0,C,23.0,True
+2013,40,Grant Jerrett,3,POR,Arizona,-0.1,-0.1,1,2015.0,PF,20.0,True
+2013,41,Jamaal Franklin,3,MEM,San Diego State,0.0,0.0,2,2014.0,SG,22.0,True
+2013,42,Pierre Jackson,3,PHI,Baylor,0.0,0.0,1,2017.0,PG,22.0,True
+2013,43,Ricky Ledo,3,MIL,Providence,-0.6,-0.6,2,2014.0,SG,21.0,True
+2013,44,Mike Muscala,3,DAL,Bucknell,19.2,7.1,4,2014.0,PF,22.0,True
+2013,45,Marko Todorović,3,POR,,,0.0,0,,,,False
+2013,46,Erick Green,3,UTA,Virginia Tech,0.1,0.1,2,2015.0,PG,22.0,True
+2013,47,Raul Neto,3,ATL,,11.6,2.5,2,2016.0,PG,21.0,True
+2013,48,Ryan Kelly,3,LAL,Duke,3.0,3.1,4,2014.0,PF,22.0,True
+2013,49,Erik Murphy,3,CHI,Florida,-0.1,-0.1,1,2014.0,C,23.0,True
+2013,50,James Ennis III,3,ATL,Cal State Long Beach,16.2,5.9,3,2015.0,SF,23.0,True
+2013,51,Romero Osby,3,ORL,Oklahoma,,0.0,0,,,,False
+2013,52,Lorenzo Brown,3,MIN,NC State,-0.2,-0.2,3,2014.0,PG,23.0,True
+2013,53,Colton Iverson,3,IND,Colorado State,,0.0,0,,,,False
+2013,54,Arsalan Kazemi,3,WAS,Oregon,,0.0,0,,,,False
+2013,55,Joffrey Lauvergne,3,MEM,,5.2,3.9,3,2015.0,C,22.0,True
+2013,56,Peyton Siva,3,DET,Louisville,-0.2,-0.2,1,2014.0,SG,23.0,True
+2013,57,Alex Oriakhi,3,PHO,Missouri,,0.0,0,,,,False
+2013,58,Deshaun Thomas,3,SAS,Ohio State,,0.0,0,,,,False
+2013,59,Bojan Dubljević,3,MIN,,,0.0,0,,,,False
+2013,60,Jānis Timma,3,MEM,,,0.0,0,,,,False
+2014,1,Andrew Wiggins,1,CLE,Kansas,37.6,12.5,4,2015.0,SF,19.0,True
+2014,2,Jabari Parker,1,MIL,Duke,13.8,10.1,4,2015.0,PF,19.0,True
+2014,3,Joel Embiid,1,PHI,Kansas,69.0,8.1,2,2017.0,C,20.0,True
+2014,4,Aaron Gordon,1,ORL,Arizona,50.1,13.0,4,2015.0,PF,19.0,True
+2014,5,Danté Exum,1,UTA,,6.6,1.7999999999999998,3,2015.0,PG,19.0,True
+2014,6,Marcus Smart,1,BOS,Oklahoma State,36.2,10.9,4,2015.0,PG,20.0,True
+2014,7,Julius Randle,1,LAL,Kentucky,56.9,11.6,4,2015.0,PF,20.0,True
+2014,8,Nik Stauskas,1,SAC,Michigan,3.9,2.6999999999999997,4,2015.0,SG,21.0,True
+2014,9,Noah Vonleh,1,CHO,Indiana,9.4,5.1,4,2015.0,PF,19.0,True
+2014,10,Elfrid Payton,1,PHI,Louisiana,15.1,11.7,4,2015.0,PG,20.0,True
+2014,11,Doug McDermott,1,DEN,Creighton,21.7,7.699999999999999,4,2015.0,SF,23.0,True
+2014,12,Dario Šarić,1,ORL,,20.8,7.6,2,2017.0,PF,20.0,True
+2014,13,Zach LaVine,1,MIN,UCLA,38.6,5.2,4,2015.0,PG,19.0,True
+2014,14,T.J. Warren,1,PHO,NC State,20.9,10.8,4,2015.0,SF,21.0,True
+2014,15,Adreian Payne,1,ATL,Michigan State,-0.6,-0.6,4,2015.0,PF,23.0,True
+2014,16,Jusuf Nurkić,1,CHI,,34.7,8.7,4,2015.0,C,20.0,True
+2014,17,James Young,1,BOS,Kentucky,0.8,0.7999999999999999,4,2015.0,SG,19.0,True
+2014,18,Tyler Ennis,1,PHO,Syracuse,1.3,1.3,4,2015.0,PG,20.0,True
+2014,19,Gary Harris,1,CHI,Michigan State,27.5,13.399999999999999,4,2015.0,SG,20.0,True
+2014,20,Bruno Caboclo,1,TOR,,1.5,-0.29999999999999993,4,2015.0,SF,19.0,True
+2014,21,Mitch McGary,1,OKC,Michigan,1.3,1.3,2,2015.0,PF,22.0,True
+2014,22,Jordan Adams,1,MEM,UCLA,0.4,0.4,2,2015.0,SG,20.0,True
+2014,23,Rodney Hood,1,UTA,Duke,17.4,13.5,4,2015.0,SG,22.0,True
+2014,24,Shabazz Napier,1,CHO,UConn,8.1,4.4,4,2015.0,PG,23.0,True
+2014,25,Clint Capela,1,HOU,,72.6,20.5,4,2015.0,C,20.0,True
+2014,26,P.J. Hairston,1,MIA,UNC,0.9,0.8999999999999999,2,2015.0,SG,22.0,True
+2014,27,Bogdan Bogdanović,1,PHO,,25.0,2.9,1,2018.0,SG,22.0,True
+2014,28,C.J. Wilcox,1,LAC,Washington,0.1,0.09999999999999998,3,2015.0,SG,24.0,True
+2014,29,Josh Huestis,1,OKC,Stanford,0.7,0.7,3,2016.0,PF,23.0,True
+2014,30,Kyle Anderson,1,SAS,UCLA,41.3,12.7,4,2015.0,SF,21.0,True
+2014,31,Damien Inglis,3,MIL,,-0.1,-0.1,1,2016.0,SF,19.0,True
+2014,32,K.J. McDaniels,3,PHI,Clemson,1.3,1.3,3,2015.0,SG,21.0,True
+2014,33,Joe Harris,3,CLE,Virginia,23.1,5.0,4,2015.0,SG,23.0,True
+2014,34,Cleanthony Early,3,NYK,Wichita State,-0.6,-0.6000000000000001,2,2015.0,SF,23.0,True
+2014,35,Jarnell Stokes,3,UTA,Tennessee,0.6,0.7,3,2015.0,PF,21.0,True
+2014,36,Johnny O'Bryant,3,MIL,LSU,0.2,0.19999999999999998,4,2015.0,PF,21.0,True
+2014,37,DeAndre Daniels,3,TOR,UConn,,0.0,0,,,,False
+2014,38,Spencer Dinwiddie,3,DET,Colorado,36.0,8.7,4,2015.0,PG,21.0,True
+2014,39,Jerami Grant,3,PHI,Syracuse,40.7,10.9,4,2015.0,SF,20.0,True
+2014,40,Glenn Robinson III,3,MIN,Michigan,7.9,4.0,4,2015.0,SG,21.0,True
+2014,41,Nikola Jokić,3,DEN,,142.9,27.099999999999998,3,2016.0,C,19.0,True
+2014,42,Nick Johnson,3,HOU,Arizona,-0.1,-0.1,1,2015.0,SG,22.0,True
+2014,43,Edy Tavares,3,ATL,,0.2,0.30000000000000004,2,2016.0,C,22.0,True
+2014,44,Markel Brown,3,MIN,Oklahoma State,1.1,1.1,3,2015.0,SG,23.0,True
+2014,45,Dwight Powell,3,CHO,Stanford,50.5,14.899999999999999,4,2015.0,PF,23.0,True
+2014,46,Jordan Clarkson,3,WAS,Missouri,25.9,8.7,4,2015.0,PG,22.0,True
+2014,47,Russ Smith,3,PHI,Louisville,-0.2,-0.2,2,2015.0,PG,23.0,True
+2014,48,Lamar Patterson,3,MIL,Pitt,0.1,0.1,2,2016.0,SG,23.0,True
+2014,49,Cameron Bairstow,3,CHI,New Mexico,-0.1,-0.1,2,2015.0,PF,24.0,True
+2014,50,Alec Brown,3,PHO,Green Bay,,0.0,0,,,,False
+2014,51,Thanasis Antetokounmpo,3,NYK,,2.1,0.0,1,2016.0,SF,22.0,True
+2014,52,Vasilije Micić,3,PHI,,-0.6,0.0,0,,,,False
+2014,53,Alessandro Gentile,3,MIN,,,0.0,0,,,,False
+2014,54,Nemanja Dangubić,3,PHI,,,0.0,0,,,,False
+2014,55,Semaj Christon,3,MIA,Xavier,0.1,0.1,1,2017.0,PG,22.0,True
+2014,56,Devyn Marble,3,DEN,Iowa,-0.3,-0.2,2,2015.0,SG,22.0,True
+2014,57,Louis Labeyrie,3,IND,,,0.0,0,,,,False
+2014,58,Jordan McRae,3,SAS,Tennessee,1.7,0.6000000000000001,2,2016.0,PG,23.0,True
+2014,59,Xavier Thames,3,TOR,San Diego State,,0.0,0,,,,False
+2014,60,Cory Jefferson,3,SAS,Baylor,0.9,0.9,2,2015.0,PF,24.0,True
+2015,1,Karl-Anthony Towns,1,MIN,Kentucky,94.6,45.4,4,2016.0,C,20.0,True
+2015,2,D'Angelo Russell,1,LAL,Ohio State,26.5,6.7,4,2016.0,PG,19.0,True
+2015,3,Jahlil Okafor,1,PHI,Duke,7.2,5.2,4,2016.0,C,20.0,True
+2015,4,Kristaps Porziņģis,1,NYK,,50.4,12.100000000000001,3,2016.0,PF,20.0,True
+2015,5,Mario Hezonja,1,ORL,,3.2,2.4,4,2016.0,SF,20.0,True
+2015,6,Willie Cauley-Stein,1,SAC,Kentucky,23.3,17.3,4,2016.0,C,22.0,True
+2015,7,Emmanuel Mudiay,1,DEN,,-0.2,-1.1,4,2016.0,PG,19.0,True
+2015,8,Stanley Johnson,1,DET,Arizona,6.9,3.3,4,2016.0,SF,19.0,True
+2015,9,Frank Kaminsky,1,CHO,Wisconsin,15.9,11.0,4,2016.0,C,22.0,True
+2015,10,Justise Winslow,1,MIA,Duke,8.2,7.8,4,2016.0,SF,19.0,True
+2015,11,Myles Turner,1,IND,Texas,51.7,22.1,4,2016.0,C,19.0,True
+2015,12,Trey Lyles,1,UTA,Kentucky,22.0,8.2,4,2016.0,PF,20.0,True
+2015,13,Devin Booker,1,PHO,Kentucky,58.0,9.8,4,2016.0,SG,19.0,True
+2015,14,Cameron Payne,1,OKC,Murray State,14.8,2.4,4,2016.0,PG,21.0,True
+2015,15,Kelly Oubre Jr.,1,ATL,Kansas,27.6,8.3,4,2016.0,SF,20.0,True
+2015,16,Terry Rozier,1,BOS,Louisville,30.6,9.899999999999999,4,2016.0,PG,21.0,True
+2015,17,Rashad Vaughn,1,MIL,UNLV,-0.6,-0.6000000000000001,3,2016.0,SG,19.0,True
+2015,18,Sam Dekker,1,HOU,Wisconsin,5.4,5.3,4,2016.0,PF,21.0,True
+2015,19,Jerian Grant,1,WAS,Notre Dame,8.3,8.299999999999999,4,2016.0,PG,23.0,True
+2015,20,Delon Wright,1,TOR,Utah,28.9,10.5,4,2016.0,PG,23.0,True
+2015,21,Justin Anderson,1,DAL,Virginia,4.9,4.6,4,2016.0,SF,22.0,True
+2015,22,Bobby Portis,1,CHI,Arkansas,36.6,9.0,4,2016.0,PF,20.0,True
+2015,23,Rondae Hollis-Jefferson,1,POR,Arizona,12.9,9.1,4,2016.0,SF,21.0,True
+2015,24,Tyus Jones,1,CLE,Duke,34.9,8.4,4,2016.0,PG,19.0,True
+2015,25,Jarell Martin,1,MEM,LSU,3.2,3.2,4,2016.0,PF,21.0,True
+2015,26,Nikola Milutinov,1,SAS,,,0.0,0,,,,False
+2015,27,Larry Nance Jr.,1,LAL,Wyoming,35.2,16.4,4,2016.0,PF,23.0,True
+2015,28,R.J. Hunter,1,BOS,Georgia State University,0.4,0.4,4,2016.0,SG,22.0,True
+2015,29,Chris McCullough,1,BRK,Syracuse,0.6,0.6,3,2016.0,PF,20.0,True
+2015,30,Kevon Looney,1,GSW,UCLA,38.1,10.3,4,2016.0,PF,19.0,True
+2015,31,Cedi Osman,3,MIN,,12.5,2.4,2,2018.0,SF,20.0,True
+2015,32,Montrezl Harrell,3,HOU,Louisville,42.9,19.2,4,2016.0,PF,22.0,True
+2015,33,Jordan Mickey,3,BOS,LSU,0.5,0.5,3,2016.0,PF,21.0,True
+2015,34,Anthony Brown,3,LAL,Stanford,-0.2,-0.3,3,2016.0,SF,23.0,True
+2015,35,Willy Hernangómez,3,PHI,,16.3,7.8,3,2017.0,C,21.0,True
+2015,36,Rakeem Christmas,3,MIN,Syracuse,0.5,0.5,2,2016.0,PF,24.0,True
+2015,37,Richaun Holmes,3,PHI,Bowling Green,30.7,12.399999999999999,4,2016.0,PF,22.0,True
+2015,38,Darrun Hilliard,3,DET,Villanova,0.3,0.3,3,2016.0,SG,22.0,True
+2015,39,Juan Pablo Vaulet,3,CHO,,,0.0,0,,,,False
+2015,40,Josh Richardson,3,MIA,Tennessee,27.7,15.7,4,2016.0,SG,22.0,True
+2015,41,Pat Connaughton,3,BRK,Notre Dame,25.3,6.8,4,2016.0,SG,23.0,True
+2015,42,Olivier Hanlan,3,UTA,Boston College,,0.0,0,,,,False
+2015,43,Joe Young,3,IND,Oregon,0.4,0.3,3,2016.0,PG,23.0,True
+2015,44,Andrew Harrison,3,PHO,Kentucky,3.2,3.2,3,2017.0,PG,21.0,True
+2015,45,Marcus Thornton,3,BOS,William & Mary,,2.2,2,2016.0,SG,28.0,True
+2015,46,Norman Powell,3,MIL,UCLA,36.4,7.4,4,2016.0,SG,22.0,True
+2015,47,Artūras Gudaitis,3,PHI,,,0.0,0,,,,False
+2015,48,Dakari Johnson,3,OKC,Kentucky,0.6,0.6,1,2018.0,C,20.0,True
+2015,49,Aaron White,3,WAS,Iowa,,0.0,0,,,,False
+2015,50,Marcus Eriksson,3,ATL,,,0.0,0,,,,False
+2015,51,Tyler Harvey,3,ORL,Eastern Washington,,0.0,0,,,,False
+2015,52,Satnam Singh,3,DAL,,,0.0,0,,,,False
+2015,53,Sir'Dominic Pointer,3,CLE,St. John's,,0.0,0,,,,False
+2015,54,Dani Díez,3,UTA,,,0.0,0,,,,False
+2015,55,Cady Lalanne,3,SAS,UMass,,0.0,0,,,,False
+2015,56,Branden Dawson,3,NOP,Michigan State,0.0,0.0,1,2016.0,PF,22.0,True
+2015,57,Nikola Radičević,3,DEN,,,0.0,0,,,,False
+2015,58,J.P. Tokoto,3,PHI,UNC,,0.0,0,,,,False
+2015,59,Dimitrios Agravanis,3,ATL,,,0.0,0,,,,False
+2015,60,Luka Mitrović,3,PHI,,,0.0,0,,,,False
+2016,1,Ben Simmons,1,PHI,LSU,35.4,24.299999999999997,3,2018.0,PG,20.0,True
+2016,2,Brandon Ingram,1,LAL,Duke,31.8,9.6,4,2017.0,SF,19.0,True
+2016,3,Jaylen Brown,1,BOS,California,47.5,13.9,4,2017.0,SF,20.0,True
+2016,4,Dragan Bender,1,PHO,,0.5,0.6000000000000001,4,2017.0,PF,19.0,True
+2016,5,Kris Dunn,1,MIN,Providence,15.7,3.9,4,2017.0,PG,22.0,True
+2016,6,Buddy Hield,1,NOP,Oklahoma,28.7,13.0,4,2017.0,SG,24.0,True
+2016,7,Jamal Murray,1,DEN,Kentucky,47.6,16.2,4,2017.0,SG,19.0,True
+2016,8,Marquese Chriss,1,SAC,Washington,6.5,5.699999999999999,4,2017.0,PF,19.0,True
+2016,9,Jakob Poeltl,1,TOR,Utah,48.5,16.299999999999997,4,2017.0,C,21.0,True
+2016,10,Thon Maker,1,MIL,,6.6,6.3,4,2017.0,C,19.0,True
+2016,11,Domantas Sabonis,1,ORL,Gonzaga,71.0,20.6,4,2017.0,PF,20.0,True
+2016,12,Taurean Prince,1,UTA,Baylor,15.5,5.2,4,2017.0,SF,22.0,True
+2016,13,Georgios Papagiannis,1,PHO,,0.4,0.4,2,2017.0,C,19.0,True
+2016,14,Denzel Valentine,1,CHI,Michigan State,4.5,3.6,3,2017.0,SG,23.0,True
+2016,15,Juancho Hernangómez,1,DEN,,8.7,6.1000000000000005,4,2017.0,PF,21.0,True
+2016,16,Guerschon Yabusele,1,BOS,,6.4,1.1,2,2018.0,PF,21.0,True
+2016,17,Wade Baldwin,1,MEM,Vanderbilt,-0.3,-0.3,3,2017.0,PG,20.0,True
+2016,18,Henry Ellenson,1,DET,Marquette,0.4,0.20000000000000004,4,2017.0,PF,20.0,True
+2016,19,Malik Beasley,1,DEN,Florida State,20.1,6.2,4,2017.0,SG,20.0,True
+2016,20,Caris LeVert,1,IND,Michigan,25.4,7.3,4,2017.0,SF,22.0,True
+2016,21,DeAndre' Bembry,1,ATL,Saint Joseph's,4.4,1.0,4,2017.0,SF,22.0,True
+2016,22,Malachi Richardson,1,CHO,Syracuse,-0.1,-0.1,3,2017.0,SG,21.0,True
+2016,23,Ante Žižić,1,BOS,,3.5,3.5,3,2018.0,C,20.0,True
+2016,24,Timothé Luwawu-Cabarrot,1,PHI,,4.7,3.5,4,2017.0,SF,21.0,True
+2016,25,Brice Johnson,1,LAC,UNC,0.1,0.2,2,2017.0,PF,22.0,True
+2016,26,Furkan Korkmaz,1,PHI,,7.6,3.9,3,2018.0,SG,19.0,True
+2016,27,Pascal Siakam,1,TOR,New Mexico State,58.1,21.0,4,2017.0,PF,22.0,True
+2016,28,Skal Labissière,1,PHO,Kentucky,4.5,4.4,4,2017.0,PF,20.0,True
+2016,29,Dejounte Murray,1,SAS,Washington,26.8,5.800000000000001,3,2017.0,PG,20.0,True
+2016,30,Damian Jones,1,GSW,Vanderbilt,11.3,4.4,4,2017.0,C,21.0,True
+2016,31,Deyonta Davis,3,BOS,Michigan State,3.6,3.6,3,2017.0,C,20.0,True
+2016,32,Ivica Zubac,3,LAL,,55.5,11.9,4,2017.0,C,19.0,True
+2016,33,Cheick Diallo,3,LAC,Kansas,6.3,6.3,4,2017.0,PF,20.0,True
+2016,34,Tyler Ulis,3,PHO,Kentucky,0.5,0.49999999999999994,3,2017.0,PG,21.0,True
+2016,35,Rade Zagorac,3,BOS,,,0.0,0,,,,False
+2016,36,Malcolm Brogdon,3,MIL,Virginia,33.4,17.3,4,2017.0,SG,24.0,True
+2016,37,Chinanu Onuaku,3,HOU,Louisville,0.1,0.0,2,2017.0,C,20.0,True
+2016,38,Patrick McCaw,3,MIL,UNLV,4.4,4.199999999999999,4,2017.0,SG,21.0,True
+2016,39,David Michineau,3,NOP,,,0.0,0,,,,False
+2016,40,Diamond Stone,3,NOP,Maryland,-0.1,-0.1,1,2017.0,C,19.0,True
+2016,41,Stephen Zimmerman,3,ORL,UNLV,0.0,0.0,1,2017.0,C,20.0,True
+2016,42,Isaiah Whitehead,3,UTA,Seton Hall,-0.9,-0.9,2,2017.0,PG,21.0,True
+2016,43,Zhou Qi,3,HOU,,-0.2,-0.3,2,2018.0,C,21.0,True
+2016,44,Isaïa Cordinier,3,ATL,,,0.0,0,,,,False
+2016,45,Demetrius Jackson,3,BOS,Notre Dame,0.2,0.2,3,2017.0,PG,22.0,True
+2016,46,A.J. Hammons,3,DAL,Purdue,0.0,0.0,1,2017.0,C,24.0,True
+2016,47,Jake Layman,3,ORL,Maryland,3.8,3.0,4,2017.0,SF,22.0,True
+2016,48,Paul Zipser,3,CHI,,0.0,-0.09999999999999998,2,2017.0,SF,22.0,True
+2016,49,Michael Gbinije,3,DET,Syracuse,-0.1,-0.1,1,2017.0,SG,24.0,True
+2016,50,Georges Niang,3,IND,Iowa State,15.9,2.8,4,2017.0,PF,23.0,True
+2016,51,Ben Bentil,3,BOS,Providence,-0.1,-0.1,1,2017.0,PF,21.0,True
+2016,52,Joel Bolomboy,3,UTA,Weber State,0.3,0.30000000000000004,2,2017.0,PF,23.0,True
+2016,53,Petr Cornelie,3,DEN,,0.0,0.0,0,,,,False
+2016,54,Kay Felder,3,ATL,Oakland,-0.4,-0.4,2,2017.0,PG,21.0,True
+2016,55,Marcus Paige,3,BRK,UNC,0.0,0.0,1,2018.0,PG,23.0,True
+2016,56,Daniel Hamilton,3,DEN,UConn,0.0,0.0,2,2018.0,SG,21.0,True
+2016,57,Wang Zhelin,3,MEM,,,0.0,0,,,,False
+2016,58,Abdel Nader,3,BOS,Iowa State,2.8,2.1,3,2018.0,SF,23.0,True
+2016,59,Isaiah Cousins,3,SAC,Oklahoma,,0.0,0,,,,False
+2016,60,Tyrone Wallace,3,UTA,California,0.1,0.19999999999999996,3,2018.0,PG,22.0,True
+2017,1,Markelle Fultz,1,PHI,Washington,8.3,3.1,4,2018.0,SG,19.0,True
+2017,2,Lonzo Ball,1,LAL,UCLA,13.3,9.2,4,2018.0,PG,20.0,True
+2017,3,Jayson Tatum,1,BOS,Duke,67.2,25.5,4,2018.0,SF,19.0,True
+2017,4,Josh Jackson,1,PHO,Kansas,-1.7,-1.7999999999999998,4,2018.0,SF,20.0,True
+2017,5,De'Aaron Fox,1,SAC,Kentucky,40.3,13.2,4,2018.0,PG,20.0,True
+2017,6,Jonathan Isaac,1,ORL,Florida State,14.9,6.7,3,2018.0,PF,20.0,True
+2017,7,Lauri Markkanen,1,MIN,Arizona,36.7,11.6,4,2018.0,PF,20.0,True
+2017,8,Frank Ntilikina,1,NYK,,0.3,-0.30000000000000004,4,2018.0,PG,19.0,True
+2017,9,Dennis Smith Jr.,1,DAL,NC State,2.3,-1.0,4,2018.0,PG,20.0,True
+2017,10,Zach Collins,1,SAC,Gonzaga,12.4,3.8,3,2018.0,C,20.0,True
+2017,11,Malik Monk,1,CHO,Kentucky,16.1,2.0,4,2018.0,SG,19.0,True
+2017,12,Luke Kennard,1,DET,Duke,28.1,9.7,4,2018.0,SG,21.0,True
+2017,13,Donovan Mitchell,1,DEN,Louisville,60.2,21.8,4,2018.0,SG,21.0,True
+2017,14,Bam Adebayo,1,MIA,Kentucky,64.0,28.3,4,2018.0,C,20.0,True
+2017,15,Justin Jackson,1,POR,UNC,5.3,5.3,4,2018.0,SF,22.0,True
+2017,16,Justin Patton,1,CHI,Creighton,0.4,0.4,4,2018.0,C,20.0,True
+2017,17,D.J. Wilson,1,MIL,Michigan,2.9,2.4,4,2018.0,PF,21.0,True
+2017,18,T.J. Leaf,1,IND,UCLA,2.7,2.7,4,2018.0,PF,20.0,True
+2017,19,John Collins,1,ATL,Wake Forest,43.8,23.0,4,2018.0,PF,20.0,True
+2017,20,Harry Giles,1,POR,Duke,3.1,3.1,3,2019.0,PF,19.0,True
+2017,21,Terrance Ferguson,1,OKC,,4.4,4.4,4,2018.0,SG,19.0,True
+2017,22,Jarrett Allen,1,BRK,Texas,73.1,26.4,4,2018.0,C,19.0,True
+2017,23,OG Anunoby,1,TOR,Indiana,37.6,13.8,4,2018.0,SF,20.0,True
+2017,24,Tyler Lydon,1,UTA,Syracuse,0.2,0.2,2,2018.0,PF,21.0,True
+2017,25,Anžejs Pasečņiks,1,ORL,,0.4,0.4,2,2020.0,C,22.0,True
+2017,26,Caleb Swanigan,1,POR,Purdue,-0.2,-0.2,3,2018.0,PF,20.0,True
+2017,27,Kyle Kuzma,1,BRK,Utah,16.3,12.2,4,2018.0,PF,22.0,True
+2017,28,Tony Bradley,1,LAL,UNC,8.9,6.1,4,2018.0,C,20.0,True
+2017,29,Derrick White,1,SAS,Colorado,46.7,10.200000000000001,4,2018.0,PG,23.0,True
+2017,30,Josh Hart,1,UTA,Villanova,42.8,11.3,4,2018.0,SG,22.0,True
+2017,31,Frank Jackson,3,CHO,Duke,2.5,1.8,3,2019.0,PG,19.0,True
+2017,32,Davon Reed,3,PHO,Miami (FL),1.5,-0.19999999999999998,2,2018.0,SG,22.0,True
+2017,33,Wes Iwundu,3,ORL,Kansas State,4.2,4.3,4,2018.0,SF,23.0,True
+2017,34,Frank Mason III,3,SAC,Kansas,1.2,1.2,4,2018.0,PG,23.0,True
+2017,35,Ivan Rabb,3,ORL,California,3.2,3.3,2,2018.0,PF,20.0,True
+2017,36,Jonah Bolden,3,PHI,,1.4,1.4,2,2019.0,PF,22.0,True
+2017,37,Semi Ojeleye,3,BOS,SMU,5.2,5.0,4,2018.0,PF,23.0,True
+2017,38,Jordan Bell,3,CHI,Oregon,4.9,4.9,4,2018.0,C,23.0,True
+2017,39,Jawun Evans,3,PHI,Oklahoma State,-0.4,-0.4,2,2018.0,PG,21.0,True
+2017,40,Dwayne Bacon,3,NOP,Florida State,0.8,0.7999999999999998,4,2018.0,SG,22.0,True
+2017,41,Tyler Dorsey,3,ATL,Oregon,1.1,1.0,2,2018.0,SG,21.0,True
+2017,42,Thomas Bryant,3,UTA,Indiana,22.7,10.6,4,2018.0,C,20.0,True
+2017,43,Isaiah Hartenstein,3,HOU,,33.3,3.2,3,2019.0,PF,19.0,True
+2017,44,Damyean Dotson,3,NYK,Oregon,3.0,3.0,4,2018.0,SG,23.0,True
+2017,45,Dillon Brooks,3,HOU,Oregon,16.8,3.8,4,2018.0,SF,22.0,True
+2017,46,Sterling Brown,3,PHI,SMU,6.6,5.7,4,2018.0,SG,22.0,True
+2017,47,Ike Anigbogu,3,IND,UCLA,0.0,0.0,2,2018.0,C,19.0,True
+2017,48,Sindarius Thornwell,3,MIL,South Carolina,1.1,1.1,4,2018.0,SG,23.0,True
+2017,49,Vlatko Čančar,3,DEN,,2.4,0.4,2,2020.0,PF,20.0,True
+2017,50,Mathias Lessort,3,PHI,,,0.0,0,,,,False
+2017,51,Monte Morris,3,DEN,Iowa State,24.7,13.1,4,2018.0,PG,22.0,True
+2017,52,Edmond Sumner,3,NOP,Xavier,3.2,1.9,4,2018.0,PG,22.0,True
+2017,53,Kadeem Allen,3,BOS,Arizona,1.0,1.0,3,2018.0,PG,25.0,True
+2017,54,Alec Peters,3,PHO,Valparaiso,0.3,0.3,1,2018.0,PF,22.0,True
+2017,55,Nigel Williams-Goss,3,UTA,Gonzaga,0.0,0.0,1,2020.0,PG,23.0,True
+2017,56,Jabari Bird,3,BOS,California,0.2,0.2,1,2018.0,SG,23.0,True
+2017,57,Sasha Vezenkov,3,BRK,,1.0,0.0,0,,,,False
+2017,58,Ognjen Jaramaz,3,NYK,,,0.0,0,,,,False
+2017,59,Jaron Blossomgame,3,SAS,Clemson,0.3,0.3,1,2019.0,SF,24.0,True
+2017,60,Alpha Kaba,3,ATL,,,0.0,0,,,,False
+2018,1,Deandre Ayton,1,PHO,Arizona,43.8,24.6,4,2019.0,C,20.0,True
+2018,2,Marvin Bagley III,1,SAC,Duke,16.3,7.4,4,2019.0,PF,19.0,True
+2018,3,Luka Dončić,1,ATL,,66.6,29.0,4,2019.0,SG,19.0,True
+2018,4,Jaren Jackson Jr.,1,MEM,Michigan State,30.2,12.9,4,2019.0,PF,19.0,True
+2018,5,Trae Young,1,DAL,Oklahoma,44.7,26.4,4,2019.0,PG,20.0,True
+2018,6,Mo Bamba,1,ORL,Texas,15.7,10.5,4,2019.0,C,20.0,True
+2018,7,Wendell Carter Jr.,1,CHI,Duke,33.3,13.6,4,2019.0,C,19.0,True
+2018,8,Collin Sexton,1,CLE,Alabama,19.7,5.3,4,2019.0,PG,20.0,True
+2018,9,Kevin Knox,1,NYK,Kentucky,0.9,-0.3,4,2019.0,PF,19.0,True
+2018,10,Mikal Bridges,1,PHI,Villanova,50.0,24.6,4,2019.0,SF,22.0,True
+2018,11,Shai Gilgeous-Alexander,1,CHO,Kentucky,75.6,17.5,4,2019.0,PG,20.0,True
+2018,12,Miles Bridges,1,LAC,Michigan State,27.8,15.9,4,2019.0,SF,20.0,True
+2018,13,Jerome Robinson,1,LAC,Boston College,-0.2,-0.09999999999999998,3,2019.0,SG,21.0,True
+2018,14,Michael Porter Jr.,1,DEN,Missouri,29.4,9.600000000000001,3,2020.0,SF,20.0,True
+2018,15,Troy Brown Jr.,1,WAS,Oregon,8.6,4.9,4,2019.0,SF,19.0,True
+2018,16,Zhaire Smith,1,PHO,Texas Tech,0.0,0.0,2,2019.0,SG,19.0,True
+2018,17,Donte DiVincenzo,1,MIL,Villanova,29.1,9.2,4,2019.0,SG,22.0,True
+2018,18,Lonnie Walker IV,1,SAS,Miami (FL),4.9,1.9,4,2019.0,SG,20.0,True
+2018,19,Kevin Huerter,1,ATL,Maryland,21.7,9.5,4,2019.0,SG,20.0,True
+2018,20,Josh Okogie,1,MIN,Georgia Tech,14.2,5.4,4,2019.0,SG,20.0,True
+2018,21,Grayson Allen,1,UTA,Duke,26.4,8.100000000000001,4,2019.0,SG,23.0,True
+2018,22,Chandler Hutchison,1,CHI,Boise State,1.1,1.2,4,2019.0,SF,22.0,True
+2018,23,Aaron Holiday,1,IND,UCLA,11.6,4.7,4,2019.0,PG,22.0,True
+2018,24,Anfernee Simons,1,POR,,15.7,4.0,4,2019.0,SG,19.0,True
+2018,25,Moritz Wagner,1,LAL,Michigan,17.9,5.8999999999999995,4,2019.0,C,21.0,True
+2018,26,Landry Shamet,1,PHI,Wichita State,15.7,10.600000000000001,4,2019.0,SG,21.0,True
+2018,27,Robert Williams,1,BOS,Texas A&M,28.3,18.4,4,2019.0,C,21.0,True
+2018,28,Jacob Evans,1,GSW,Cincinnati,-0.6,-0.6,2,2019.0,SG,21.0,True
+2018,29,Džanan Musa,1,BRK,,0.0,0.1,2,2019.0,SG,19.0,True
+2018,30,Omari Spellman,1,ATL,Villanova,2.4,2.4,2,2019.0,PF,21.0,True
+2018,31,Elie Okobo,3,PHO,,0.5,0.5,2,2019.0,PG,21.0,True
+2018,32,Jevon Carter,3,MEM,West Virginia,9.4,4.6,4,2019.0,PG,23.0,True
+2018,33,Jalen Brunson,3,DAL,Villanova,54.2,17.3,4,2019.0,PG,22.0,True
+2018,34,Devonte' Graham,3,ATL,Kansas,12.7,10.1,4,2019.0,PG,23.0,True
+2018,35,Melvin Frazier,3,ORL,Tulane,-0.4,-0.30000000000000004,3,2019.0,SG,22.0,True
+2018,36,Mitchell Robinson,3,NYK,,41.0,24.799999999999997,4,2019.0,C,20.0,True
+2018,37,Gary Trent Jr.,3,SAC,Duke,19.0,9.6,4,2019.0,SG,20.0,True
+2018,38,Khyri Thomas,3,PHI,Creighton,0.5,0.5,3,2019.0,SG,22.0,True
+2018,39,Isaac Bonga,3,PHI,,1.7,1.8,4,2019.0,PG,19.0,True
+2018,40,Rodions Kurucs,3,BRK,,2.3,2.3000000000000003,3,2019.0,SF,20.0,True
+2018,41,Jarred Vanderbilt,3,ORL,Kentucky,18.6,9.2,4,2019.0,PF,19.0,True
+2018,42,Bruce Brown,3,DET,Miami (FL),22.9,12.8,4,2019.0,SG,22.0,True
+2018,43,Justin Jackson,3,DEN,Maryland,,4.3,4,2019.0,SF,23.0,True
+2018,44,Issuf Sanon,3,WAS,,,0.0,0,,,,False
+2018,45,Hamidou Diallo,3,BRK,Kentucky,6.2,4.9,4,2019.0,SG,20.0,True
+2018,46,De'Anthony Melton,3,HOU,USC,15.0,7.6000000000000005,4,2019.0,PG,20.0,True
+2018,47,Svi Mykhailiuk,3,LAL,Kansas,5.3,2.6,4,2019.0,SF,21.0,True
+2018,48,Keita Bates-Diop,3,MIN,Ohio State,7.4,3.4000000000000004,4,2019.0,SF,23.0,True
+2018,49,Chimezie Metu,3,SAS,USC,5.7,2.1,4,2019.0,PF,21.0,True
+2018,50,Alize Johnson,3,IND,Missouri State,1.3,1.3,4,2019.0,PF,22.0,True
+2018,51,Tony Carr,3,NOP,Penn State,,0.0,0,,,,False
+2018,52,Vince Edwards,3,UTA,Purdue,0.0,0.0,1,2019.0,SF,22.0,True
+2018,53,Devon Hall,3,OKC,Virginia,-0.2,-0.2,1,2020.0,PG,23.0,True
+2018,54,Shake Milton,3,DAL,SMU,11.7,6.8999999999999995,4,2019.0,SG,22.0,True
+2018,55,Arnoldas Kulboka,3,CHO,,0.0,0.0,1,2022.0,SF,21.0,True
+2018,56,Ray Spalding,3,PHI,Louisville,0.1,0.1,2,2019.0,PF,21.0,True
+2018,57,Kevin Hervey,3,OKC,UT Arlington,-0.1,-0.1,1,2020.0,PF,22.0,True
+2018,58,Thomas Welsh,3,DEN,UCLA,0.1,0.1,1,2019.0,C,22.0,True
+2018,59,George King,3,PHO,Colorado,-0.1,-0.1,2,2019.0,SF,25.0,True
+2018,60,Kostas Antetokounmpo,3,PHI,Dayton,-0.2,-0.2,3,2019.0,PF,21.0,True
+2019,1,Zion Williamson,1,NOP,Duke,30.3,14.299999999999999,3,2020.0,PF,19.0,True
+2019,2,Ja Morant,1,MEM,Murray State,24.3,19.7,4,2020.0,PG,20.0,True
+2019,3,RJ Barrett,1,NYK,Duke,17.3,8.1,4,2020.0,SG,19.0,True
+2019,4,De'Andre Hunter,1,LAL,Virginia,13.1,5.4,4,2020.0,SF,22.0,True
+2019,5,Darius Garland,1,CLE,Vanderbilt,27.1,13.8,4,2020.0,SG,20.0,True
+2019,6,Jarrett Culver,1,PHO,Texas Tech,-0.1,-0.1,4,2020.0,SG,20.0,True
+2019,7,Coby White,1,CHI,UNC,19.9,8.8,4,2020.0,PG,19.0,True
+2019,8,Jaxson Hayes,1,ATL,Texas,25.1,14.0,4,2020.0,C,19.0,True
+2019,9,Rui Hachimura,1,WAS,Gonzaga,18.7,7.1,4,2020.0,PF,21.0,True
+2019,10,Cam Reddish,1,ATL,Duke,3.3,1.9,4,2020.0,SF,20.0,True
+2019,11,Cameron Johnson,1,MIN,UNC,26.6,14.4,4,2020.0,PF,23.0,True
+2019,12,P.J. Washington,1,CHO,Kentucky,16.5,10.7,4,2020.0,PF,21.0,True
+2019,13,Tyler Herro,1,MIA,Kentucky,22.3,10.6,4,2020.0,SG,20.0,True
+2019,14,Romeo Langford,1,BOS,Indiana,2.0,2.0,4,2020.0,SG,20.0,True
+2019,15,Sekou Doumbouya,1,DET,,-0.4,-0.4,3,2020.0,PF,19.0,True
+2019,16,Chuma Okeke,1,ORL,Auburn,5.0,4.2,3,2021.0,PF,21.0,True
+2019,17,Nickeil Alexander-Walker,1,BRK,Virginia Tech,16.5,1.7000000000000002,4,2020.0,SG,21.0,True
+2019,18,Goga Bitadze,1,IND,,19.3,5.4,4,2020.0,C,20.0,True
+2019,19,Luka Šamanić,1,SAS,,0.0,0.30000000000000004,3,2020.0,PF,20.0,True
+2019,20,Matisse Thybulle,1,BOS,Washington,15.4,10.9,4,2020.0,SG,22.0,True
+2019,21,Brandon Clarke,1,OKC,Gonzaga,24.6,20.0,4,2020.0,PF,23.0,True
+2019,22,Grant Williams,1,BOS,Tennessee,17.4,12.2,4,2020.0,PF,21.0,True
+2019,23,Darius Bazley,1,UTA,,3.1,2.9000000000000004,4,2020.0,PF,19.0,True
+2019,24,Ty Jerome,1,PHI,Virginia,11.2,3.9000000000000004,4,2020.0,SG,22.0,True
+2019,25,Nassir Little,1,POR,UNC,4.7,4.1,4,2020.0,PF,19.0,True
+2019,26,Dylan Windler,1,CLE,Belmont,1.6,1.3,3,2021.0,SF,23.0,True
+2019,27,Mfiondu Kabengele,1,BRK,Florida State,0.4,0.5,3,2020.0,C,22.0,True
+2019,28,Jordan Poole,1,GSW,Michigan,11.4,9.9,4,2020.0,SG,20.0,True
+2019,29,Keldon Johnson,1,SAS,Kentucky,23.2,10.600000000000001,4,2020.0,SF,20.0,True
+2019,30,Kevin Porter Jr.,1,MIL,USC,9.0,4.0,4,2020.0,SF,19.0,True
+2019,31,Nic Claxton,3,BRK,Georgia,30.9,15.1,4,2020.0,C,20.0,True
+2019,32,KZ Okpala,3,PHO,Stanford,1.0,1.0,4,2020.0,PF,20.0,True
+2019,33,Carsen Edwards,3,PHI,Purdue,0.3,0.29999999999999993,3,2020.0,SG,21.0,True
+2019,34,Bruno Fernando,3,PHI,Maryland,3.8,2.0,4,2020.0,C,21.0,True
+2019,35,Didi Louzada,3,ATL,,-0.1,-0.1,2,2021.0,SF,20.0,True
+2019,36,Cody Martin,3,CHO,Nevada,7.1,6.1,4,2020.0,SF,24.0,True
+2019,37,Deividas Sirvydis,3,DAL,,-0.1,-0.1,2,2021.0,SG,19.0,True
+2019,38,Daniel Gafford,3,CHI,Arkansas,35.2,17.5,4,2020.0,C,21.0,True
+2019,39,Alen Smailagić,3,NOP,,0.3,0.2,2,2020.0,C,19.0,True
+2019,40,Justin James,3,SAC,Wyoming,0.3,0.2,2,2020.0,SF,23.0,True
+2019,41,Eric Paschall,3,GSW,Villanova,5.0,5.0,3,2020.0,PF,23.0,True
+2019,42,Admiral Schofield,3,PHI,Tennessee,1.2,1.2000000000000002,3,2020.0,PF,22.0,True
+2019,43,Jaylen Nowell,3,MIN,Washington,4.7,4.8999999999999995,4,2020.0,SG,20.0,True
+2019,44,Bol Bol,3,MIA,Oregon,5.0,2.5,4,2020.0,PF,20.0,True
+2019,45,Isaiah Roby,3,DET,Nebraska,4.0,4.1,4,2020.0,PF,21.0,True
+2019,46,Talen Horton-Tucker,3,ORL,Iowa State,6.0,4.1000000000000005,4,2020.0,SG,19.0,True
+2019,47,Ignas Brazdeikis,3,SAC,Michigan,0.4,0.5,3,2020.0,SF,21.0,True
+2019,48,Terance Mann,3,LAC,Florida State,23.3,14.3,4,2020.0,SF,23.0,True
+2019,49,Quinndary Weatherspoon,3,SAS,Mississippi State,0.2,0.2,3,2020.0,SG,23.0,True
+2019,50,Jarrell Brantley,3,IND,College of Charleston,0.6,0.6,3,2020.0,PF,23.0,True
+2019,51,Tremont Waters,3,BOS,LSU,0.1,0.10000000000000003,3,2020.0,PG,22.0,True
+2019,52,Jalen McDaniels,3,CHO,San Diego State,5.3,6.1,4,2020.0,SF,22.0,True
+2019,53,Justin Wright-Foreman,3,UTA,Hofstra,0.0,0.0,1,2020.0,PG,22.0,True
+2019,54,Marial Shayok,3,PHI,Iowa State,-0.1,-0.1,1,2020.0,SG,24.0,True
+2019,55,Kyle Guy,3,NYK,Virginia,0.1,0.0,3,2020.0,SG,22.0,True
+2019,56,Jaylen Hands,3,LAC,UCLA,,0.0,0,,,,False
+2019,57,Jordan Bone,3,NOP,Tennessee,0.1,0.1,2,2020.0,PG,22.0,True
+2019,58,Miye Oni,3,GSW,Yale,1.0,1.0,3,2020.0,SF,22.0,True
+2019,59,Dewan Hernandez,3,TOR,Miami (FL),0.0,0.0,1,2020.0,C,23.0,True
+2019,60,Vanja Marinković,3,SAC,,,0.0,0,,,,False
+2020,1,Anthony Edwards,1,MIN,Georgia,31.4,16.4,4,2021.0,SG,19.0,True
+2020,2,James Wiseman,1,GSW,Memphis,4.3,4.2,3,2021.0,C,19.0,True
+2020,3,LaMelo Ball,1,CHO,,19.8,11.5,4,2021.0,PG,19.0,True
+2020,4,Patrick Williams,1,CHI,Florida State,8.3,8.1,4,2021.0,PF,19.0,True
+2020,5,Isaac Okoro,1,CLE,Auburn,18.2,13.5,4,2021.0,SG,20.0,True
+2020,6,Onyeka Okongwu,1,ATL,USC,30.9,17.7,4,2021.0,C,20.0,True
+2020,7,Killian Hayes,1,DET,,-0.4,-0.40000000000000013,4,2021.0,PG,19.0,True
+2020,8,Obi Toppin,1,NYK,Dayton,17.7,12.3,4,2021.0,PF,22.0,True
+2020,9,Deni Avdija,1,WAS,,21.7,9.1,4,2021.0,SF,20.0,True
+2020,10,Jalen Smith,1,PHO,Maryland,14.6,9.2,4,2021.0,PF,20.0,True
+2020,11,Devin Vassell,1,SAS,Florida State,16.8,9.6,4,2021.0,SF,20.0,True
+2020,12,Tyrese Haliburton,1,SAC,Iowa State,37.6,27.1,4,2021.0,PG,20.0,True
+2020,13,Kira Lewis Jr.,1,NOP,Alabama,1.3,1.4,4,2021.0,PG,19.0,True
+2020,14,Aaron Nesmith,1,BOS,Vanderbilt,11.2,7.6,4,2021.0,SF,21.0,True
+2020,15,Cole Anthony,1,ORL,UNC,10.5,8.9,4,2021.0,PG,20.0,True
+2020,16,Isaiah Stewart,1,POR,Washington,19.5,11.1,4,2021.0,C,19.0,True
+2020,17,Aleksej Pokusevski,1,MIN,,-0.2,-0.09999999999999998,4,2021.0,PF,19.0,True
+2020,18,Josh Green,1,DAL,Arizona,11.1,7.7,4,2021.0,SG,20.0,True
+2020,19,Saddiq Bey,1,BRK,Villanova,20.0,14.7,4,2021.0,SF,21.0,True
+2020,20,Precious Achiuwa,1,MIA,Memphis,14.8,9.4,4,2021.0,PF,21.0,True
+2020,21,Tyrese Maxey,1,PHI,Kentucky,35.1,22.7,4,2021.0,SG,20.0,True
+2020,22,Zeke Nnaji,1,DEN,Arizona,7.5,5.5,4,2021.0,PF,20.0,True
+2020,23,Leandro Bolmaro,1,NYK,,-0.3,-0.3,2,2022.0,SF,20.0,True
+2020,24,R.J. Hampton,1,MIL,,0.8,0.7999999999999999,4,2021.0,SG,19.0,True
+2020,25,Immanuel Quickley,1,OKC,Kentucky,27.9,18.8,4,2021.0,PG,21.0,True
+2020,26,Payton Pritchard,1,BOS,Oregon,29.4,12.3,4,2021.0,SG,23.0,True
+2020,27,Udoka Azubuike,1,UTA,Kansas,2.0,1.9,4,2021.0,C,21.0,True
+2020,28,Jaden McDaniels,1,LAL,Washington,23.1,11.6,4,2021.0,PF,20.0,True
+2020,29,Malachi Flynn,1,TOR,San Diego State,2.9,2.8,4,2021.0,PG,22.0,True
+2020,30,Desmond Bane,1,BOS,TCU,33.0,19.0,4,2021.0,SG,22.0,True
+2020,31,Tyrell Terry,3,DAL,Stanford,0.0,-0.1,2,2021.0,PG,20.0,True
+2020,32,Vernon Carey Jr.,3,CHO,Duke,0.2,0.30000000000000004,3,2021.0,C,19.0,True
+2020,33,Daniel Oturu,3,MIN,Minnesota,0.3,0.4,2,2021.0,C,21.0,True
+2020,34,Théo Maledon,3,PHI,,-0.2,-0.19999999999999996,4,2021.0,PG,19.0,True
+2020,35,Xavier Tillman Sr.,3,SAC,Michigan State,10.3,10.3,4,2021.0,PF,22.0,True
+2020,36,Tyler Bey,3,PHI,Colorado,0.0,0.0,1,2021.0,SF,22.0,True
+2020,37,Vít Krejčí,3,WAS,,6.9,1.2999999999999998,3,2022.0,SG,20.0,True
+2020,38,Saben Lee,3,UTA,Vanderbilt,3.5,3.5,4,2021.0,PG,21.0,True
+2020,39,Elijah Hughes,3,NOP,Syracuse,-0.4,-0.4,2,2021.0,SF,22.0,True
+2020,40,Robert Woodard II,3,MEM,Mississippi State,-0.1,-0.1,2,2021.0,SF,21.0,True
+2020,41,Tre Jones,3,SAS,Duke,20.3,11.6,4,2021.0,PG,21.0,True
+2020,42,Nick Richards,3,NOP,Kentucky,13.9,10.3,4,2021.0,PF,23.0,True
+2020,43,Jahmi'us Ramsey,3,SAC,Texas Tech,-0.1,0.0,3,2021.0,SG,19.0,True
+2020,44,Marko Simonovic,3,CHI,,0.0,0.0,2,2022.0,C,21.0,True
+2020,45,Jordan Nwora,3,MIL,Louisville,3.0,3.0,4,2021.0,SF,22.0,True
+2020,46,CJ Elleby,3,POR,Washington State,0.5,0.5,2,2021.0,SF,20.0,True
+2020,47,Yam Madar,3,BOS,,,0.0,0,,,,False
+2020,48,Nico Mannion,3,GSW,Arizona,0.2,0.2,1,2021.0,PG,19.0,True
+2020,49,Isaiah Joe,3,PHI,Arkansas,19.0,8.3,4,2021.0,SG,21.0,True
+2020,50,Skylar Mays,3,ATL,LSU,2.1,2.2,4,2021.0,SG,23.0,True
+2020,51,Justinian Jessup,3,GSW,Boise State,,0.0,0,,,,False
+2020,52,KJ Martin,3,SAC,,12.4,11.1,4,2021.0,SF,20.0,True
+2020,53,Cassius Winston,3,OKC,Michigan State,0.1,0.1,2,2021.0,PG,22.0,True
+2020,54,Cassius Stanley,3,IND,Duke,0.0,0.0,2,2021.0,SG,21.0,True
+2020,55,Jay Scrubb,3,BRK,John A. Logan College,-0.1,0.0,3,2021.0,SG,20.0,True
+2020,56,Grant Riller,3,CHO,College of Charleston,0.1,0.1,1,2021.0,PG,23.0,True
+2020,57,Reggie Perry,3,LAC,Mississippi State,0.4,0.4,2,2021.0,PF,20.0,True
+2020,58,Paul Reed,3,PHI,DePaul,15.9,9.799999999999999,4,2021.0,PF,21.0,True
+2020,59,Jalen Harris,3,TOR,Nevada,0.3,0.3,1,2021.0,SG,22.0,True
+2020,60,Sam Merrill,3,NOP,Utah State University,10.5,3.5,4,2021.0,SG,24.0,True

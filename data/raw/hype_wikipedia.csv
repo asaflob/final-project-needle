@@ -1,0 +1,301 @@
+draft_year,pick,player,wiki_title,resolved,views_predraft,months_with_data
+2016,1,Ben Simmons,Ben Simmons,True,1006685.0,11
+2016,2,Brandon Ingram,Brandon Ingram,True,209663.0,11
+2016,3,Jaylen Brown,Jaylen Brown,True,48349.0,11
+2016,4,Dragan Bender,Dragan Bender,True,87271.0,9
+2016,5,Kris Dunn,Kris Dunn,True,98994.0,11
+2016,6,Buddy Hield,Buddy Hield,True,529818.0,11
+2016,7,Jamal Murray,Jamal Murray,True,106625.0,11
+2016,8,Marquese Chriss,Marquese Chriss,True,4195.0,3
+2016,9,Jakob Poeltl,Jakob Pöltl,True,32835.0,11
+2016,10,Thon Maker,Thon Maker,True,233547.0,11
+2016,11,Domantas Sabonis,Domantas Sabonis,True,219634.0,11
+2016,12,Taurean Prince,Taurean Prince,True,18122.0,10
+2016,13,Georgios Papagiannis,Georgios Papagiannis,True,29005.0,11
+2016,14,Denzel Valentine,Denzel Valentine,True,116435.0,11
+2016,15,Juancho Hernangómez,Juancho Hernangómez,True,1327.0,3
+2016,16,Guerschon Yabusele,Guerschon Yabusele,True,1284.0,3
+2016,17,Wade Baldwin,Wade Baldwin IV,True,4978.0,3
+2016,18,Henry Ellenson,Henry Ellenson,True,25535.0,11
+2016,19,Malik Beasley,Malik Beasley,True,3864.0,2
+2016,20,Caris LeVert,Caris LeVert,True,33404.0,11
+2016,21,DeAndre' Bembry,DeAndre' Bembry,True,571.0,3
+2016,22,Malachi Richardson,Malachi Richardson,True,2828.0,3
+2016,23,Ante Žižić,Ante Žižić,True,1719.0,11
+2016,24,Timothé Luwawu-Cabarrot,Timothé Luwawu-Cabarrot,True,0.0,0
+2016,25,Brice Johnson,Brice Johnson,True,49868.0,5
+2016,26,Furkan Korkmaz,Furkan Korkmaz,True,25613.0,11
+2016,27,Pascal Siakam,Pascal Siakam,True,2676.0,3
+2016,28,Skal Labissière,Skal Labissière,True,92241.0,11
+2016,29,Dejounte Murray,Dejounte Murray,True,2962.0,2
+2016,30,Damian Jones,Damian Jones (basketball),True,3050.0,6
+2016,31,Deyonta Davis,Deyonta Davis,True,20249.0,11
+2016,32,Ivica Zubac,Ivica Zubac,True,10468.0,6
+2016,33,Cheick Diallo,Cheick Diallo,True,57365.0,11
+2016,34,Tyler Ulis,Tyler Ulis,True,151723.0,11
+2016,35,Rade Zagorac,Rade Zagorac,True,14033.0,11
+2016,36,Malcolm Brogdon,Malcolm Brogdon,True,44862.0,11
+2016,37,Chinanu Onuaku,Chinanu Onuaku,True,0.0,0
+2016,38,Patrick McCaw,Patrick McCaw,True,0.0,0
+2016,39,David Michineau,David Michineau,True,0.0,0
+2016,40,Diamond Stone,Diamond Stone,True,44513.0,11
+2016,41,Stephen Zimmerman,Stephen Zimmerman,True,18441.0,11
+2016,42,Isaiah Whitehead,Isaiah Whitehead,True,25827.0,11
+2016,43,Zhou Qi,Zhou Qi,True,35921.0,7
+2016,44,Isaïa Cordinier,Isaïa Cordinier,True,0.0,0
+2016,45,Demetrius Jackson,Demetrius Jackson,True,24525.0,11
+2016,46,A.J. Hammons,A. J. Hammons,True,17905.0,11
+2016,47,Jake Layman,Jake Layman,True,20241.0,11
+2016,48,Paul Zipser,Paul Zipser,True,10617.0,11
+2016,49,Michael Gbinije,Michael Gbinije,True,46639.0,9
+2016,50,Georges Niang,Georges Niang,True,102938.0,11
+2016,51,Ben Bentil,Ben Bentil,True,0.0,0
+2016,52,Joel Bolomboy,Joel Bolomboy,True,2712.0,3
+2016,53,Petr Cornelie,Petr Cornelie,True,1105.0,3
+2016,54,Kay Felder,Kay Felder,True,12065.0,4
+2016,55,Marcus Paige,Marcus Paige,True,116342.0,11
+2016,56,Daniel Hamilton,Daniel Hamilton (basketball),True,0.0,0
+2016,57,Wang Zhelin,Wang Zhelin,True,13720.0,11
+2016,58,Abdel Nader,Abdel Nader,True,10425.0,11
+2016,59,Isaiah Cousins,Isaiah Cousins,True,0.0,0
+2016,60,Tyrone Wallace,Tyrone Wallace,True,4296.0,11
+2017,1,Markelle Fultz,Markelle Fultz,True,394733.0,11
+2017,2,Lonzo Ball,Lonzo Ball,True,2312667.0,11
+2017,3,Jayson Tatum,Jayson Tatum,True,133031.0,11
+2017,4,Josh Jackson,Josh Jackson (basketball),True,209135.0,11
+2017,5,De'Aaron Fox,De'Aaron Fox,True,217161.0,11
+2017,6,Jonathan Isaac,Jonathan Isaac,True,28350.0,7
+2017,7,Lauri Markkanen,Lauri Markkanen,True,90438.0,11
+2017,8,Frank Ntilikina,Frank Ntilikina,True,36388.0,11
+2017,9,Dennis Smith Jr.,Dennis Smith Jr.,True,99828.0,10
+2017,10,Zach Collins,Zach Collins,True,96516.0,11
+2017,11,Malik Monk,Malik Monk,True,243426.0,11
+2017,12,Luke Kennard,Luke Kennard,True,14038.0,11
+2017,13,Donovan Mitchell,Donovan Mitchell,True,1419.0,11
+2017,14,Bam Adebayo,Bam Adebayo,True,3785.0,11
+2017,15,Justin Jackson,"Justin Jackson (basketball, born 1995)",True,143434.0,11
+2017,16,Justin Patton,Justin Patton,True,7548.0,4
+2017,17,D.J. Wilson,D. J. Wilson,True,3250.0,2
+2017,18,T.J. Leaf,T. J. Leaf,True,156694.0,11
+2017,19,John Collins,John Collins (basketball),True,4148.0,3
+2017,20,Harry Giles,Harry Giles III,True,0.0,0
+2017,21,Terrance Ferguson,Terrance Ferguson,True,73158.0,11
+2017,22,Jarrett Allen,Jarrett Allen,True,6557.0,3
+2017,23,OG Anunoby,OG Anunoby,True,16535.0,6
+2017,24,Tyler Lydon,Tyler Lydon,True,2465.0,2
+2017,25,Anžejs Pasečņiks,Anžejs Pasečņiks,True,8430.0,11
+2017,26,Caleb Swanigan,Caleb Swanigan,True,150152.0,11
+2017,27,Kyle Kuzma,Kyle Kuzma,True,181.0,1
+2017,28,Tony Bradley,Tony Bradley (basketball),True,3812.0,2
+2017,29,Derrick White,Derrick White,True,250.0,11
+2017,30,Josh Hart,Josh Hart,True,1087.0,11
+2017,31,Frank Jackson,Frank Jackson (basketball),True,57136.0,11
+2017,32,Davon Reed,Davon Reed,True,0.0,0
+2017,33,Wes Iwundu,Wes Iwundu,True,0.0,0
+2017,34,Frank Mason III,Frank Mason III,True,177467.0,11
+2017,35,Ivan Rabb,Ivan Rabb,True,35974.0,11
+2017,36,Jonah Bolden,Jonah Bolden,True,31482.0,11
+2017,37,Semi Ojeleye,Semi Ojeleye,True,4133.0,2
+2017,38,Jordan Bell,Jordan Bell,True,5485.0,2
+2017,39,Jawun Evans,Jawun Evans,True,5494.0,3
+2017,40,Dwayne Bacon,Dwayne Bacon,True,29913.0,11
+2017,41,Tyler Dorsey,Tyler Dorsey,True,67882.0,11
+2017,42,Thomas Bryant,Thomas Bryant,True,296.0,11
+2017,43,Isaiah Hartenstein,Isaiah Hartenstein,True,30257.0,11
+2017,44,Damyean Dotson,Damyean Dotson,True,0.0,0
+2017,45,Dillon Brooks,Dillon Brooks,True,71929.0,11
+2017,46,Sterling Brown,Sterling Brown (basketball),True,0.0,0
+2017,47,Ike Anigbogu,Ike Anigbogu,True,5470.0,2
+2017,48,Sindarius Thornwell,Sindarius Thornwell,True,63205.0,11
+2017,49,Vlatko Čančar,Vlatko Čančar,True,7259.0,11
+2017,50,Mathias Lessort,Mathias Lessort,True,2001.0,11
+2017,51,Monte Morris,Monte (name),True,0.0,0
+2017,52,Edmond Sumner,Edmond Sumner,True,1217.0,2
+2017,53,Kadeem Allen,Kadeem Allen,True,0.0,0
+2017,54,Alec Peters,Alec Peters,True,8027.0,11
+2017,55,Nigel Williams-Goss,Nigel Williams-Goss,True,121123.0,11
+2017,56,Jabari Bird,Jabari Bird,True,0.0,1
+2017,57,Sasha Vezenkov,Aleksandar Vezenkov,True,23689.0,11
+2017,58,Ognjen Jaramaz,Ognjen Jaramaz,True,6034.0,11
+2017,59,Jaron Blossomgame,Jaron Blossomgame,True,639.0,2
+2017,60,Alpha Kaba,Alpha Kaba,True,9937.0,11
+2018,1,Deandre Ayton,Deandre Ayton,True,185522.0,3
+2018,2,Marvin Bagley III,Marvin Bagley III,True,483935.0,11
+2018,3,Luka Dončić,Luka Dončić,True,700717.0,11
+2018,4,Jaren Jackson Jr.,Jaren Jackson Jr.,True,126171.0,11
+2018,5,Trae Young,Trae Young,True,716374.0,11
+2018,6,Mo Bamba,Mo Bamba,True,1755.0,11
+2018,7,Wendell Carter Jr.,Wendell Carter Jr.,True,0.0,0
+2018,8,Collin Sexton,Collin Sexton,True,149165.0,11
+2018,9,Kevin Knox,Kevin Knox II,True,0.0,0
+2018,10,Mikal Bridges,Mikal Bridges,True,133910.0,11
+2018,11,Shai Gilgeous-Alexander,Shai Gilgeous-Alexander,True,44578.0,11
+2018,12,Miles Bridges,Miles Bridges,True,136252.0,11
+2018,13,Jerome Robinson,Jerome Robinson,True,1669.0,2
+2018,14,Michael Porter Jr.,Michael Porter Jr.,True,400021.0,11
+2018,15,Troy Brown Jr.,Troy Brown Jr.,True,16072.0,11
+2018,16,Zhaire Smith,Zhaire Smith,True,2015.0,1
+2018,17,Donte DiVincenzo,Donte DiVincenzo,True,301411.0,3
+2018,18,Lonnie Walker IV,Lonnie Walker IV,True,22.0,2
+2018,19,Kevin Huerter,Kevin Huerter,True,621.0,1
+2018,20,Josh Okogie,Josh Okogie,True,2327.0,2
+2018,21,Grayson Allen,Grayson Allen,True,585114.0,11
+2018,22,Chandler Hutchison,Chandler Hutchison,True,4552.0,2
+2018,23,Aaron Holiday,Aaron Holiday,True,96894.0,11
+2018,24,Anfernee Simons,Anfernee Simons,True,8868.0,3
+2018,25,Moritz Wagner,Moritz Wagner (basketball),True,324686.0,11
+2018,26,Landry Shamet,Landry Shamet,True,12198.0,6
+2018,27,Robert Williams,Robert Williams III,True,0.0,0
+2018,28,Jacob Evans,Jacob Evans,True,1353.0,2
+2018,29,Džanan Musa,Džanan Musa,True,35007.0,11
+2018,30,Omari Spellman,Omari Spellman,True,26146.0,3
+2018,31,Elie Okobo,Élie Okobo,True,3451.0,2
+2018,32,Jevon Carter,Jevon Carter,True,103379.0,10
+2018,33,Jalen Brunson,Jalen Brunson,True,257983.0,11
+2018,34,Devonte' Graham,Devonte' Graham,True,90142.0,11
+2018,35,Melvin Frazier,Melvin Frazier,True,754.0,2
+2018,36,Mitchell Robinson,Mitchell Robinson,True,65142.0,11
+2018,37,Gary Trent Jr.,Gary Trent Jr.,True,89401.0,11
+2018,38,Khyri Thomas,Khyri Thomas,True,3062.0,2
+2018,39,Isaac Bonga,Isaac Bonga,True,10413.0,11
+2018,40,Rodions Kurucs,Rodions Kurucs,True,13632.0,11
+2018,41,Jarred Vanderbilt,Jarred Vanderbilt,True,22521.0,11
+2018,42,Bruce Brown,Bruce Brown (basketball),True,8.0,2
+2018,43,Justin Jackson,"Justin Jackson (basketball, born 1995)",True,166553.0,11
+2018,44,Issuf Sanon,Issuf Sanon,True,3187.0,4
+2018,45,Hamidou Diallo,Hamidou Diallo,True,75320.0,11
+2018,46,De'Anthony Melton,De'Anthony Melton,True,5926.0,3
+2018,47,Svi Mykhailiuk,Sviatoslav Mykhailiuk,True,47632.0,11
+2018,48,Keita Bates-Diop,Keita Bates-Diop,True,37332.0,5
+2018,49,Chimezie Metu,Chimezie Metu,True,861.0,2
+2018,50,Alize Johnson,Alize Johnson,True,5134.0,11
+2018,51,Tony Carr,Tony Carr (basketball),True,13539.0,11
+2018,52,Vince Edwards,Vincent Edwards (basketball),True,12040.0,10
+2018,53,Devon Hall,Devon Hall,True,1414.0,11
+2018,54,Shake Milton,Shake Milton,True,8135.0,11
+2018,55,Arnoldas Kulboka,Arnoldas Kulboka,True,10243.0,11
+2018,56,Ray Spalding,Ray Spalding,True,274.0,1
+2018,57,Kevin Hervey,Kevin Hervey,True,3033.0,11
+2018,58,Thomas Welsh,Thomas Welsh (basketball),True,42924.0,11
+2018,59,George King,"George King (basketball, born 1994)",True,0.0,0
+2018,60,Kostas Antetokounmpo,Kostas Antetokounmpo,True,58950.0,11
+2019,1,Zion Williamson,Zion Williamson,True,3546010.0,11
+2019,2,Ja Morant,Ja Morant,True,707456.0,6
+2019,3,RJ Barrett,RJ Barrett,True,7159.0,11
+2019,4,De'Andre Hunter,De'Andre Hunter,True,114204.0,11
+2019,5,Darius Garland,Darius Garland,True,82005.0,11
+2019,6,Jarrett Culver,Jarrett Culver,True,98202.0,5
+2019,7,Coby White,Coby White,True,142302.0,7
+2019,8,Jaxson Hayes,Jaxson Hayes,True,18089.0,5
+2019,9,Rui Hachimura,Rui Hachimura,True,619185.0,11
+2019,10,Cam Reddish,Cam Reddish,True,184459.0,11
+2019,11,Cameron Johnson,Cameron Johnson,True,67897.0,11
+2019,12,P.J. Washington,P. J. Washington,True,82803.0,11
+2019,13,Tyler Herro,Tyler Herro,True,63045.0,3
+2019,14,Romeo Langford,Romeo Langford,True,91990.0,11
+2019,15,Sekou Doumbouya,Sekou Doumbouya,True,48143.0,11
+2019,16,Chuma Okeke,Chuma Okeke,True,389.0,1
+2019,17,Nickeil Alexander-Walker,Nickeil Alexander-Walker,True,32278.0,9
+2019,18,Goga Bitadze,Goga Bitadze,True,49518.0,11
+2019,19,Luka Šamanić,Luka Šamanić,True,19965.0,11
+2019,20,Matisse Thybulle,Matisse Thybulle,True,31765.0,11
+2019,21,Brandon Clarke,Brandon Clarke,True,62691.0,9
+2019,22,Grant Williams,Grant Williams (basketball),True,60833.0,11
+2019,23,Darius Bazley,Darius Bazley,True,96939.0,10
+2019,24,Ty Jerome,Ty Jerome,True,62155.0,4
+2019,25,Nassir Little,Nassir Little,True,94048.0,11
+2019,26,Dylan Windler,Dylan Windler,True,1597.0,2
+2019,27,Mfiondu Kabengele,Mfiondu Kabengele,True,3165.0,2
+2019,28,Jordan Poole,Jordan Poole,True,46871.0,11
+2019,29,Keldon Johnson,Keldon Johnson,True,35152.0,11
+2019,30,Kevin Porter Jr.,Kevin Porter Jr.,True,44425.0,7
+2019,31,Nic Claxton,Nic Claxton,True,17.0,1
+2019,32,KZ Okpala,KZ Okpala,True,8785.0,5
+2019,33,Carsen Edwards,Carsen Edwards,True,256881.0,11
+2019,34,Bruno Fernando,Bruno Fernando,True,51521.0,11
+2019,35,Didi Louzada,Didi Louzada,True,0.0,0
+2019,36,Cody Martin,Cody Martin (basketball),True,25528.0,11
+2019,37,Deividas Sirvydis,Deividas Sirvydis,True,7031.0,11
+2019,38,Daniel Gafford,Daniel Gafford,True,22453.0,11
+2019,39,Alen Smailagić,Alen Smailagić,True,4879.0,4
+2019,40,Justin James,Justin James (basketball),True,0.0,0
+2019,41,Eric Paschall,Eric Paschall,True,31273.0,11
+2019,42,Admiral Schofield,Admiral Schofield,True,128678.0,11
+2019,43,Jaylen Nowell,Jaylen Nowell,True,4606.0,3
+2019,44,Bol Bol,Bol Bol,True,682746.0,11
+2019,45,Isaiah Roby,Isaiah Roby,True,0.0,0
+2019,46,Talen Horton-Tucker,Talen Horton-Tucker,True,7179.0,5
+2019,47,Ignas Brazdeikis,Ignas Brazdeikis,True,1863.0,11
+2019,48,Terance Mann,Terance Mann,True,680.0,2
+2019,49,Quinndary Weatherspoon,Quinndary Weatherspoon,True,7401.0,11
+2019,50,Jarrell Brantley,Jarrell Brantley,True,0.0,0
+2019,51,Tremont Waters,Tremont Waters,True,28375.0,11
+2019,52,Jalen McDaniels,Jalen McDaniels,True,2892.0,3
+2019,53,Justin Wright-Foreman,Justin Wright-Foreman,True,9378.0,11
+2019,54,Marial Shayok,Marial Shayok,True,11469.0,3
+2019,55,Kyle Guy,Kyle Guy,True,348508.0,11
+2019,56,Jaylen Hands,Jaylen Hands,True,61516.0,11
+2019,57,Jordan Bone,Jordan Bone,True,2759.0,2
+2019,58,Miye Oni,Miye Oni,True,6671.0,3
+2019,59,Dewan Hernandez,Dewan Hernandez,True,10068.0,8
+2019,60,Vanja Marinković,Vanja Marinković,True,11182.0,11
+2020,1,Anthony Edwards,Anthony Edwards (basketball),True,110659.0,11
+2020,2,James Wiseman,James Wiseman,True,170751.0,11
+2020,3,LaMelo Ball,LaMelo Ball,True,1106230.0,11
+2020,4,Patrick Williams,Patrick Williams (basketball),True,5809.0,6
+2020,5,Isaac Okoro,Isaac Okoro,True,24465.0,11
+2020,6,Onyeka Okongwu,Onyeka Okongwu,True,65538.0,11
+2020,7,Killian Hayes,Killian Hayes,True,52600.0,11
+2020,8,Obi Toppin,Obi Toppin,True,204172.0,7
+2020,9,Deni Avdija,Deni Avdija,True,156658.0,11
+2020,10,Jalen Smith,Jalen Smith,True,27785.0,11
+2020,11,Devin Vassell,Devin Vassell,True,5235.0,5
+2020,12,Tyrese Haliburton,Tyrese Haliburton,True,27825.0,11
+2020,13,Kira Lewis Jr.,Kira Lewis Jr.,True,7287.0,6
+2020,14,Aaron Nesmith,Aaron Nesmith,True,4656.0,6
+2020,15,Cole Anthony,Cole Anthony,True,298918.0,11
+2020,16,Isaiah Stewart,Isaiah Stewart,True,34013.0,11
+2020,17,Aleksej Pokusevski,Aleksej Pokuševski,True,23664.0,11
+2020,18,Josh Green,Josh Green (basketball),True,34815.0,11
+2020,19,Saddiq Bey,Saddiq Bey,True,16671.0,6
+2020,20,Precious Achiuwa,Precious Achiuwa,True,43046.0,11
+2020,21,Tyrese Maxey,Tyrese Maxey,True,41999.0,11
+2020,22,Zeke Nnaji,Zeke Nnaji,True,10293.0,7
+2020,23,Leandro Bolmaro,Leandro Bolmaro,True,6650.0,5
+2020,24,R.J. Hampton,R. J. Hampton,True,132394.0,11
+2020,25,Immanuel Quickley,Immanuel Quickley,True,24686.0,11
+2020,26,Payton Pritchard,Payton Pritchard,True,52666.0,11
+2020,27,Udoka Azubuike,Udoka Azubuike,True,86960.0,11
+2020,28,Jaden McDaniels,Jaden McDaniels,True,31444.0,11
+2020,29,Malachi Flynn,Malachi Flynn,True,20272.0,5
+2020,30,Desmond Bane,Desmond Bane,True,4472.0,6
+2020,31,Tyrell Terry,Tyrell Terry,True,2136.0,2
+2020,32,Vernon Carey Jr.,Vernon Carey Jr.,True,70980.0,11
+2020,33,Daniel Oturu,Daniel Oturu,True,12263.0,5
+2020,34,Théo Maledon,Théo Maledon,True,21705.0,11
+2020,35,Xavier Tillman Sr.,Xavier Tillman,True,43444.0,11
+2020,36,Tyler Bey,Tyler Bey,True,6096.0,6
+2020,37,Vít Krejčí,Vít Krejčí,True,0.0,0
+2020,38,Saben Lee,Saben Lee,True,1281.0,3
+2020,39,Elijah Hughes,Elijah Hughes,True,6087.0,5
+2020,40,Robert Woodard II,Robert Woodard II,True,2017.0,6
+2020,41,Tre Jones,Tre Jones,True,88304.0,11
+2020,42,Nick Richards,Nick Richards,True,3729.0,11
+2020,43,Jahmi'us Ramsey,Jahmi'us Ramsey,True,10111.0,9
+2020,44,Marko Simonovic,"Marko Simonović (basketball, born 1986)",True,5036.0,11
+2020,45,Jordan Nwora,Jordan Nwora,True,36880.0,11
+2020,46,CJ Elleby,C. J. Elleby,True,2170.0,4
+2020,47,Yam Madar,Yam Madar,True,8521.0,11
+2020,48,Nico Mannion,Nico Mannion,True,146386.0,11
+2020,49,Isaiah Joe,Isaiah Joe,True,5118.0,7
+2020,50,Skylar Mays,Skylar Mays,True,6305.0,6
+2020,51,Justinian Jessup,Justinian Jessup,True,1995.0,11
+2020,52,KJ Martin,KJ Williams,True,0.0,0
+2020,53,Cassius Winston,Cassius Winston,True,102893.0,11
+2020,54,Cassius Stanley,Cassius Stanley,True,80147.0,11
+2020,55,Jay Scrubb,Jay Scrubb,True,19651.0,9
+2020,56,Grant Riller,Grant Riller,True,2762.0,6
+2020,57,Reggie Perry,Reggie Perry (basketball),True,14156.0,11
+2020,58,Paul Reed,Paul Reed (basketball),True,3049.0,6
+2020,59,Jalen Harris,Jalen Harris,True,2033.0,4
+2020,60,Sam Merrill,Sam Merrill,True,13293.0,11

@@ -1,0 +1,13 @@
+pandas
+numpy
+requests
+lxml
+matplotlib
+seaborn
+scikit-learn
+scipy
+nba_api
+beautifulsoup4
+html5lib
+plotly
+streamlit

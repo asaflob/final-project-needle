@@ -1,0 +1,170 @@
+draft_year,pick,player,Rd,Tm,College,ws_career,ws_first4,n_seasons_first4,first_season,pos,age_at_draft,matched
+2000,41,Chris Carrawell,3,SAS,Duke,,0.0,0,,,,False
+2000,46,DeeAndre Hulett,3,TOR,College of the Sequoias,,0.0,0,,,,False
+2000,47,Josip Sesar,3,SEA,,,0.0,0,,,,False
+2000,48,Mark Karcher,3,PHI,Temple,,0.0,0,,,,False
+2000,54,Cory Hightower,3,SAS,Indian Hills Community College,,0.0,0,,,,False
+2000,56,Jaquay Walls,3,IND,Colorado,,0.0,0,,,,False
+2000,57,Scoonie Penn,3,ATL,Ohio State,,0.0,0,,,,False
+2000,58,Pete Mickeal,3,DAL,Cincinnati,,0.0,0,,,,False
+2001,39,Michael Wright,4,NYK,Arizona,,0.0,0,,,,False
+2001,43,Eric Chenowith,4,NYK,Kansas,,0.0,0,,,,False
+2001,44,Kyle Hill,4,DAL,Eastern Illinois University,,0.0,0,,,,False
+2001,47,Ousmane Cisse,4,DEN,,,0.0,0,,,,False
+2001,52,Andre Hutson,4,MIL,Michigan State,,0.0,0,,,,False
+2001,55,Maurice Jeffers,4,SAC,Saint Louis,,0.0,0,,,,False
+2001,56,Robertas Javtokas,4,SAS,,,0.0,0,,,,False
+2001,58,Bryan Bracey,4,SAS,Oregon,,0.0,0,,,,False
+2002,30,Steve Logan,4,GSW,Cincinnati,,0.0,0,,,,False
+2002,36,Milos Vujanic,4,NYK,,,0.0,0,,,,False
+2002,37,David Andersen,4,ATL,,1.5,0.0,0,,,,False
+2002,39,Rod Grizzard,4,WAS,Alabama,,0.0,0,,,,False
+2002,40,Juan Carlos Navarro,4,WAS,,1.4,0.0,0,,,,False
+2002,43,Jason Jennings,4,POR,Arkansas State University,,0.0,0,,,,False
+2002,45,Sam Clancy,4,PHI,USC,,0.0,0,,,,False
+2002,49,Peter Fehse,4,SEA,,,0.0,0,,,,False
+2002,51,Federico Kammerichs,4,POR,,,0.0,0,,,,False
+2002,52,Marcus Taylor,4,MIN,Michigan State,,0.0,0,,,,False
+2002,55,Mladen Sekularac,4,DAL,,,0.0,0,,,,False
+2002,56,Luis Scola,4,SAS,,45.7,0.0,0,,,,False
+2003,34,Sofoklis Schortsanitis,3,LAC,,,0.0,0,,,,False
+2003,35,Szymon Szewczyk,3,MIL,,,0.0,0,,,,False
+2003,36,Mario Austin,3,CHI,Mississippi State,,0.0,0,,,,False
+2003,44,Malick Badiane,3,HOU,,,0.0,0,,,,False
+2003,46,Sani Bečirovič,3,DEN,,,0.0,0,,,,False
+2003,50,Paccelis Morlende,3,PHI,,,0.0,0,,,,False
+2003,52,Remon van de Hare,3,TOR,,,0.0,0,,,,False
+2003,53,Tommy Smith,3,CHI,Arizona State,,0.0,0,,,,False
+2003,54,Nedžad Sinanović,3,POR,,,0.0,0,,,,False
+2003,55,Rick Rickert,3,MIN,Minnesota,,0.0,0,,,,False
+2003,57,Xue Yuyang,3,DAL,,,0.0,0,,,,False
+2004,39,Albert Miralles,4,TOR,,,0.0,0,,,,False
+2004,41,David Young,4,SEA,NC Central,,0.0,0,,,,False
+2004,42,Viktor Sanikidze,4,ATL,,,0.0,0,,,,False
+2004,44,Tim Pickett,4,NOH,Florida State,,0.0,0,,,,False
+2004,48,Ricky Minard,4,SAC,Morehead State University,,0.0,0,,,,False
+2004,49,Sergei Lishouk,4,MEM,,,0.0,0,,,,False
+2004,51,Christian Drejer,4,NJN,Florida,,0.0,0,,,,False
+2004,52,Romain Sato,4,SAS,Xavier,,0.0,0,,,,False
+2004,54,Rickey Paulding,4,DET,Missouri,,0.0,0,,,,False
+2004,56,Marcus Douthit,4,LAL,Providence,,0.0,0,,,,False
+2004,57,Sergei Karaulov,4,SAS,,,0.0,0,,,,False
+2004,58,Blake Stepp,4,MIN,Gonzaga,,0.0,0,,,,False
+2004,59,Rashad Wright,4,IND,Georgia,,0.0,0,,,,False
+2005,11,Fran Vázquez,1,ORL,,,0.0,0,,,,False
+2005,35,Ricky Sánchez,3,POR,,,0.0,0,,,,False
+2005,46,Erazem Lorbek,3,IND,,,0.0,0,,,,False
+2005,52,Axel Hervelle,3,DEN,,,0.0,0,,,,False
+2005,59,Cenk Akyol,3,ATL,,,0.0,0,,,,False
+2006,30,Joel Freeland,1,POR,,3.2,0.0,0,,,,False
+2006,40,Denham Brown,3,SEA,UConn,,0.0,0,,,,False
+2006,44,Lior Eliyahu,3,ORL,,,0.0,0,,,,False
+2006,48,Vladimir Veremeenko,3,WAS,,,0.0,0,,,,False
+2006,53,Yotam Halperin,3,SEA,,,0.0,0,,,,False
+2006,55,Ejike Ugboaja,3,CLE,,,0.0,0,,,,False
+2006,56,Edin Bavčić,3,TOR,,,0.0,0,,,,False
+2006,57,Loukas Mavrokefalidis,3,MIN,,,0.0,0,,,,False
+2006,58,J.R. Pinnock,3,DAL,George Washington,,0.0,0,,,,False
+2007,30,Petteri Koponen,1,PHI,,,0.0,0,,,,False
+2007,39,Stanko Barać,3,MIA,,,0.0,0,,,,False
+2007,42,Derrick Byars,3,POR,Vanderbilt,0.1,0.0,0,,,,False
+2007,43,Adam Haluska,3,NOK,Iowa,,0.0,0,,,,False
+2007,44,Reyshawn Terry,3,ORL,UNC,,0.0,0,,,,False
+2007,45,Jared Jordan,3,LAC,Marist College,,0.0,0,,,,False
+2007,50,Renaldas Seibutis,3,DAL,,,0.0,0,,,,False
+2007,54,Brad Newley,3,HOU,,,0.0,0,,,,False
+2007,55,Herbert Hill,3,UTA,Providence,,0.0,0,,,,False
+2007,57,Sammy Mejia,3,DET,DePaul,,0.0,0,,,,False
+2007,58,Georgios Printezis,3,SAS,,,0.0,0,,,,False
+2007,60,Milovan Raković,3,DAL,,,0.0,0,,,,False
+2008,44,Ante Tomić,3,UTA,,,0.0,0,,,,False
+2008,46,Trent Plaisted,3,SEA,BYU,,0.0,0,,,,False
+2008,49,Richard Hendrix,3,GSW,Alabama,,0.0,0,,,,False
+2008,50,DeVon Hardin,3,SEA,California,,0.0,0,,,,False
+2008,51,Shan Foster,3,DAL,Vanderbilt,,0.0,0,,,,False
+2008,53,Tadija Dragićević,3,UTA,,,0.0,0,,,,False
+2008,54,Maarty Leunen,3,HOU,Oregon,,0.0,0,,,,False
+2008,56,Sasha Kaun,3,SEA,Kansas,0.2,0.0,0,,,,False
+2008,57,James Gist,3,SAS,Maryland,,0.0,0,,,,False
+2008,59,Deron Washington,3,DET,Virginia Tech,,0.0,0,,,,False
+2009,34,Sergio Llull,3,DEN,,,0.0,0,,,,False
+2009,45,Nick Calathes,3,MIN,Florida,2.6,0.0,0,,,,False
+2009,47,Henk Norel,3,MIN,,,0.0,0,,,,False
+2009,49,Sergiy Gladyr,3,ATL,,,0.0,0,,,,False
+2009,50,Goran Suton,3,UTA,Michigan State,,0.0,0,,,,False
+2009,51,Jack McClinton,3,SAS,Miami (FL),,0.0,0,,,,False
+2009,54,Robert Vaden,3,CHA,UAB,,0.0,0,,,,False
+2009,56,Ahmad Nivins,3,DAL,Saint Joseph's,,0.0,0,,,,False
+2009,57,Emir Preldžić,3,PHO,,,0.0,0,,,,False
+2009,59,Chinemelu Elonu,3,LAL,Texas A&M,,0.0,0,,,,False
+2009,60,Robert Dozier,3,MIA,Memphis,,0.0,0,,,,False
+2010,31,Tibor Pleiß,3,NJN,,-0.1,0.0,0,,,,False
+2010,35,Nemanja Bjelica,3,WAS,,20.0,0.0,0,,,,False
+2010,36,Terrico White,3,DET,Ole Miss,,0.0,0,,,,False
+2010,42,Da'Sean Butler,3,MIA,West Virginia,,0.0,0,,,,False
+2010,45,Paulão Prestes,3,MIN,,,0.0,0,,,,False
+2010,47,Tiny Gallon,3,MIL,Oklahoma,,0.0,0,,,,False
+2010,48,Latavious Williams,3,MIA,,,0.0,0,,,,False
+2010,49,Ryan Richards,3,SAS,,,0.0,0,,,,False
+2010,51,Magnum Rolle,3,OKC,Louisiana Tech,,0.0,0,,,,False
+2010,59,Stanley Robinson,3,ORL,UConn,,0.0,0,,,,False
+2010,60,Dwayne Collins,3,PHO,Miami (FL),,0.0,0,,,,False
+2011,42,Dāvis Bertāns,3,IND,,18.6,0.0,0,,,,False
+2011,51,Jon Diebler,3,POR,Ohio State,,0.0,0,,,,False
+2011,54,Milan Mačvan,3,CLE,,,0.0,0,,,,False
+2011,56,Chukwudiebere Maduabum,3,LAL,,,0.0,0,,,,False
+2011,57,Tanguy Ngombo,3,DAL,,,0.0,0,,,,False
+2011,58,Ater Majok,3,LAL,,,0.0,0,,,,False
+2011,59,Ádám Hanga,3,SAS,,,0.0,0,,,,False
+2012,32,Tomáš Satoranský,3,WAS,,17.9,0.0,0,,,,False
+2012,50,İzzet Türkyılmaz,3,DEN,,,0.0,0,,,,False
+2012,56,Tomislav Zubčić,3,TOR,,,0.0,0,,,,False
+2012,57,İlkan Karaman,3,NJN,,,0.0,0,,,,False
+2012,59,Marcus Denmon,3,SAS,Missouri,,0.0,0,,,,False
+2013,28,Livio Jean-Charles,1,SAS,,,0.0,0,,,,False
+2013,45,Marko Todorović,3,POR,,,0.0,0,,,,False
+2013,51,Romero Osby,3,ORL,Oklahoma,,0.0,0,,,,False
+2013,53,Colton Iverson,3,IND,Colorado State,,0.0,0,,,,False
+2013,54,Arsalan Kazemi,3,WAS,Oregon,,0.0,0,,,,False
+2013,57,Alex Oriakhi,3,PHO,Missouri,,0.0,0,,,,False
+2013,58,Deshaun Thomas,3,SAS,Ohio State,,0.0,0,,,,False
+2013,59,Bojan Dubljević,3,MIN,,,0.0,0,,,,False
+2013,60,Jānis Timma,3,MEM,,,0.0,0,,,,False
+2014,37,DeAndre Daniels,3,TOR,UConn,,0.0,0,,,,False
+2014,50,Alec Brown,3,PHO,Green Bay,,0.0,0,,,,False
+2014,52,Vasilije Micić,3,PHI,,-0.6,0.0,0,,,,False
+2014,53,Alessandro Gentile,3,MIN,,,0.0,0,,,,False
+2014,54,Nemanja Dangubić,3,PHI,,,0.0,0,,,,False
+2014,57,Louis Labeyrie,3,IND,,,0.0,0,,,,False
+2014,59,Xavier Thames,3,TOR,San Diego State,,0.0,0,,,,False
+2015,26,Nikola Milutinov,1,SAS,,,0.0,0,,,,False
+2015,39,Juan Pablo Vaulet,3,CHO,,,0.0,0,,,,False
+2015,42,Olivier Hanlan,3,UTA,Boston College,,0.0,0,,,,False
+2015,47,Artūras Gudaitis,3,PHI,,,0.0,0,,,,False
+2015,49,Aaron White,3,WAS,Iowa,,0.0,0,,,,False
+2015,50,Marcus Eriksson,3,ATL,,,0.0,0,,,,False
+2015,51,Tyler Harvey,3,ORL,Eastern Washington,,0.0,0,,,,False
+2015,52,Satnam Singh,3,DAL,,,0.0,0,,,,False
+2015,53,Sir'Dominic Pointer,3,CLE,St. John's,,0.0,0,,,,False
+2015,54,Dani Díez,3,UTA,,,0.0,0,,,,False
+2015,55,Cady Lalanne,3,SAS,UMass,,0.0,0,,,,False
+2015,57,Nikola Radičević,3,DEN,,,0.0,0,,,,False
+2015,58,J.P. Tokoto,3,PHI,UNC,,0.0,0,,,,False
+2015,59,Dimitrios Agravanis,3,ATL,,,0.0,0,,,,False
+2015,60,Luka Mitrović,3,PHI,,,0.0,0,,,,False
+2016,35,Rade Zagorac,3,BOS,,,0.0,0,,,,False
+2016,39,David Michineau,3,NOP,,,0.0,0,,,,False
+2016,44,Isaïa Cordinier,3,ATL,,,0.0,0,,,,False
+2016,53,Petr Cornelie,3,DEN,,0.0,0.0,0,,,,False
+2016,57,Wang Zhelin,3,MEM,,,0.0,0,,,,False
+2016,59,Isaiah Cousins,3,SAC,Oklahoma,,0.0,0,,,,False
+2017,50,Mathias Lessort,3,PHI,,,0.0,0,,,,False
+2017,57,Sasha Vezenkov,3,BRK,,1.0,0.0,0,,,,False
+2017,58,Ognjen Jaramaz,3,NYK,,,0.0,0,,,,False
+2017,60,Alpha Kaba,3,ATL,,,0.0,0,,,,False
+2018,44,Issuf Sanon,3,WAS,,,0.0,0,,,,False
+2018,51,Tony Carr,3,NOP,Penn State,,0.0,0,,,,False
+2019,56,Jaylen Hands,3,LAC,UCLA,,0.0,0,,,,False
+2019,60,Vanja Marinković,3,SAC,,,0.0,0,,,,False
+2020,47,Yam Madar,3,BOS,,,0.0,0,,,,False
+2020,51,Justinian Jessup,3,GSW,Boise State,,0.0,0,,,,False
