@@ -15,7 +15,7 @@ import streamlit as st
 # PAGE CONFIG (must be the first Streamlit call)
 # =========================================================================
 st.set_page_config(
-    page_title="A Needle in a Data Haystack — NBA Draft Value",
+    page_title="The Draft, Decoded — NBA Draft Value Explorer",
     page_icon="🪡",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -24,13 +24,13 @@ st.set_page_config(
 # =========================================================================
 # DESIGN TOKENS
 # =========================================================================
-INK = "#101826"
-PAPER = "#F6F7F9"
+INK = "#F0F3F8"          # primary text on dark
+PAPER = "#0E1523"        # page background (dark navy)
 GOLD = "#D8A73D"
 GOLD_BRIGHT = "#E8B923"
 TEAL = "#2F6F72"
 BRICK = "#B5432F"
-MUTED = "#6B7280"
+MUTED = "#9AA4B2"
 
 TIER_COLORS = {
     "Bust": "#C9C4B6",
@@ -44,15 +44,15 @@ def inject_css():
     # CRITICAL FIX: No blank empty lines and no indentation inside the <style> block.
     # This prevents Streamlit's Markdown parser from breaking the CSS into plain text.
     st.markdown("""<style>
-h1, h2, h3 { font-family: 'Fraunces', Georgia, serif !important; color: #101826; }
+h1, h2, h3 { font-family: 'Fraunces', Georgia, serif !important; color: #F0F3F8; }
 h1 { font-weight: 700 !important; letter-spacing: -0.5px; }
 h2 { font-weight: 600 !important; border-bottom: 2px solid #D8A73D; padding-bottom: 6px; margin-top: 1.4rem !important; }
 h3 { font-weight: 600 !important; }
-[data-testid="stMetricValue"] { font-family: 'Fraunces', Georgia, serif; color: #101826; }
-[data-testid="stMetricLabel"] { color: #6B7280; }
-.badge { display: inline-block; background: #FDF3DC; color: #7A5B12; border: 1px solid #E8B923; padding: 3px 11px; border-radius: 999px; font-size: 0.80rem; margin-bottom: 0.7rem; }
-.badge-live { background: #E7F1EF; color: #1F4D45; border: 1px solid #2F6F72; }
-.pill { display: inline-block; background: rgba(232,185,35,0.14); border: 1px solid #D8A73D; color: #101826; padding: 3px 12px; border-radius: 999px; font-size: 0.78rem; margin: 2px 6px 2px 0; }
+[data-testid="stMetricValue"] { font-family: 'Fraunces', Georgia, serif; color: #F0F3F8; }
+[data-testid="stMetricLabel"] { color: #9AA4B2; }
+.badge { display: inline-block; background: rgba(232,185,35,0.12); color: #E8B923; border: 1px solid #E8B923; padding: 3px 11px; border-radius: 999px; font-size: 0.80rem; margin-bottom: 0.7rem; }
+.badge-live { background: rgba(47,111,114,0.18); color: #8FD0CA; border: 1px solid #2F6F72; }
+.pill { display: inline-block; background: rgba(232,185,35,0.14); border: 1px solid #D8A73D; color: #F0F3F8; padding: 3px 12px; border-radius: 999px; font-size: 0.78rem; margin: 2px 6px 2px 0; }
 .question-eyebrow { color: #E8B923; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; font-size: 0.78rem; margin-bottom: -0.6rem; }
 </style>""", unsafe_allow_html=True)
 
@@ -71,136 +71,170 @@ def style_fig(fig, height=420, show_legend=True):
         font=dict(family="IBM Plex Sans, sans-serif", color=INK, size=13),
         plot_bgcolor="rgba(0,0,0,0)",
         paper_bgcolor="rgba(0,0,0,0)",
-        margin=dict(l=10, r=10, t=55, b=10),
+        margin=dict(l=10, r=10, t=100, b=10),
         showlegend=show_legend,
-        legend=dict(orientation="h", yanchor="bottom", y=1.03, xanchor="left", x=0),
-        hoverlabel=dict(bgcolor="white", font_size=12, font_family="IBM Plex Sans, sans-serif"),
-        title=dict(font=dict(family="Fraunces, Georgia, serif", size=17, color=INK)),
+        legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="left", x=0,
+                    font=dict(size=12)),
+        hoverlabel=dict(bgcolor="#1A2436", bordercolor="#D8A73D",
+                        font=dict(color="#F6F7F9", size=13, family="IBM Plex Sans, sans-serif")),
+        title=dict(font=dict(family="Fraunces, Georgia, serif", size=17, color=INK),
+                   y=0.98, x=0.01, xanchor="left", yanchor="top"),
     )
-    fig.update_xaxes(showgrid=False, zeroline=False, linecolor="rgba(16,24,38,0.25)")
-    fig.update_yaxes(showgrid=True, gridcolor="rgba(16,24,38,0.08)", zeroline=False)
+    fig.update_xaxes(showgrid=False, zeroline=False, linecolor="rgba(240,243,248,0.30)")
+    fig.update_yaxes(showgrid=True, gridcolor="rgba(240,243,248,0.10)", zeroline=False)
     return fig
 
 
 # =========================================================================
-# DATA MANAGER
+# DATA MANAGER - loads the REAL processed outputs of the analysis pipeline
+# (src/data_prep.py, q1_value_curve.py, q2_model.py, q2_clusters.py, q3_hype.py)
 # =========================================================================
+from pathlib import Path
+
+DATA = Path(__file__).resolve().parent / "data" / "processed"
+
+
 class DataManager:
     @staticmethod
     @st.cache_data
-    def get_value_curve():
-        picks = np.arange(1, 61)
-        anchor_picks = np.array([1, 5, 10, 15, 20, 25, 30, 40, 50, 60])
-        anchor_values = np.array([18.0, 13.0, 8.0, 7.0, 5.5, 4.2, 3.1, 2.2, 1.6, 1.2])
-        expected_ws = np.interp(picks, anchor_picks, anchor_values)
-        band_low = np.clip(expected_ws * 0.15, 0, None)
-        band_high = expected_ws * 2.3 + 2.0
-        return pd.DataFrame(
-            {"Pick": picks, "Expected_WS": expected_ws, "Band_Low": band_low, "Band_High": band_high}
-        )
+    def _core():
+        """One row per drafted player 2000-2020, with ws_first4."""
+        core = pd.read_csv(DATA / "draft_value.csv")
+        core["pos"] = core["pos"].astype(str).str.split("-").str[0]
+        return core
 
     @staticmethod
+    @st.cache_data
+    def _surplus_core():
+        """Core table + surplus vs draft slot, matching the report's Figure 4:
+        expectation calibrated on 2000-2014 drafts; players who never appeared in
+        the NBA keep NaN age/position and are excluded from group means."""
+        core = DataManager._core().copy()
+        train = core[core["draft_year"] <= 2014]
+        per_pick = (train.groupby("pick")["ws_first4"].mean()
+                    .rolling(5, center=True, min_periods=1).mean())
+        core["surplus"] = core["ws_first4"] - core["pick"].map(per_pick)
+        return core
+
+    @staticmethod
+    @st.cache_data
+    def get_value_curve():
+        pv = pd.read_csv(DATA / "pick_value.csv")
+        return pd.DataFrame({
+            "Pick": pv["pick"], "Expected_WS": pv["expected_ws4"],
+            "Band_Low": pv["band_low"], "Band_High": pv["band_high"],
+        })
+
+    @staticmethod
+    @st.cache_data
     def get_needle_players():
+        core = DataManager._core()
         curve = DataManager.get_value_curve().set_index("Pick")["Expected_WS"]
-        rows = [
-            {"name": "Rudy Gobert", "pick": 27, "note": "3x Defensive Player of the Year", "lift": 2.7},
-            {"name": "Isaiah Thomas", "pick": 60, "note": "All-NBA guard, the last pick in the draft", "lift": 3.4},
-            {"name": "Carl Landry", "pick": 31, "note": "A decade of efficient rotation minutes", "lift": 2.2},
-        ]
-        for r in rows:
-            r["sample_ws"] = round(float(curve.loc[r["pick"]]) * r["lift"], 1)
+        steals = core[core["pick"] > 20].nlargest(4, "ws_first4")
+        rows = []
+        for _, r in steals.iterrows():
+            expected = float(curve.loc[int(r["pick"])])
+            rows.append({
+                "name": r["player"], "pick": int(r["pick"]),
+                "sample_ws": round(float(r["ws_first4"]), 1),
+                "note": (f"{r['ws_first4']:.1f} WS in his rookie window vs "
+                         f"~{expected:.1f} expected at pick #{int(r['pick'])} "
+                         f"({int(r['draft_year'])} draft)"),
+            })
         return pd.DataFrame(rows)
 
     @staticmethod
     @st.cache_data
     def get_outcome_rates():
-        data = {
-            "Range": ["1-5", "6-10", "11-15", "16-20", "21-25", "26-30", "31-60 (Rd 2)"],
-            "Bust": [6, 10, 15, 20, 23, 25, 64],
-            "Role Player": [30, 35, 38, 42, 42, 42, 27],
-            "Contributor": [34, 33, 31, 29, 27, 26, 7.1],
-            "Star": [30, 22, 16, 9, 8, 7, 1.9],
-        }
-        return pd.DataFrame(data)
+        core = DataManager._core()
+        ranges = [(1, 5, "1-5"), (6, 10, "6-10"), (11, 14, "11-14"),
+                  (15, 30, "15-30"), (31, 60, "31-60 (Rd 2)")]
+        rows = []
+        for lo, hi, label in ranges:
+            g = core[(core["pick"] >= lo) & (core["pick"] <= hi)]["ws_first4"]
+            rows.append({
+                "Range": label,
+                "Bust": round(100 * (g < 1).mean(), 1),
+                "Role Player": round(100 * ((g >= 1) & (g < 10)).mean(), 1),
+                "Contributor": round(100 * ((g >= 10) & (g < 20)).mean(), 1),
+                "Star": round(100 * (g >= 20).mean(), 1),
+            })
+        return pd.DataFrame(rows)
 
     @staticmethod
     @st.cache_data
     def get_model_comparison():
-        return pd.DataFrame(
-            {"Model": ["Draft Pick Alone", "Pick + Physical Measurables"], "R_squared": [0.11, 0.26]}
-        )
+        # test-set R² from src/q2_model.py (temporal split, test drafts 2015-2020)
+        return pd.DataFrame({
+            "Model": ["Draft Pick Alone", "Pick + Physical Measurables",
+                      "Pick + Physicals + College Stats"],
+            "R_squared": [0.11, 0.26, 0.24],
+        })
 
     @staticmethod
     @st.cache_data
     def get_bias_breakdown():
-        return pd.DataFrame(
-            [
-                {"Group": "Teenagers (19 & under)", "WS_Delta": -1.4, "Confirmed": True},
-                {"Group": "22+ prospects", "WS_Delta": 0.5, "Confirmed": False},
-                {"Group": "Shooting Guard", "WS_Delta": -0.9, "Confirmed": False},
-                {"Group": "Point Guard", "WS_Delta": 0.1, "Confirmed": False},
-                {"Group": "Small Forward", "WS_Delta": -0.2, "Confirmed": False},
-                {"Group": "Power Forward", "WS_Delta": 0.3, "Confirmed": False},
-                {"Group": "Center", "WS_Delta": 1.1, "Confirmed": False},
-            ]
-        )
+        core = DataManager._surplus_core()
+        age = core["age_at_draft"]
+        groups = [
+            ("Teenagers (19 & under)", age <= 19),
+            ("Age 20", age == 20),
+            ("Age 21", age == 21),
+            ("Age 22+", age >= 22),
+            ("Point Guard", core["pos"] == "PG"),
+            ("Shooting Guard", core["pos"] == "SG"),
+            ("Small Forward", core["pos"] == "SF"),
+            ("Power Forward", core["pos"] == "PF"),
+            ("Center", core["pos"] == "C"),
+        ]
+        rows = [{"Group": label, "WS_Delta": round(core.loc[mask, "surplus"].mean(), 2),
+                 "Confirmed": True} for label, mask in groups]
+        return pd.DataFrame(rows)
 
     @staticmethod
     @st.cache_data
     def get_prospect_board():
-        rng = np.random.default_rng(7)
-        n = 40
-        positions = rng.choice(["PG", "SG", "SF", "PF", "C"], size=n, p=[0.22, 0.22, 0.20, 0.18, 0.18])
-        ages = rng.integers(18, 23, size=n)
-        projected_pick = np.sort(rng.choice(np.arange(1, 61), size=n, replace=False))
-        combine_available = rng.random(n) > 0.22
-        wingspan_diff = np.round(rng.normal(0, 2.0, size=n), 1)
-
-        df = pd.DataFrame(
-            {
-                "Name": [f"Prospect {i + 1:02d}" for i in range(n)],
-                "Position": positions,
-                "Age": ages,
-                "Projected Pick": projected_pick,
-                "Combine Data": np.where(combine_available, "Available", "Imputed (median)"),
-                "Wingspan vs Height (in)": np.where(combine_available, wingspan_diff, 0.0),
-            }
-        )
-        tilt = np.zeros(n)
-        tilt += np.where(df["Age"] <= 19, -1.4, 0.0)
-        tilt += np.where(df["Position"] == "SG", -0.9, 0.0)
-        tilt += np.where(df["Position"] == "C", 1.1, 0.0)
-        tilt += df["Wingspan vs Height (in)"] * 0.15
-        df["Value Tilt (WS)"] = np.round(tilt, 2)
-        return df
+        """Hindsight board: every REAL drafted player 2000-2020 with his archetype,
+        physique, and how he actually did vs his draft slot."""
+        df = pd.read_csv(DATA / "clusters.csv")
+        df["pos"] = df["pos"].astype(str).str.split("-").str[0]
+        return pd.DataFrame({
+            "Name": df["player"],
+            "Draft": df["draft_year"].astype(int),
+            "Position": df["pos"],
+            "Age": df["age_at_draft"].round(0),
+            "Pick": df["pick"].astype(int),
+            "Archetype": df["cluster_label"],
+            "Combine Data": np.where(df["has_combine"], "Available", "Imputed (median)"),
+            "Wingspan vs Height (in)": np.round(df["wingspan"] - df["height"], 1),
+            "Surplus vs Slot (WS)": np.round(df["surplus"], 2),
+        })
 
     @staticmethod
     @st.cache_data
-    def get_hype_preview():
-        rng = np.random.default_rng(3)
-        n = 34
-        pick = np.sort(rng.choice(np.arange(1, 61), size=n, replace=False))
-        hype = np.clip(100 - pick * 1.3 + rng.normal(0, 12, n), 1, 100)
-        outcome_ws = np.clip(18 * np.exp(-pick / 18) + rng.normal(0, 3, n), 0, None)
-        return pd.DataFrame(
-            {"Projected Pick": pick, "Pre-Draft Hype Score": np.round(hype, 1), "Rookie-Window WS": np.round(outcome_ws, 1)}
-        )
+    def get_hype_scores():
+        hy = pd.read_csv(DATA / "hype_scores.csv")
+        core = DataManager._core()[["draft_year", "pick", "ws_first4"]]
+        df = hy.merge(core, on=["draft_year", "pick"], how="left")
+        return pd.DataFrame({
+            "Player": df["player"],
+            "Draft": df["draft_year"].astype(int),
+            "Pick": df["pick"].astype(int),
+            "Hype (log10 views)": df["hype"].round(2),
+            "Pre-draft Wikipedia views": df["views_predraft"].astype(int),
+            "Rookie-Window WS": df["ws_first4"].round(1),
+            "Surplus (WS)": df["surplus"].round(2),
+        })
 
     @staticmethod
     @st.cache_data
-    def get_draft_class_sample():
-        rng = np.random.default_rng(11)
-        anchor_picks = [1, 5, 10, 15, 20, 25, 30, 40, 50, 60]
-        anchor_values = [18.0, 13.0, 8.0, 7.0, 5.5, 4.2, 3.1, 2.2, 1.6, 1.2]
-        sample_picks = [1, 3, 7, 14, 22, 27, 31, 45, 55, 60]
-        rows = []
-        for p in sample_picks:
-            base = float(np.interp(p, anchor_picks, anchor_values))
-            noise_mult = rng.uniform(0.4, 2.0)
-            seasons_ws = np.clip(base * noise_mult / 4 + rng.normal(0, 0.5, 4), 0, None)
-            for szn_idx, ws in enumerate(seasons_ws, start=1):
-                rows.append({"Pick": p, "Label": f"Pick #{p}", "Season": f"Year {szn_idx}", "WS": round(float(ws), 2)})
-        return pd.DataFrame(rows)
+    def get_trajectories():
+        t = pd.read_csv(DATA / "player_seasons.csv").dropna(subset=["season_index"])
+        t = t.sort_values(["draft_year", "pick", "season_index"])
+        t["Season"] = "Year " + t["season_index"].astype(int).astype(str)
+        t["Label"] = (t["player"] + " (" + t["draft_year"].astype(int).astype(str)
+                      + ", #" + t["pick"].astype(int).astype(str) + ")")
+        return t.rename(columns={"pick": "Pick", "ws": "WS"})
 
 
 # =========================================================================
@@ -282,7 +316,7 @@ def render_model_comparison(df):
         go.Bar(
             x=df["Model"],
             y=df["R_squared"],
-            marker_color=[MUTED, GOLD_BRIGHT],
+            marker_color=[MUTED, GOLD_BRIGHT, TEAL],
             text=[f"{v:.2f}" for v in df["R_squared"]],
             textposition="outside",
             width=0.5,
@@ -300,7 +334,7 @@ def render_trajectory(df_player, expected_val):
     fig.add_hline(
         y=expected_val / 4,
         line_dash="dash",
-        line_color=BRICK,
+        line_color="#E8836B",
         annotation_text="Expected pace for this pick",
         annotation_position="top left",
     )
@@ -321,7 +355,8 @@ def page_overview(dm: DataManager):
 <img src="https://images.unsplash.com/photo-1546519638-68e109498ffc?auto=format&fit=crop&w=1200&q=80" style="position:absolute; top:0; left:0; width:100%; height:100%; object-fit:cover; opacity:0.15; z-index:1;">
 <div style="position:relative; z-index:2;">
 <div class="question-eyebrow" style="color:#E8B923; margin-bottom:0.4rem;">A Needle in a Data Haystack · 67978</div>
-<h1 style="color:#F6F7F9 !important; margin-top:0; margin-bottom:0.4rem;">Where is the hidden value in the NBA draft?</h1>
+<h1 style="color:#F6F7F9 !important; margin-top:0; margin-bottom:0.4rem;">The Draft, Decoded: Finding the NBA's Hidden Gems</h1>
+<p style="color:#E8B923; font-size:1.02rem; margin-bottom:0.5rem; font-weight:600;">Where is the hidden value in the NBA draft?</p>
 <p style="color:#C7CEDA; font-size:1.05rem; max-width:62ch; margin-bottom:0;">Rookie contracts are cheap relative to what veterans cost under the salary cap, so a draft pick is the cheapest path to surplus value a team has. This project measures what each pick is actually worth, hunts for the picks the market consistently gets wrong, and asks whether pre-draft hype is doing more to predict draft slot than it does to predict who can actually play.</p>
 </div>
 </div>""", unsafe_allow_html=True)
@@ -352,17 +387,17 @@ def page_overview(dm: DataManager):
     with legend1:
         with st.container(border=True):
             st.image("https://cdn.nba.com/headshots/nba/latest/1040x760/893.png", use_container_width=True)
-            st.markdown("<h4 style='text-align:center; margin-bottom:0;'>Michael Jordan</h4><p style='text-align:center; color:#6B7280; font-size:0.9rem;'>Pick #3 (1984)</p>", unsafe_allow_html=True)
+            st.markdown("<h4 style='text-align:center; margin-bottom:0;'>Michael Jordan</h4><p style='text-align:center; color:#9AA4B2; font-size:0.9rem;'>Pick #3 (1984)</p>", unsafe_allow_html=True)
         
     with legend2:
         with st.container(border=True):
             st.image("https://cdn.nba.com/headshots/nba/latest/1040x760/1449.png", use_container_width=True)
-            st.markdown("<h4 style='text-align:center; margin-bottom:0;'>Larry Bird</h4><p style='text-align:center; color:#6B7280; font-size:0.9rem;'>Pick #6 (1978)</p>", unsafe_allow_html=True)
+            st.markdown("<h4 style='text-align:center; margin-bottom:0;'>Larry Bird</h4><p style='text-align:center; color:#9AA4B2; font-size:0.9rem;'>Pick #6 (1978)</p>", unsafe_allow_html=True)
         
     with legend3:
         with st.container(border=True):
             st.image("https://cdn.nba.com/headshots/nba/latest/1040x760/77142.png", use_container_width=True)
-            st.markdown("<h4 style='text-align:center; margin-bottom:0;'>Magic Johnson</h4><p style='text-align:center; color:#6B7280; font-size:0.9rem;'>Pick #1 (1979)</p>", unsafe_allow_html=True)
+            st.markdown("<h4 style='text-align:center; margin-bottom:0;'>Magic Johnson</h4><p style='text-align:center; color:#9AA4B2; font-size:0.9rem;'>Pick #1 (1979)</p>", unsafe_allow_html=True)
 
     # --- SECOND ROUND GEMS SECTION ---
     st.divider()
@@ -375,19 +410,19 @@ def page_overview(dm: DataManager):
         with st.container(border=True):
             # 203999 is Nikola Jokic's official NBA player ID
             st.image("https://cdn.nba.com/headshots/nba/latest/1040x760/203999.png", use_container_width=True)
-            st.markdown("<h4 style='text-align:center; margin-bottom:0;'>Nikola Jokić</h4><p style='text-align:center; color:#6B7280; font-size:0.9rem;'>Pick #41 (2014)</p>", unsafe_allow_html=True)
+            st.markdown("<h4 style='text-align:center; margin-bottom:0;'>Nikola Jokić</h4><p style='text-align:center; color:#9AA4B2; font-size:0.9rem;'>Pick #41 (2014)</p>", unsafe_allow_html=True)
             
     with gem2:
         with st.container(border=True):
             # 1938 is Manu Ginobili's official NBA player ID
             st.image("https://cdn.nba.com/headshots/nba/latest/1040x760/1938.png", use_container_width=True)
-            st.markdown("<h4 style='text-align:center; margin-bottom:0;'>Manu Ginóbili</h4><p style='text-align:center; color:#6B7280; font-size:0.9rem;'>Pick #57 (1999)</p>", unsafe_allow_html=True)
+            st.markdown("<h4 style='text-align:center; margin-bottom:0;'>Manu Ginóbili</h4><p style='text-align:center; color:#9AA4B2; font-size:0.9rem;'>Pick #57 (1999)</p>", unsafe_allow_html=True)
             
     with gem3:
         with st.container(border=True):
             # 203110 is Draymond Green's official NBA player ID
             st.image("https://cdn.nba.com/headshots/nba/latest/1040x760/203110.png", use_container_width=True)
-            st.markdown("<h4 style='text-align:center; margin-bottom:0;'>Draymond Green</h4><p style='text-align:center; color:#6B7280; font-size:0.9rem;'>Pick #35 (2012)</p>", unsafe_allow_html=True)
+            st.markdown("<h4 style='text-align:center; margin-bottom:0;'>Draymond Green</h4><p style='text-align:center; color:#9AA4B2; font-size:0.9rem;'>Pick #35 (2012)</p>", unsafe_allow_html=True)
 
     st.divider()
     st.subheader("The whole question, in one chart")
@@ -396,7 +431,7 @@ def page_overview(dm: DataManager):
         "But at every pick, the outcome band is wide, and a handful of picks land far above the line. "
         "Those are the needles."
     )
-    sample_badge()
+    confirmed_badge("Computed live from the project's processed data")
     curve = dm.get_value_curve()
     needles = dm.get_needle_players()
     st.plotly_chart(render_value_curve(curve, needles), use_container_width=True)
@@ -414,7 +449,7 @@ def page_overview(dm: DataManager):
 
 
 def page_q1(dm: DataManager):
-    st.markdown('<div class="question-eyebrow" style="color:#B5432F;">Question 1</div>', unsafe_allow_html=True)
+    st.markdown('<div class="question-eyebrow" style="color:#E8836B;">Question 1</div>', unsafe_allow_html=True)
     st.title("What is each draft pick actually worth?")
     st.markdown(
         "Win Shares over a player's first four seasons stand in for value here — roughly, 20 WS across "
@@ -424,7 +459,7 @@ def page_q1(dm: DataManager):
     tab1, tab2 = st.tabs(["📉 The Value Curve", "🎯 Outcome Odds by Range"])
 
     with tab1:
-        sample_badge()
+        confirmed_badge("Computed live from data/processed/pick_value.csv")
         curve = dm.get_value_curve()
         needles = dm.get_needle_players()
         st.plotly_chart(render_value_curve(curve, needles), use_container_width=True)
@@ -440,17 +475,16 @@ def page_q1(dm: DataManager):
             st.markdown("**The needles**")
             for _, row in needles.iterrows():
                 st.markdown(f"- **{row['name']}** — pick #{int(row['pick'])}. {row['note']}.")
-            st.caption("Positions on the chart are illustrative until final win-share totals are computed.")
 
     with tab2:
-        sample_badge("Illustrative distribution calibrated to the report's stated anchors")
+        confirmed_badge("Computed live from all 1,249 picks, 2000-2020")
         rates = dm.get_outcome_rates()
         st.plotly_chart(render_outcome_rates(rates), use_container_width=True)
         st.markdown(
-            "A top-5 pick carries roughly a **30% shot at a star** and only about a **6% chance of a total "
-            "bust**. By picks 15–30 the star rate has dropped near **7–9%** and roughly **1 in 4 busts**. "
-            "In the second round, most picks — roughly **64%** — produce close to nothing, yet stars still "
-            "turn up occasionally. The draft order works on average; its risk never disappears."
+            "A top-5 pick carries roughly a **26% shot at a star** and only about a **6% chance of a total "
+            "bust**. By picks 15–30 the star rate drops to **6.6%** with roughly **1 in 4 busts**. "
+            "In the second round, **65%** of picks produce close to nothing, yet stars still "
+            "turn up (**1.8%**). The draft order works on average; its risk never disappears."
         )
 
     with st.expander("A data quirk worth knowing"):
@@ -462,7 +496,7 @@ def page_q1(dm: DataManager):
 
 
 def page_q2(dm: DataManager):
-    st.markdown('<div class="question-eyebrow" style="color:#B5432F;">Question 2</div>', unsafe_allow_html=True)
+    st.markdown('<div class="question-eyebrow" style="color:#E8836B;">Question 2</div>', unsafe_allow_html=True)
     st.title("Can pre-draft data beat the pick order — and where does it miss?")
 
     m1, m2 = st.columns(2)
@@ -478,45 +512,47 @@ def page_q2(dm: DataManager):
     with m2:
         st.plotly_chart(render_bias_chart(dm.get_bias_breakdown()), use_container_width=True)
         st.caption(
-            "Teenagers underperform their slot (confirmed: **-1.4 WS**). Shooting guards read as over-drafted "
-            "and centers as under-drafted in the report's findings; the other bars here are illustrative "
-            "pending the full regression output."
+            "Every bar is computed from the full 2000-2020 dataset: surplus = actual rookie-window WS minus "
+            "the expected value of the player's draft slot. Teenagers underperform by **-1.4 WS** and "
+            "centers outperform by **+0.8**; other position effects are small once never-played players "
+            "(whose position is unrecorded) are excluded — the same numbers as the report."
         )
 
     st.divider()
     st.subheader("💎 Hidden Gems: filter the prospect board")
     st.caption(
-        "Not a black-box prediction — every prospect's 'Value Tilt' is built directly from the bias chart "
-        "above, so the reasoning behind every recommendation is visible."
+        "A hindsight board: filter 1,249 real drafted players by position and draft range and see who "
+        "actually beat his slot — the needles — with archetype and physique alongside."
     )
-    sample_badge("Mock 40-prospect board — swap in the real board via get_prospect_board()")
+    confirmed_badge("Every row is a real drafted player, 2000-2020 — hindsight board")
 
     board = dm.get_prospect_board()
     f1, f2, f3 = st.columns(3)
     with f1:
         pos_filter = st.multiselect("Position", ["PG", "SG", "SF", "PF", "C"], default=["PG", "SG", "SF", "PF", "C"])
     with f2:
-        pick_max = st.slider("Projected pick at or later than", 1, 60, 15)
+        pick_max = st.slider("Drafted at pick or later than", 1, 60, 15)
     with f3:
-        min_tilt = st.slider("Minimum Value Tilt (WS)", -2.0, 2.0, 0.0, step=0.1)
+        min_tilt = st.slider("Minimum surplus vs slot (WS)", -5.0, 20.0, 5.0, step=0.5)
 
     filtered = board[
         board["Position"].isin(pos_filter)
-        & (board["Projected Pick"] >= pick_max)
-        & (board["Value Tilt (WS)"] >= min_tilt)
-    ].sort_values("Value Tilt (WS)", ascending=False)
+        & (board["Pick"] >= pick_max)
+        & (board["Surplus vs Slot (WS)"] >= min_tilt)
+    ].sort_values("Surplus vs Slot (WS)", ascending=False)
 
     if filtered.empty:
         st.warning("No prospects match these filters — widen the range above.")
     else:
-        st.success(f"{len(filtered)} prospect(s) the market has historically undervalued at this range.")
+        st.success(f"{len(filtered)} real player(s) who beat this draft range by at least the chosen margin.")
         st.dataframe(
             filtered,
             use_container_width=True,
             hide_index=True,
             column_config={
-                "Value Tilt (WS)": st.column_config.NumberColumn(format="%.2f"),
+                "Surplus vs Slot (WS)": st.column_config.NumberColumn(format="%.2f"),
                 "Wingspan vs Height (in)": st.column_config.NumberColumn(format="%.1f"),
+                "Age": st.column_config.NumberColumn(format="%.0f"),
             },
         )
 
@@ -529,44 +565,68 @@ def page_q2(dm: DataManager):
 
 
 def page_q3(dm: DataManager):
-    st.markdown('<div class="question-eyebrow" style="color:#B5432F;">Question 3</div>', unsafe_allow_html=True)
+    st.markdown('<div class="question-eyebrow" style="color:#E8836B;">Question 3</div>', unsafe_allow_html=True)
     st.title("Does pre-draft hype help or hurt?")
-    st.info(
-        "🚧 **Preview.** The media-coverage analysis hasn't run yet, so this page is a working scaffold: "
-        "the two charts below are wired up and ready, just waiting on the real hype-volume dataset.",
-        icon="🚧",
-    )
-    sample_badge("Fully synthetic placeholder — no relationship implied")
+    confirmed_badge("Real data: pre-draft Wikipedia pageviews, draft classes 2016-2020 (n=300)")
 
-    hype = dm.get_hype_preview()
+    hype = dm.get_hype_scores()
+    rho_pick = hype["Hype (log10 views)"].corr(hype["Pick"], method="spearman")
+    rho_ws = hype["Hype (log10 views)"].corr(hype["Rookie-Window WS"], method="spearman")
+    rho_sur = hype["Hype (log10 views)"].corr(hype["Surplus (WS)"], method="spearman")
+
+    m1, m2, m3 = st.columns(3)
+    m1.metric("Hype ↔ draft pick (Spearman ρ)", f"{rho_pick:.2f}",
+              help="Negative: more hype, earlier pick")
+    m2.metric("Hype ↔ performance", f"{rho_ws:+.2f}")
+    m3.metric("Hype ↔ surplus vs slot", f"{rho_sur:+.2f}")
+    st.caption(
+        "Hype predicts **where a player gets picked** (|ρ| = 0.41) notably better than it predicts "
+        "**how good he becomes** (0.25) — attention buys draft position beyond what performance later "
+        "justifies. Yet hype ↔ surplus is ~0: on average the market prices hype roughly correctly."
+    )
+
     c1, c2 = st.columns(2)
     with c1:
-        fig1 = px.scatter(hype, x="Projected Pick", y="Pre-Draft Hype Score", color_discrete_sequence=[INK])
+        fig1 = px.scatter(hype, x="Pick", y="Hype (log10 views)", hover_name="Player",
+                          color_discrete_sequence=[INK])
         fig1.update_layout(title="Hype vs. Draft Position")
         st.plotly_chart(style_fig(fig1, height=380, show_legend=False), use_container_width=True)
     with c2:
-        fig2 = px.scatter(hype, x="Pre-Draft Hype Score", y="Rookie-Window WS", color_discrete_sequence=[GOLD_BRIGHT])
+        fig2 = px.scatter(hype, x="Hype (log10 views)", y="Rookie-Window WS", hover_name="Player",
+                          color_discrete_sequence=[GOLD_BRIGHT])
         fig2.update_layout(title="Hype vs. On-Court Outcome")
         st.plotly_chart(style_fig(fig2, height=380, show_legend=False), use_container_width=True)
 
     st.markdown(
-        "**What goes here once the crawl finishes:** compare how strongly pre-draft media volume predicts "
-        "*draft position* against how strongly it predicts *rookie-window Win Shares*. If hype tracks draft "
-        "slot much more tightly than it tracks outcome, that's evidence hype is a market-sentiment signal "
-        "more than a talent signal — a second, independent route to the same 'hidden value' question as Q1/Q2."
+        "**Two players tell both failure modes of hype** (hover the charts to find them): "
+        "**Bol Bol** — 7th-most-hyped prospect of these five classes, fell to pick #44, and the market "
+        "was right (he busted). **Jalen Brunson** — hyped college champion, fell to #33, and the market "
+        "was wrong (he became a star)."
     )
+    with st.expander("Method & scope"):
+        st.markdown(
+            "Hype = log10(1 + Wikipedia pageviews of the player's article, July-May before his draft). "
+            "The Wikimedia pageviews API begins mid-2015, which fixes the scope to the 2016-2020 classes. "
+            "The most-hyped quintile underperforms its slots by -1.4 WS, but that tail is suggestive only "
+            "(Welch p = 0.18) — reported as such in the writeup."
+        )
 
 
 def page_explorer(dm: DataManager):
     st.title("🔎 Draft Class Explorer")
-    st.markdown("Pick a sample draft slot and compare its rookie-window trajectory to the expected pace for that pick.")
-    sample_badge("Synthetic sample picks — replace with real per-player, per-season data")
+    st.markdown("Pick any drafted player (2000-2020) and compare his season-by-season rookie-window "
+                "trajectory to the expected pace for his draft slot. Type a name to search.")
+    confirmed_badge("Real per-player, per-season Win Shares")
 
-    trajectories = dm.get_draft_class_sample()
+    trajectories = dm.get_trajectories()
     curve = dm.get_value_curve().set_index("Pick")["Expected_WS"]
 
-    labels = trajectories[["Pick", "Label"]].drop_duplicates().sort_values("Pick")
-    choice = st.selectbox("Sample pick", labels["Label"])
+    labels = trajectories[["Pick", "Label", "draft_year"]].drop_duplicates().sort_values(
+        ["draft_year", "Pick"], ascending=[False, True])
+    default_ix = int((labels["Label"].str.startswith("Nikola Joki")).idxmax()) if (labels["Label"].str.startswith("Nikola Joki")).any() else 0
+    choice = st.selectbox("Player", labels["Label"].tolist(),
+                          index=labels.reset_index(drop=True)["Label"].tolist().index(
+                              labels.loc[default_ix, "Label"]) if default_ix else 0)
     chosen_pick = int(labels.loc[labels["Label"] == choice, "Pick"].iloc[0])
 
     player_df = trajectories[trajectories["Pick"] == chosen_pick]
@@ -653,7 +713,7 @@ PAGES = {
 def render_sidebar():
     st.sidebar.markdown(
         "<div style='font-family: Fraunces, serif; font-size: 1.4rem; font-weight:700; color:#F6F7F9;'>"
-        "🪡 A Needle in a Haystack</div>",
+        "🏀 The Draft, Decoded</div>",
         unsafe_allow_html=True,
     )
     st.sidebar.caption("NBA Draft Value Explorer")
@@ -670,13 +730,6 @@ def render_sidebar():
         label_visibility="collapsed",
     )
 
-    st.sidebar.divider()
-    st.sidebar.caption("Confirmed findings so far")
-    st.sidebar.markdown(
-        "- Pick–outcome correlation: **ρ = 0.50**\n"
-        "- R² lift with physicals: **0.11 → 0.26**\n"
-        "- Teenager penalty: **-1.4 WS**"
-    )
     st.sidebar.divider()
     st.sidebar.caption("Course 67978 · Final project")
     return selection

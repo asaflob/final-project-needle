@@ -169,6 +169,12 @@ def build_ws_first4(draft: pd.DataFrame, seasons: pd.DataFrame) -> pd.DataFrame:
         )
         agg = agg.drop(columns=["first_season_age"])
 
+    # per-season rows inside the window - exported for the app's Explorer page
+    export = window.copy()
+    export["season_index"] = export["season"] - export["draft_year"]
+    export[["draft_year", "pick", "player", "season", "season_index", "ws"]].to_csv(
+        PROCESSED_DIR / "player_seasons.csv", index=False)
+
     result = draft.merge(agg, on=["draft_year", "pick"], how="left")
     # players with no matched seasons: either never played in the NBA (WS = 0 is the
     # honest value for the value-curve) or a name-matching failure (audit.py checks).

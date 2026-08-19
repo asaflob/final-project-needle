@@ -81,10 +81,14 @@ def load_core() -> pd.DataFrame:
 def add_simple_features(df: pd.DataFrame) -> tuple[pd.DataFrame, list]:
     """SIMPLE set: age_at_draft, position (one-hot), has_college."""
     out = df.copy()
+    out["pos"] = out["pos"].str.split("-").str[0]
+    # RAW copies (pre-imputation) - used by the PROFILE analysis, where imputing
+    # never-played players into the modal position would fabricate a bias
+    out["age_raw"] = out["age_at_draft"]
+    out["pos_raw"] = out["pos"]
     # impute WITHOUT missing-indicators (see leakage note in the module docstring)
     out["age_at_draft"] = out["age_at_draft"].fillna(out["age_at_draft"].median())
-    out["pos"] = out["pos"].fillna(out["pos"].mode().iloc[0])
-    out["pos"] = out["pos"].str.split("-").str[0]  # 'SF-SG' -> 'SF'
+    out["pos"] = out["pos"].fillna(out["pos"].mode().iloc[0])  # 'SF-SG' -> 'SF'
     pos_dummies = pd.get_dummies(out["pos"], prefix="pos")
     out = pd.concat([out, pos_dummies], axis=1)
     features = ["age_at_draft", "has_college"] + list(pos_dummies.columns)
@@ -249,10 +253,14 @@ def plot_profiles(df: pd.DataFrame, train: pd.DataFrame, set_name: str) -> None:
     data = df.copy()
     data["surplus"] = data["ws_first4"] - data["pick"].map(smoothed).fillna(0)
 
-    data["age_group"] = pd.cut(data["age_at_draft"], [0, 19, 20, 21, 22, 99],
+    # IMPORTANT: group by the RAW (pre-imputation) age/position. Imputation assigns
+    # every never-played player (ws_first4=0) the modal position, which fabricates
+    # a large negative "bias" for that position. Players whose age/position is
+    # unrecorded (never played in the NBA) are excluded from the group means.
+    data["age_group"] = pd.cut(data["age_raw"], [0, 19, 20, 21, 22, 99],
                                labels=["≤19", "20", "21", "22", "23+"])
     by_age = data.groupby("age_group", observed=True)["surplus"].agg(["mean", "count"])
-    by_pos = data.groupby("pos")["surplus"].agg(["mean", "count"]).reindex(
+    by_pos = data.groupby("pos_raw")["surplus"].agg(["mean", "count"]).reindex(
         ["PG", "SG", "SF", "PF", "C"]).dropna()
 
     fig, axes = plt.subplots(1, 2, figsize=(11.5, 5))
@@ -272,6 +280,9 @@ def plot_profiles(df: pd.DataFrame, train: pd.DataFrame, set_name: str) -> None:
         ax.spines[["top", "right"]].set_visible(False)
     fig.suptitle("Which profiles get over/under-drafted? (all drafts 2000-2020)",
                  fontsize=12.5, fontweight="bold")
+    fig.text(0.5, 0.005, "Players who never appeared in the NBA (age/position unrecorded) "
+             "are excluded from group means.", ha="center", fontsize=8.5,
+             color="#64748b", style="italic")
     fig.tight_layout()
     out = FIGURES / f"q2_profiles_{set_name}.png"
     fig.savefig(out, dpi=300)

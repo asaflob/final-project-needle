@@ -82,9 +82,14 @@ def choose_k(X: np.ndarray) -> int:
 
 
 def describe_clusters(df: pd.DataFrame) -> pd.DataFrame:
-    """Profile table used to NAME the archetypes (and for the writeup)."""
-    profile = df.groupby("cluster").agg(
-        n=("player", "count"),
+    """Profile table used to NAME the archetypes (and for the writeup).
+    OUTCOME columns are computed on MEASURED players only: the 36% without combine
+    data are median-imputed to the center of the space, land in the middle cluster,
+    and are dominated by never-played busts - including them would fabricate that
+    cluster's underperformance."""
+    measured = df[df["has_combine"]] if "has_combine" in df.columns else df
+    profile = measured.groupby("cluster").agg(
+        n_measured=("player", "count"),
         age=("age_at_draft", "mean"),
         height_cm=("height", lambda s: s.mean() * 2.54),  # BBRef inches -> cm
         weight_kg=("weight", lambda s: s.mean() * 0.4536),
@@ -95,7 +100,8 @@ def describe_clusters(df: pd.DataFrame) -> pd.DataFrame:
         star_rate=("ws_first4", lambda s: (s >= STAR_MIN).mean()),
         mean_surplus=("surplus", "mean"),
     ).round(2)
-    return profile.sort_values("n", ascending=False)
+    profile.insert(0, "n_total", df.groupby("cluster")["player"].count())
+    return profile.sort_values("n_total", ascending=False)
 
 
 def auto_label(profile_row: pd.Series, all_profiles: pd.DataFrame) -> str:
