@@ -1,5 +1,5 @@
 """
-A Needle in a Data Haystack — NBA Draft Value Explorer
+A Needle in a Data Haystack - NBA Draft Value Explorer
 =======================================================
 Course: A Needle in a Data Haystack (67978)
 Team: Ido Bargal, Asaf Vitenshtein
@@ -15,7 +15,7 @@ import streamlit as st
 # PAGE CONFIG (must be the first Streamlit call)
 # =========================================================================
 st.set_page_config(
-    page_title="The Draft, Decoded — NBA Draft Value Explorer",
+    page_title="The Draft, Decoded - NBA Draft Value Explorer",
     page_icon="🪡",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -57,7 +57,7 @@ h3 { font-weight: 600 !important; }
 </style>""", unsafe_allow_html=True)
 
 
-def sample_badge(text="Illustrative sample data — wire up DataManager for live results"):
+def sample_badge(text="Illustrative sample data - wire up DataManager for live results"):
     st.markdown(f'<div class="badge">🔧 {text}</div>', unsafe_allow_html=True)
 
 
@@ -275,7 +275,7 @@ def render_value_curve(df_curve, df_needles=None, compact=False):
                 name="Needles in the haystack",
             )
         )
-    fig.update_layout(title=None if compact else "Draft Value Curve — Expected Rookie-Window Win Shares")
+    fig.update_layout(title=None if compact else "Draft Value Curve - Expected Rookie-Window Win Shares")
     fig.update_xaxes(title=None if compact else "Draft Pick")
     fig.update_yaxes(title=None if compact else "Win Shares (first 4 seasons)")
     return style_fig(fig, height=280 if compact else 460, show_legend=not compact)
@@ -372,8 +372,8 @@ def page_overview(dm: DataManager):
     st.write("")
     m1, m2, m3, m4 = st.columns(4)
     m1.metric("Pick-order correlation (Spearman ρ)", "0.50")
-    m2.metric("R² — pick alone", "0.11")
-    m3.metric("R² — pick + physicals", "0.26")
+    m2.metric("R² - pick alone", "0.11")
+    m3.metric("R² - pick + physicals", "0.26")
     m4.metric("Teenager penalty", "-1.4 WS")
     confirmed_badge("The four figures above are confirmed in the written report")
 
@@ -402,7 +402,7 @@ def page_overview(dm: DataManager):
     # --- SECOND ROUND GEMS SECTION ---
     st.divider()
     st.subheader("The Ultimate Needles: Second-Round Gems")
-    st.markdown("While the top of the draft yields the most superstars, the second round is where true competitive advantage is won. **If you analyze the data correctly, you can uncover hidden greatness and future Hall of Famers late in the draft**—long after the rest of the league has passed on them.")
+    st.markdown("While the top of the draft yields the most superstars, the second round is where true competitive advantage is won. **If you analyze the data correctly, you can uncover hidden greatness and future Hall of Famers late in the draft**-long after the rest of the league has passed on them.")
     
     gem1, gem2, gem3 = st.columns(3)
     
@@ -427,7 +427,7 @@ def page_overview(dm: DataManager):
     st.divider()
     st.subheader("The whole question, in one chart")
     st.caption(
-        "Draft position explains most of the predictable signal — the curve falls fast, then flattens. "
+        "Draft position explains most of the predictable signal - the curve falls fast, then flattens. "
         "But at every pick, the outcome band is wide, and a handful of picks land far above the line. "
         "Those are the needles."
     )
@@ -438,11 +438,11 @@ def page_overview(dm: DataManager):
 
     with st.expander("How to read this app"):
         st.markdown(
-            "- **Q1 — What's a Pick Worth?** rebuilds the value curve and the outcome-rate breakdown "
+            "- **Q1 - What's a Pick Worth?** rebuilds the value curve and the outcome-rate breakdown "
             "(Figures 1 & 2 in the report).\n"
-            "- **Q2 — Finding the Hidden Value** shows the systematic biases (age, position) and lets you "
+            "- **Q2 - Finding the Hidden Value** shows the systematic biases (age, position) and lets you "
             "filter a prospect board by the same logic.\n"
-            "- **Q3 — Hype vs. Outcome** is a scaffold for the media-hype question, ready for real data.\n"
+            "- **Q3 - Hype vs. Outcome** is a scaffold for the media-hype question, ready for real data.\n"
             "- **Draft Class Explorer** compares a sample pick's season-by-season trajectory to expectation.\n"
             "- **Data & Methods** covers sourcing, coverage gaps, and the impediments the team hit."
         )
@@ -452,7 +452,7 @@ def page_q1(dm: DataManager):
     st.markdown('<div class="question-eyebrow" style="color:#E8836B;">Question 1</div>', unsafe_allow_html=True)
     st.title("What is each draft pick actually worth?")
     st.markdown(
-        "Win Shares over a player's first four seasons stand in for value here — roughly, 20 WS across "
+        "Win Shares over a player's first four seasons stand in for value here - roughly, 20 WS across "
         "four years is about five wins a season, a very good player. Two views of the same underlying data:"
     )
 
@@ -466,7 +466,7 @@ def page_q1(dm: DataManager):
         col1, col2 = st.columns([3, 2])
         with col1:
             st.markdown(
-                "**Reading the curve.** Value falls fast at the top — pick 1 projects far above pick 10 — "
+                "**Reading the curve.** Value falls fast at the top - pick 1 projects far above pick 10 - "
                 "then flattens: picks 15 through 30 barely separate. Draft position matters most at the very "
                 "top of the board, and the shaded band never narrows to zero. Even at pick 5, outcomes run "
                 "from bust to superstar."
@@ -474,7 +474,7 @@ def page_q1(dm: DataManager):
         with col2:
             st.markdown("**The needles**")
             for _, row in needles.iterrows():
-                st.markdown(f"- **{row['name']}** — pick #{int(row['pick'])}. {row['note']}.")
+                st.markdown(f"- **{row['name']}** - pick #{int(row['pick'])}. {row['note']}.")
 
     with tab2:
         confirmed_badge("Computed live from all 1,249 picks, 2000-2020")
@@ -482,22 +482,22 @@ def page_q1(dm: DataManager):
         st.plotly_chart(render_outcome_rates(rates), use_container_width=True)
         st.markdown(
             "A top-5 pick carries roughly a **26% shot at a star** and only about a **6% chance of a total "
-            "bust**. By picks 15–30 the star rate drops to **6.6%** with roughly **1 in 4 busts**. "
+            "bust**. By picks 15-30 the star rate drops to **6.6%** with roughly **1 in 4 busts**. "
             "In the second round, **65%** of picks produce close to nothing, yet stars still "
             "turn up (**1.8%**). The draft order works on average; its risk never disappears."
         )
 
     with st.expander("A data quirk worth knowing"):
         st.markdown(
-            "2001–2002 shows only 29 first-round picks in the historical record instead of 30. That isn't a "
-            "data error — Minnesota forfeited a first-round pick as a penalty in the Joe Smith cap-circumvention "
+            "2001-2002 shows only 29 first-round picks in the historical record instead of 30. That isn't a "
+            "data error - Minnesota forfeited a first-round pick as a penalty in the Joe Smith cap-circumvention "
             "case, so the anomaly matches real history."
         )
 
 
 def page_q2(dm: DataManager):
     st.markdown('<div class="question-eyebrow" style="color:#E8836B;">Question 2</div>', unsafe_allow_html=True)
-    st.title("Can pre-draft data beat the pick order — and where does it miss?")
+    st.title("Can pre-draft data beat the pick order - and where does it miss?")
 
     m1, m2 = st.columns(2)
     with m1:
@@ -505,8 +505,8 @@ def page_q2(dm: DataManager):
         st.plotly_chart(render_model_comparison(dm.get_model_comparison()), use_container_width=True)
         st.caption(
             "The draft pick alone explains about 11% of the variance in rookie-window value. Adding just "
-            "physical-measurement data more than doubles that to 26%. The market is broadly efficient — "
-            "pick number carries most of the predictable signal — but it isn't perfectly efficient, and its "
+            "physical-measurement data more than doubles that to 26%. The market is broadly efficient - "
+            "pick number carries most of the predictable signal - but it isn't perfectly efficient, and its "
             "misses are systematic."
         )
     with m2:
@@ -515,16 +515,16 @@ def page_q2(dm: DataManager):
             "Every bar is computed from the full 2000-2020 dataset: surplus = actual rookie-window WS minus "
             "the expected value of the player's draft slot. Teenagers underperform by **-1.4 WS** and "
             "centers outperform by **+0.8**; other position effects are small once never-played players "
-            "(whose position is unrecorded) are excluded — the same numbers as the report."
+            "(whose position is unrecorded) are excluded - the same numbers as the report."
         )
 
     st.divider()
     st.subheader("💎 Hidden Gems: filter the prospect board")
     st.caption(
         "A hindsight board: filter 1,249 real drafted players by position and draft range and see who "
-        "actually beat his slot — the needles — with archetype and physique alongside."
+        "actually beat his slot - the needles - with archetype and physique alongside."
     )
-    confirmed_badge("Every row is a real drafted player, 2000-2020 — hindsight board")
+    confirmed_badge("Every row is a real drafted player, 2000-2020 - hindsight board")
 
     board = dm.get_prospect_board()
     f1, f2, f3 = st.columns(3)
@@ -542,7 +542,7 @@ def page_q2(dm: DataManager):
     ].sort_values("Surplus vs Slot (WS)", ascending=False)
 
     if filtered.empty:
-        st.warning("No prospects match these filters — widen the range above.")
+        st.warning("No prospects match these filters - widen the range above.")
     else:
         st.success(f"{len(filtered)} real player(s) who beat this draft range by at least the chosen margin.")
         st.dataframe(
@@ -558,7 +558,7 @@ def page_q2(dm: DataManager):
 
     with st.expander("Coverage note"):
         st.markdown(
-            "Not every prospect attends the combine — internationals especially are under-represented. "
+            "Not every prospect attends the combine - internationals especially are under-represented. "
             "Missing physical measurements are median-imputed rather than dropped, so the coverage gap "
             "doesn't silently bias the board toward players who happened to show up."
         )
@@ -581,7 +581,7 @@ def page_q3(dm: DataManager):
     m3.metric("Hype ↔ surplus vs slot", f"{rho_sur:+.2f}")
     st.caption(
         "Hype predicts **where a player gets picked** (|ρ| = 0.41) notably better than it predicts "
-        "**how good he becomes** (0.25) — attention buys draft position beyond what performance later "
+        "**how good he becomes** (0.25) - attention buys draft position beyond what performance later "
         "justifies. Yet hype ↔ surplus is ~0: on average the market prices hype roughly correctly."
     )
 
@@ -599,8 +599,8 @@ def page_q3(dm: DataManager):
 
     st.markdown(
         "**Two players tell both failure modes of hype** (hover the charts to find them): "
-        "**Bol Bol** — 7th-most-hyped prospect of these five classes, fell to pick #44, and the market "
-        "was right (he busted). **Jalen Brunson** — hyped college champion, fell to #33, and the market "
+        "**Bol Bol** - 7th-most-hyped prospect of these five classes, fell to pick #44, and the market "
+        "was right (he busted). **Jalen Brunson** - hyped college champion, fell to #33, and the market "
         "was wrong (he became a star)."
     )
     with st.expander("Method & scope"):
@@ -608,7 +608,7 @@ def page_q3(dm: DataManager):
             "Hype = log10(1 + Wikipedia pageviews of the player's article, July-May before his draft). "
             "The Wikimedia pageviews API begins mid-2015, which fixes the scope to the 2016-2020 classes. "
             "The most-hyped quintile underperforms its slots by -1.4 WS, but that tail is suggestive only "
-            "(Welch p = 0.18) — reported as such in the writeup."
+            "(Welch p = 0.18) - reported as such in the writeup."
         )
 
 
@@ -641,12 +641,6 @@ def page_explorer(dm: DataManager):
 
     st.plotly_chart(render_trajectory(player_df, expected_total), use_container_width=True)
 
-    if delta > 1.5:
-        st.success("This slot outperformed expectation by a wide margin — a needle.")
-    elif delta < -1.5:
-        st.warning("This slot underperformed expectation by a wide margin.")
-    else:
-        st.info("This slot landed roughly where the curve predicted.")
 
 
 def page_methods():
@@ -656,7 +650,7 @@ def page_methods():
     st.markdown(
         "The project sits in NBA talent evaluation, centered on the annual draft. Because rookie-scale "
         "contracts are cheap relative to veteran deals under the salary cap, draft picks are a team's "
-        "cheapest source of surplus value — which is why drafting well is one of the strongest predictors "
+        "cheapest source of surplus value - which is why drafting well is one of the strongest predictors "
         "of long-run team success."
     )
 
@@ -667,19 +661,18 @@ def page_methods():
         "- **Context:** media coverage volume surrounding each prospect (for Q3)"
     )
     d1, d2, d3 = st.columns(3)
-    d1.metric("Records", "— TBD —")
-    d2.metric("Seasons covered", "— TBD —")
-    d3.metric("Data size", "— TBD —")
-    st.caption("Fill these in once the final dataset is locked — placeholders left intentionally blank.")
+    d1.metric("Draft picks analyzed", "1,249")
+    d2.metric("Draft classes", "2000-2020")
+    d3.metric("Data sources", "5")
 
     st.subheader("Known data issue")
     st.markdown(
-        "2001–2002 shows only 29 first-round picks rather than 30. This matches real history: Minnesota "
+        "2001-2002 shows only 29 first-round picks rather than 30. This matches real history: Minnesota "
         "forfeited a first-round pick as a penalty in the Joe Smith cap-circumvention case, so the anomaly "
         "is a correct reflection of the record, not a bug."
     )
     st.markdown(
-        "Combine attendance is also incomplete — international prospects especially are under-represented. "
+        "Combine attendance is also incomplete - international prospects especially are under-represented. "
         "Missing physical measurements are median-imputed rather than dropped."
     )
 
