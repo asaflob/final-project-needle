@@ -1,10 +1,3 @@
-"""
-A Needle in a Data Haystack - NBA Draft Value Explorer
-=======================================================
-Course: A Needle in a Data Haystack (67978)
-Team: Ido Bargal, Asaf Vitenshtein
-"""
-
 import numpy as np
 import pandas as pd
 import plotly.express as px

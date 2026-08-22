@@ -8,7 +8,7 @@ Files produced:
 1. draft_full.csv - all NBA draft picks 2000-2020 (both rounds), scraped from the
                     official draft pages on Basketball-Reference. Replaces the
                     milestone's draft.csv, which covered only 2000-2009 round 1 and
-                    had broken encoding for accented names (Miličić, Türkoğlu...).
+                    had broken encoding for accented names.
 2. Advanced.csv   - season-level advanced stats from the Kaggle dataset
                     "NBA Stats (1947-present)" by Sumitro Datta. Kaggle requires a
                     login, so it is downloaded manually (instructions printed below).
